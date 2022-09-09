@@ -2,14 +2,15 @@ Shader "Template/GerstnerWavesShader"
 {
     Properties
     {
-        _WaveLength("WaveLength", float) = 1
-        _WaveSpeed("WaveSpeed", float) = 1
-        _Amplitude("Amplitude", float) = 1
         _Gloss ("Gloss", float) = 1
         
         _MainTex ("MainTex", 2d) = "white" {}
         _DiffuseColor("DiffuseColor", color) = (1, 1, 1, 1)
         _SpecularColor("SpecularColor", color) = (1, 1, 1, 1)
+        
+        _WaveA("WaveA(dir, steepness, wavelength)", vector) = (1, 0, 0.5, 10)
+        _WaveB("WaveA(dir, steepness, wavelength)", vector) = (1, 0, 0.5, 10)
+        _WaveC("WaveA(dir, steepness, wavelength)", vector) = (1, 0, 0.5, 10)
     }
     SubShader
     {
@@ -27,14 +28,15 @@ Shader "Template/GerstnerWavesShader"
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 
             CBUFFER_START(UnityPerMaterial)
-            float _WaveLength;
-            float _WaveSpeed;
-            float _Amplitude;
             float _Gloss;
             
             float4 _MainTex_ST;
             float4 _DiffuseColor;
             float4 _SpecularColor;
+
+            float4 _WaveA;
+            float4 _WaveB;
+            float4 _WaveC;
             CBUFFER_END
 
             TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
@@ -55,18 +57,43 @@ Shader "Template/GerstnerWavesShader"
                 float3 viewDir : TEXCOORD2;
             };
 
+            float3 GerstnerWave(float4 wave, float3 p, inout float3 tangent, inout float3 binormal)
+            {
+                float steepness = wave.z;
+                float2 d = normalize(wave.xy);
+                float k = 2 * PI / wave.w;
+                float waveSpeed = sqrt(9.8 / k);
+                float f = k * (dot(d, p.xz) - waveSpeed * _Time.y);
+                float amplitude = steepness / k;
+
+                // float3 tangent = normalize(float3(1 - k * _Amplitude * sin(f), k * _Amplitude * cos(f), 0));
+                // v.normal = float3(-tangent.y, tangent.x, 0);
+
+                tangent = float3(1 - d.x * d.x * (steepness * sin(f)),
+                d.x * (steepness * cos(f)),  
+                -d.y * d.x * (steepness * sin(f)));
+                binormal = float3(-d.x * d.y * (steepness * sin(f)),
+                d.y * (steepness * cos(f)),
+                1 - d.y * d.y * (steepness * sin(f)));
+
+                return float3(d.x * (amplitude * cos(f)), amplitude * sin(f), d.y * (amplitude * cos(f)));
+            }
+
             v2f vert (appdata v)
             {
                 v2f o;
                 float3 p = v.vertex.xyz;
-                float k = 2 * PI / _WaveLength;
-                float f = k * (p.x - _WaveSpeed * _Time.y);
-                p.x += _Amplitude * cos(f);
-                p.y += _Amplitude * sin(f);
+                float3 tangent = float3(1, 0, 0);
+                float3 binormal = float3(0, 0, 1);
+
+                p += GerstnerWave(_WaveA, v.vertex, tangent, binormal);
+                p += GerstnerWave(_WaveB, v.vertex, tangent, binormal);
+                p += GerstnerWave(_WaveC, v.vertex, tangent, binormal);
+
+                v.normal = normalize(cross(binormal, tangent));
+                
                 o.vertex = TransformObjectToHClip(p);
 
-                float3 tangent = normalize(float3(1 - k * _Amplitude * sin(f), k * _Amplitude * cos(f), 0));
-                v.normal = float3(-tangent.y, tangent.x, 0);
                 o.worldNormal = TransformObjectToWorldNormal(v.normal);
 
                 o.worldPos = TransformObjectToWorld(v.vertex.xyz);
