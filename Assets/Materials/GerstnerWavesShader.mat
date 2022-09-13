@@ -38,7 +38,7 @@ Material:
     m_Floats:
     - _Amplitude: 0.1
     - _Gloss: 128
-    - _NormalScale: 1
+    - _NormalScale: 0.742
     - _NormalStength: 1
     - _Steepness: 1
     - _Stepness: 0.691

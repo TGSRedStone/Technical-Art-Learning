@@ -73,9 +73,10 @@ Shader "Template/GerstnerWavesShader"
                 float2 topFoamUV : TEXCOORD1;
                 float4 normalUV : TEXCPPRD2;
                 float4 vertex : SV_POSITION;
-                float3 worldNormal : NORMAL;
-                float3 worldPos : TEXCOORD3;
-                float3 topFomaMask : TEXCOOED5;
+                float4 TtoW0 : TEXCOORD3;
+                float4 TtoW1 : TEXCOORD4;
+                float4 TtoW2 : TEXCOORD5;
+                float3 topFomaMask : TEXCOOED6;
             };
 
             float3 GerstnerWave(float4 wave, float3 p, inout float3 tangent, inout float3 binormal)
@@ -115,13 +116,19 @@ Shader "Template/GerstnerWavesShader"
                 
                 o.vertex = TransformObjectToHClip(p);
 
-                o.worldNormal = TransformObjectToWorldNormal(v.normal);
-
-                o.worldPos = TransformObjectToWorld(p);
+                float3 worldNormal = TransformObjectToWorldNormal(v.normal);
+                float3 worldTangent = TransformObjectToWorldDir(tangent);
+                float3 worldBinormal = TransformObjectToWorldDir(binormal);
+                float3 worldPos = TransformObjectToWorld(p);
 
                 o.normalUV.xy = TRANSFORM_TEX(v.uv, _NormalMap1);
                 o.normalUV.zw = TRANSFORM_TEX(v.uv, _NormalMap2);
-                o.topFoamUV = o.worldPos.xz * _TopFoamTilingSpeed.xy * 0.1 - _TopFoamTilingSpeed.zw * _Time.y;
+                o.topFoamUV = worldPos.xz * _TopFoamTilingSpeed.xy * 0.1 - _TopFoamTilingSpeed.zw * _Time.y;
+
+                o.TtoW0 = float4(worldTangent.x, worldBinormal.x, worldNormal.x, worldPos.x);
+                o.TtoW1 = float4(worldTangent.y, worldBinormal.y, worldNormal.y, worldPos.y);
+                o.TtoW2 = float4(worldTangent.z, worldBinormal.z, worldNormal.z, worldPos.z);
+                
                 return o;
             }
 
@@ -132,22 +139,24 @@ Shader "Template/GerstnerWavesShader"
 
             float4 frag (v2f i) : SV_Target
             {
+                float3 worldPos = float3(i.TtoW0.w, i.TtoW1.w, i.TtoW2.w);
+                float3 worldNormal = float3(i.TtoW0.z, i.TtoW1.z, i.TtoW2.z);
                 float3 worldLight = normalize(_MainLightPosition.xyz);
-                float3 worldNormal = normalize(i.worldNormal);
-                half3 viewDir = normalize(GetCameraPositionWS() - i.worldPos);
+                half3 viewDir = normalize(GetCameraPositionWS() - worldPos);
 
                 //两张法线贴图混合采样+流动控制
                 half2 normalUV1 = _Time.y * _NormalFlowSpeed.xy + i.normalUV.xy;
                 half2 normalUV2 = _Time.y * _NormalFlowSpeed.zw + i.normalUV.zw;
                 float4 topFoamTex = SAMPLE_TEXTURE2D(_TopFoamTex, sampler_TopFoamTex, i.topFoamUV);
                 float3 texNormal = BlendNormals(UnpackNormal(SAMPLE_TEXTURE2D(_NormalMap1, sampler_NormalMap1, normalUV1)) , UnpackNormal(SAMPLE_TEXTURE2D(_NormalMap2, sampler_NormalMap2, normalUV2)));
+                texNormal = normalize(float3(dot(i.TtoW0.xyz, texNormal), dot(i.TtoW1.xyz, texNormal), dot(i.TtoW2.xyz, texNormal)));
                 worldNormal = normalize(worldNormal + texNormal * _NormalScale);
                 float NdotL = max(0.0, dot(worldNormal, worldLight));
 
                 //波峰与波谷不同颜色
-                float col1 = smoothstep(0, _WaveHeight, i.topFomaMask.y);
-                float col2 = 1 - col1;
-                float4 diff = col1 * _Color2 + col2 * _Color1;
+                float col1Mask = smoothstep(0, _WaveHeight, i.topFomaMask.y);
+                float col2Mask = 1 - col1Mask;
+                float4 diff = col1Mask * _Color2 + col2Mask * _Color1;
 
                 //兰伯特光照
                 float3 diffuse = lerp(UNITY_LIGHTMODEL_AMBIENT.rgb * diff.rgb, _MainLightColor.rgb * diff.rgb, NdotL);
@@ -156,7 +165,7 @@ Shader "Template/GerstnerWavesShader"
                 float3 topFomaColor =  smoothstep(1, 2, i.topFomaMask.y) * topFoamTex.rgb / 4;
 
                 //高光部分
-                Light mainLight = GetMainLight(TransformWorldToShadowCoord(i.worldPos));
+                Light mainLight = GetMainLight(TransformWorldToShadowCoord(worldPos));
                 half shadow = mainLight.shadowAttenuation;
                 BRDFData brdfData;
                 half alpha = 1;
