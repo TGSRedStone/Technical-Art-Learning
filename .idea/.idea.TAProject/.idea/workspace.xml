@@ -12,9 +12,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/280FB357-6F92-435F-94E4-9DF9A35167BB/cd/1a0b1e8a/ShaderGUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/SpaceTransforms.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Packing.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/ShadingModels/LitDetailGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/ShaderVariablesFunctions.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/EntityLighting.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Lighting.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/BaseShaderGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/BakedLitShader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Macros.hlsl" root0="SKIP_HIGHLIGHTING" />
@@ -24,12 +27,22 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Common.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/LitShader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/E3172273-1037-4C8D-8FFE-E1CE96F1C5B7/28/331334c7/02000003pdb.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Input.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/SurfaceData.hlsl" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Shaders/DotsShield.shader" />
       <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/BaseShaderGUI.cs" />
+      <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/LitInput.hlsl" />
       <option value="$PROJECT_DIR$/Assets/Shaders/GerstnerWavesShader.shader" />
+      <option value="$PROJECT_DIR$/Assets/Shaders/DotsShield.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ComputerShader/Decolorize/Decolorize.compute" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ComputerShader/Decolorize/Decolorize.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/Decolorize/Decolorize.compute" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/Decolorize/Decolorize.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/test/test.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/test/BaseURPShader 1.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/test/test.compute" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -81,7 +94,16 @@
       <workItem from="1662981757062" duration="1799000" />
       <workItem from="1663043421419" duration="1764000" />
       <workItem from="1663057126859" duration="2975000" />
-      <workItem from="1663064187035" duration="3402000" />
+      <workItem from="1663064187035" duration="5346000" />
+      <workItem from="1663078887355" duration="5602000" />
+      <workItem from="1663141398394" duration="3050000" />
+      <workItem from="1663158746231" duration="779000" />
+      <workItem from="1663168361607" duration="738000" />
+      <workItem from="1663207051858" duration="3584000" />
+      <workItem from="1663298892792" duration="1994000" />
+      <workItem from="1663307914907" duration="4268000" />
+      <workItem from="1663322755446" duration="6304000" />
+      <workItem from="1663390228462" duration="3487000" />
     </task>
     <servers />
   </component>
