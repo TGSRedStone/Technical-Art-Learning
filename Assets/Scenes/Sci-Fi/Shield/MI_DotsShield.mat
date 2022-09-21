@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DotsShield
+  m_Name: MI_DotsShield
   m_Shader: {fileID: 4800000, guid: e1c61913fbcf93c4bab9960d1753abff, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4

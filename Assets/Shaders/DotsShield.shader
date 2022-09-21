@@ -83,7 +83,7 @@
             {
                 float2 delta = i.uv - float2(0.5, 0.5);
                 float radius = length(delta) * 2 * _RadialScale;
-                radius = saturate(pow(radius, _RadialPow));
+                radius = pow(abs(radius), _RadialPow);
                 float2 dotsUV = DotsUV(i.uv);
                 float Dots = Ellipse(dotsUV);
                 float outLine = SAMPLE_TEXTURE2D(_NoiseAndOutLineTex, sampler_NoiseAndOutLineTex, i.uv).b;
