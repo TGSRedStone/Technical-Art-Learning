@@ -10,34 +10,54 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/280FB357-6F92-435F-94E4-9DF9A35167BB/cd/1a0b1e8a/ShaderGUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/be/3a4f86c7/GraphicsFormatUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/API/D3D11.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/9e/293319f2/ComputeShader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/f3/f91d347e/RenderTexture.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTexGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/ScriptableRenderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Lighting.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EDEF46C9-B2DB-4B87-8C98-495BFDC516FA/80/4b98e0a7/Math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/BaseShaderGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/1d/52aefefb/ComputeBufferType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/dc/9c8ad4b0/Matrix4x4.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/BakedLitShader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/E3172273-1037-4C8D-8FFE-E1CE96F1C5B7/14/8ad09c60/02000067pdb.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/SimpleLitShader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/LitShader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/E3172273-1037-4C8D-8FFE-E1CE96F1C5B7/28/331334c7/02000003pdb.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTex.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0783DE0-DFDA-4D3A-9D14-E718139E2D0D/77/751a4b26/IPostProcessComponent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Input.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/SurfaceData.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/SpaceTransforms.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Packing.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/ShadingModels/LitDetailGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/ShaderVariablesFunctions.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/RenderTargetHandle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/EntityLighting.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/1d/16f595ae/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/0e/5f8550f2/RenderTextureDescriptor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessingVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Macros.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/684C6D9D-FDE3-40B0-AA10-51AF5CDC513D/86/1e346c3e/GUIContent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/8f/655a5413/ShimManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/UniversalRenderPipelineCore.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.1.0/Unity.Mathematics/math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Common.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/04/75434598/RenderTargetIdentifier.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/54/6a7da24e/SystemInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -55,12 +75,35 @@
       <option value="$PROJECT_DIR$/Assets/Shaders/DotsShield.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/FrustumCulling/FrustumCullingCS.compute" />
       <option value="$PROJECT_DIR$/Assets/Shaders/OcclusionCullingGrassShader.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTexGenerator.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTexGenerator.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/FrustumCulling/Cloud.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/OcclusionCulling.compute" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTex.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTexGenerator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/GrassGenerator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTex.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/BasePostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/BaseURPShader 1.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/FrustumCulling/FrustumCulling.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTexGenerator.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/OcclusionCullingGrassShader.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Waters/GerstnerWavesScene/GerstnerWavesShader.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Waters/GerstnerWaves/GerstnerWavesShader.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessingVolume.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BoxBlur/BoxBlurPostProcessingVolume.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/KawaseBlur/GaussianBlur 1.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/KawaseBlur/GaussianBlurPostProcessingVolume1.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/KawaseBlur/GaussianBlurPostProcessing1.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/KawaseBlur/KawaseBlurPostProcessingVolume.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DualBlur/KawaseBlurPostProcessing1.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DualBlur/KawaseBlurPostProcessingVolume1.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DualBlur/DualBlur.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/KawaseBlur/KawaseBlur.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DualBlur/DualBlurPostProcessingVolume.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlur.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BoxBlur/BoxBlur.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BoxBlur/BoxBlurPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/KawaseBlur/KawaseBlurPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DualBlur/DualBlurPostProcessing.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -70,6 +113,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -129,6 +174,14 @@
       <workItem from="1663589409551" duration="2012000" />
       <workItem from="1663661720916" duration="7331000" />
       <workItem from="1663738070466" duration="11712000" />
+      <workItem from="1663759514452" duration="5627000" />
+      <workItem from="1663815482113" duration="3172000" />
+      <workItem from="1663823223555" duration="1124000" />
+      <workItem from="1663837342657" duration="144000" />
+      <workItem from="1663977313082" duration="3978000" />
+      <workItem from="1664003629961" duration="7531000" />
+      <workItem from="1664029338870" duration="5152000" />
+      <workItem from="1664071416684" duration="32532000" />
     </task>
     <servers />
   </component>

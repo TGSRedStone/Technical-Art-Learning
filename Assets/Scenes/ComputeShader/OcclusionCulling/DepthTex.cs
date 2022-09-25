@@ -4,6 +4,33 @@ using UnityEngine.Rendering.Universal;
 
 public class DepthTex : ScriptableRendererFeature
 {
+    [System.Serializable]
+    public class BlitSettings
+    {
+        public RenderPassEvent Event = RenderPassEvent.AfterRenderingOpaques;
+        public Material material = null;
+        public int blitMaterialPassIndex = 0;
+        public bool requireDepthNormals = false;
+        public RenderTexture depth;
+        public int size;
+    }
+
+    public BlitSettings settings = new BlitSettings();
+    private BlitPass blitPass;
+
+    public override void Create()
+    {
+        var passIndex = settings.material != null ? settings.material.passCount - 1 : 1;
+        settings.blitMaterialPassIndex = Mathf.Clamp(settings.blitMaterialPassIndex, -1, passIndex);
+        blitPass = new BlitPass(settings.Event, settings, name);
+    }
+
+    public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
+    {
+        blitPass.Setup(renderer);
+        renderer.EnqueuePass(blitPass);
+    }
+    
     private class BlitPass : ScriptableRenderPass
     {
         public Material material = null;
@@ -107,33 +134,6 @@ public class DepthTex : ScriptableRendererFeature
         }
 
         public override void FrameCleanup(CommandBuffer cmd) { }
-    }
-
-    [System.Serializable]
-    public class BlitSettings
-    {
-        public RenderPassEvent Event = RenderPassEvent.AfterRenderingOpaques;
-        public Material material = null;
-        public int blitMaterialPassIndex = 0;
-        public bool requireDepthNormals = false;
-        public RenderTexture depth;
-        public int size;
-    }
-
-    public BlitSettings settings = new BlitSettings();
-    private BlitPass blitPass;
-
-    public override void Create()
-    {
-        var passIndex = settings.material != null ? settings.material.passCount - 1 : 1;
-        settings.blitMaterialPassIndex = Mathf.Clamp(settings.blitMaterialPassIndex, -1, passIndex);
-        blitPass = new BlitPass(settings.Event, settings, name);
-    }
-
-    public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
-    {
-        blitPass.Setup(renderer);
-        renderer.EnqueuePass(blitPass);
     }
 }
 

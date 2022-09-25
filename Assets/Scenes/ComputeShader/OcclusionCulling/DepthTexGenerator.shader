@@ -1,4 +1,4 @@
-﻿Shader "DepthTex/DepthTexGenerator"
+﻿Shader "ComputeShader/OcclusionCulling/DepthTexGenerator"
 {
     Properties
     {

@@ -1,4 +1,4 @@
-﻿Shader "Culling/FrustumCulling"
+﻿Shader "ComputeShader/FrustumCulling"
 {
     Properties
     {
