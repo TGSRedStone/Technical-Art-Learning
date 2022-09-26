@@ -1,4 +1,6 @@
-﻿Shader "PostProcessing/Blur/Dual Blur"
+﻿//reference : https://github.com/QianMo/X-PostProcessing-Library/blob/master/Assets/X-PostProcessing/Effects/DualKawaseBlur/Shader/DualKawaseBlur.shader
+
+Shader "PostProcessing/Blur/Dual Blur"
 {
 	HLSLINCLUDE 
     #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
@@ -22,7 +24,6 @@
 		float4 uv23: TEXCOORD2;
 	};
 	
-	
 	struct v2f_Up
 	{
 		float4 vertex: SV_POSITION;
@@ -32,7 +33,6 @@
 		float4 uv45: TEXCOORD3;
 		float4 uv67: TEXCOORD4;
 	};
-	
 	
 	v2f_Down Vert_DownSample(a2v v)
 	{
@@ -59,7 +59,6 @@
 		
 		return sum * 0.125;
 	}
-	
 	
 	v2f_Up Vert_UpSample(a2v v)
 	{

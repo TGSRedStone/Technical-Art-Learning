@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
-public class BoxBlurPostProcessing : ScriptableRendererFeature
+public class TiltShiftBlurPostProcessing : ScriptableRendererFeature
 {
     [System.Serializable]
     public class BlitSettings
@@ -37,17 +37,19 @@ public class BoxBlurPostProcessing : ScriptableRendererFeature
 
         private BlitSettings settings;
 
-        private BoxBlurPostProcessingVolume boxBlurPostProcessingVolume;
+        private TiltShiftBlurPostProcessingVolume tiltShiftBlurPostProcessingVolume;
         
         private RenderTargetIdentifier source { get; set; }
         private RenderTargetIdentifier dest { get; set; }
 
-        private RenderTargetHandle tempColorTex;
+        private Vector4 m_goldenRot = new Vector4();
 
         private string profilerTag;
 
-        private int buffer0 = Shader.PropertyToID("buffer0");
-        private const string _BlurOffset = "_BlurOffset";
+        private readonly int buffer0 = Shader.PropertyToID("buffer0");
+        private readonly int goldenRot = Shader.PropertyToID("_GoldenRot");
+        private readonly int Params = Shader.PropertyToID("_Params");
+        private readonly int gradient = Shader.PropertyToID("_Gradient");
 
         public BlitPass(BlitSettings settings, string tag)
         {
@@ -59,7 +61,9 @@ public class BoxBlurPostProcessing : ScriptableRendererFeature
 
         public void Setup(ScriptableRenderer renderer)
         {
-             
+            float c = Mathf.Cos(2.39996323f);
+            float s = Mathf.Sin(2.39996323f);
+            m_goldenRot.Set(c, s, -s, c);
         }
         
         public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
@@ -76,15 +80,15 @@ public class BoxBlurPostProcessing : ScriptableRendererFeature
             }
 
             var stack = VolumeManager.instance.stack;
-            boxBlurPostProcessingVolume = stack.GetComponent<BoxBlurPostProcessingVolume>();
+            tiltShiftBlurPostProcessingVolume = stack.GetComponent<TiltShiftBlurPostProcessingVolume>();
 
-            if (boxBlurPostProcessingVolume == null)
+            if (tiltShiftBlurPostProcessingVolume == null)
             {
                 Debug.LogError("can't get volume");
                 return;
             }
             
-            if (!boxBlurPostProcessingVolume.IsActive())
+            if (!tiltShiftBlurPostProcessingVolume.IsActive())
             {
                 return;
             }
@@ -106,20 +110,17 @@ public class BoxBlurPostProcessing : ScriptableRendererFeature
             int w = renderingData.cameraData.camera.scaledPixelWidth;
             int h = renderingData.cameraData.camera.scaledPixelHeight;
             
-            int rtW = w / boxBlurPostProcessingVolume.DownSample.value;
-            int rtH = h / boxBlurPostProcessingVolume.DownSample.value;
+            int rtW = w / tiltShiftBlurPostProcessingVolume.DownSample.value;
+            int rtH = h / tiltShiftBlurPostProcessingVolume.DownSample.value;
             
             cmd.GetTemporaryRT(buffer0, rtW,rtH,0, FilterMode.Bilinear);
             cmd.Blit(source,buffer0);
             
-            for (int i = 0; i < boxBlurPostProcessingVolume.BlurTimes.value; i++)
-            {
-                cmd.SetGlobalVector(_BlurOffset, new Vector4(boxBlurPostProcessingVolume.BlurOffset.value, boxBlurPostProcessingVolume.BlurOffset.value, 0, 0));
-                cmd.Blit(buffer0, source, material, 0);
-                cmd.Blit(source, buffer0, material, 0);
-            }
-            
-            cmd.Blit(buffer0,dest);
+            cmd.SetGlobalVector(Params, new Vector4(tiltShiftBlurPostProcessingVolume.BlurTimes.value, tiltShiftBlurPostProcessingVolume.BlurOffset.value, 1f / w, 1f / h));
+            cmd.SetGlobalVector(goldenRot, m_goldenRot);
+            cmd.SetGlobalVector(gradient, new Vector3(tiltShiftBlurPostProcessingVolume.CenterOffset.value, tiltShiftBlurPostProcessingVolume.AreaSize.value, tiltShiftBlurPostProcessingVolume.AreaSmooth.value));
+
+            cmd.Blit(buffer0, dest, material, 0);
             cmd.ReleaseTemporaryRT(buffer0);
         }
     }

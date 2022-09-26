@@ -1,4 +1,6 @@
-﻿Shader "PostProcessing/Blur/KawaseBlur"
+﻿//reference : https://github.com/QianMo/X-PostProcessing-Library/blob/master/Assets/X-PostProcessing/Effects/KawaseBlur/Shader/KawaseBlur.shader
+
+Shader "PostProcessing/Blur/KawaseBlur"
 {
 	HLSLINCLUDE 
     #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"

@@ -42,11 +42,9 @@ public class GaussianBlurPostProcessing : ScriptableRendererFeature
         private RenderTargetIdentifier source { get; set; }
         private RenderTargetIdentifier dest { get; set; }
 
-        private RenderTargetHandle tempColorTex;
-
         private string profilerTag;
 
-        private int buffer0 = Shader.PropertyToID("buffer0");
+        private readonly int buffer0 = Shader.PropertyToID("buffer0");
         private const string _BlurSize = "_BlurSize";
 
         public BlitPass(BlitSettings settings, string tag)

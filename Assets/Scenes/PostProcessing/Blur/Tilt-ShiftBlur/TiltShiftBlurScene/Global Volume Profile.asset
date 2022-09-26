@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7402358040815429755
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aefbe039c474e564192ff8c86e1fc5c4, type: 3}
+  m_Name: TiltShiftBlurPostProcessingVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  BlurOffset:
+    m_OverrideState: 1
+    m_Value: 4
+  BlurTimes:
+    m_OverrideState: 1
+    m_Value: 4
+  DownSample:
+    m_OverrideState: 1
+    m_Value: 1
+  CenterOffset:
+    m_OverrideState: 1
+    m_Value: -0.15
+  AreaSize:
+    m_OverrideState: 1
+    m_Value: 2
+  AreaSmooth:
+    m_OverrideState: 1
+    m_Value: 3
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Global Volume Profile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -7402358040815429755}

@@ -1,4 +1,6 @@
-﻿Shader "PostProcessing/Blur/GaussianBlur"
+﻿//reference : https://github.com/QianMo/X-PostProcessing-Library/blob/master/Assets/X-PostProcessing/Effects/GaussianBlur/Shader/GaussianBlur.shader
+
+Shader "PostProcessing/Blur/GaussianBlur"
 {
     HLSLINCLUDE
     #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"

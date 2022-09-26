@@ -61,15 +61,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/BaseShaderGUI.cs" />
-      <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/LitInput.hlsl" />
-      <option value="$PROJECT_DIR$/Assets/Shaders/GerstnerWavesShader.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputerShader/Decolorize/Decolorize.compute" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputerShader/Decolorize/Decolorize.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/Decolorize/Decolorize.compute" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/Decolorize/Decolorize.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/test/test.compute" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/test/test.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/test/BaseURPShader 1.shader" />
       <option value="$PROJECT_DIR$/Assets/Shaders/grassShader.shader" />
       <option value="$PROJECT_DIR$/Assets/Shaders/DotsShield.shader" />
@@ -95,15 +86,32 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/KawaseBlur/KawaseBlurPostProcessingVolume.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DualBlur/KawaseBlurPostProcessing1.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DualBlur/KawaseBlurPostProcessingVolume1.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DualBlur/DualBlur.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/KawaseBlur/KawaseBlur.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DualBlur/DualBlurPostProcessingVolume.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlur.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessing.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BoxBlur/BoxBlur.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BoxBlur/BoxBlurPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/KawaseBlur/KawaseBlurPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DualBlur/DualBlurPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BoxBlur 1.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BoxBlurPostProcessing1.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BokehBlurPostProcessingVolume.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BokehBlur.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BoxBlur/BoxBlur.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/KawaseBlur/KawaseBlur.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlur.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DualBlur/DualBlur.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/Tilt-ShiftBlur/BokehBlur 1.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/Tilt-ShiftBlur/Tilt-ShiftBlurPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/Tilt-ShiftBlur/TiltShiftBlurPostProcessingPostProcessingVolume.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/Tilt-ShiftBlur/TiltShiftBlurPostProcessingVolume.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/Tilt-ShiftBlur/TiltShiftBlurPostProcessing.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/Tilt-ShiftBlur/TiltShiftBlurPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BoxBlur/BoxBlurPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BokehBlurPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/IrisBlur/TiltShiftBlur 1.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/IrisBlur/TiltShiftBlurPostProcessing1.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/IrisBlur/TiltShiftBlurPostProcessingVolume1.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/IrisBlur/IrisBlurPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/IrisBlur/IrisBlurPostProcessingVolume.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/IrisBlur/IrisBlur.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -182,6 +190,7 @@
       <workItem from="1664003629961" duration="7531000" />
       <workItem from="1664029338870" duration="5152000" />
       <workItem from="1664071416684" duration="32532000" />
+      <workItem from="1664166887194" duration="14158000" />
     </task>
     <servers />
   </component>
