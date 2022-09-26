@@ -17,8 +17,18 @@ MonoBehaviour:
   m_RendererType: 1
   m_RendererData: {fileID: 0}
   m_RendererDataList:
+  - {fileID: 11400000, guid: 4a8e21d5c33334b11b34a596161b9360, type: 2}
+  - {fileID: 11400000, guid: 711284b5a51a30449afc94b41052de50, type: 2}
+  - {fileID: 11400000, guid: 08733eaba674422418e3c3c7e230a081, type: 2}
+  - {fileID: 11400000, guid: e2cb5b3f5b568ec479057f936df4e000, type: 2}
+  - {fileID: 11400000, guid: 5cfa3e5672157b440ae0cf7dc9e60bfa, type: 2}
+  - {fileID: 11400000, guid: a42640e4351a4aa458b908596846d237, type: 2}
+  - {fileID: 11400000, guid: 18b6f390ae6f81f429ecb0385f2eeaaf, type: 2}
   - {fileID: 11400000, guid: 5b852ec55316d1345bb7620f629d7536, type: 2}
-  m_DefaultRendererIndex: 0
+  - {fileID: 11400000, guid: bde2a7556737af3449d6d4f463ed013e, type: 2}
+  - {fileID: 11400000, guid: 932f8e2e90823ec499d5e72be3dcf442, type: 2}
+  - {fileID: 11400000, guid: 6a073b78c10787c43aa916f26dccb21c, type: 2}
+  m_DefaultRendererIndex: 3
   m_RequireDepthTexture: 1
   m_RequireOpaqueTexture: 0
   m_OpaqueDownsampling: 1

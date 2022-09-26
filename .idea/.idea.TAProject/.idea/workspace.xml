@@ -61,20 +61,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/test/BaseURPShader 1.shader" />
-      <option value="$PROJECT_DIR$/Assets/Shaders/grassShader.shader" />
-      <option value="$PROJECT_DIR$/Assets/Shaders/DotsShield.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/FrustumCulling/FrustumCullingCS.compute" />
-      <option value="$PROJECT_DIR$/Assets/Shaders/OcclusionCullingGrassShader.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/FrustumCulling/Cloud.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/OcclusionCulling.compute" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTexGenerator.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/GrassGenerator.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTex.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/BasePostProcessing.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/BaseURPShader 1.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/FrustumCulling/FrustumCulling.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTexGenerator.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/OcclusionCullingGrassShader.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Waters/GerstnerWavesScene/GerstnerWavesShader.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Waters/GerstnerWaves/GerstnerWavesShader.shader" />
@@ -89,7 +75,6 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DualBlur/DualBlurPostProcessingVolume.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/KawaseBlur/KawaseBlurPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DualBlur/DualBlurPostProcessing.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BoxBlur 1.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BoxBlurPostProcessing1.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BokehBlurPostProcessingVolume.cs" />
@@ -112,6 +97,21 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/IrisBlur/IrisBlurPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/IrisBlur/IrisBlurPostProcessingVolume.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/IrisBlur/IrisBlur.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GrainyBlur/GrainyBlurPostProcessing1.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GrainyBlur/GrainyBlur.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GrainyBlur/GrainyBlurPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GrainyBlur/GrainyBlurPostProcessingVolume.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/BoxBlur 1.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/BoxBlurPostProcessing1.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/BoxBlurPostProcessingVolume1.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/RadialBlur.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/RadialBlurPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/RadialBlurPostProcessingVolume.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DirectionalBlur/RadialBlur 1.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DirectionalBlur/DirectionalBlur.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DirectionalBlur/DirectionalBlurPostProcessingVolume.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DirectionalBlur/DirectionalBlurPostProcessing.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -190,7 +190,7 @@
       <workItem from="1664003629961" duration="7531000" />
       <workItem from="1664029338870" duration="5152000" />
       <workItem from="1664071416684" duration="32532000" />
-      <workItem from="1664166887194" duration="14158000" />
+      <workItem from="1664166887194" duration="19967000" />
     </task>
     <servers />
   </component>
