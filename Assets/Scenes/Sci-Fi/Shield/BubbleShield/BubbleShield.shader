@@ -3,12 +3,14 @@
     Properties
     {
         _HoneyCombTex ("HoneyCombTex", 2d) = "white" {}
+        [HDR]_EdgeColor ("EdgeColor", color) = (1, 1, 1, 1)
+        _TotalColor ("TotalColor", color) = (1, 1, 1, 1)
+        [HDR]_HitColor ("HitColor", color) = (1, 1, 1, 1)
+        [HDR]_HoneyCombColor ("HoneyCombColor", color) = (1, 1, 1, 1)
+        
+        [Space(20)]
         _RimStrength ("_RimStength", range(0, 1.5)) = 0.5
         _GlowPower ("GlowPower", float) = 1
-        [HDR]_EdgeColor ("EdgeColor", color) = (1, 1, 1, 1)
-        [HDR]_HitColor ("HitColor", color) = (1, 1, 1, 1)
-        _TotalColor ("TotalColor", color) = (1, 1, 1, 1)
-        [HDR]_HoneyCombColor ("HoneyCombColor", color) = (1, 1, 1, 1)
     }
     SubShader
     {

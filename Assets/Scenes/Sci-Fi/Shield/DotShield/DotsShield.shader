@@ -5,13 +5,17 @@
         _NoiseAndOutLineTex("NoiseAndOutLineTex", 2d) = "white" {}
         [HDR]_Color ("Color", color) = (1, 1, 1, 1)
         [HDR]_OutLineColor ("OutLineColor", color) = (1, 1, 1, 1)
-        _Size("Size", float) = 1
+        
+        [Space(20)]
+        _DotSize("DotSize", float) = 1
+        _DotsTilesTilingAndOffset("DotsTilesTilingAndOffset", vector) = (5, 5, 1, 1)
+        
+        [Space(20)]
         _RadialScale("RadialScale", float) = 1
         _RadialPow("RadialPow", float) = 1
         _FlowNoiseTiling("FlowNoiseTiling", float) = 1
         _FlowSpeed("FlowSpeed", float) = 1
         
-        _TilesTilingAndOffset("TilesTilingAndOffset", vector) = (5, 5, 1, 1)
     }
     
     SubShader
@@ -30,8 +34,8 @@
             CBUFFER_START(UnityPerMaterial)
             float4 _Color;
             float4 _OutLineColor;
-            float4 _TilesTilingAndOffset;
-            float _Size;
+            float4 _DotsTilesTilingAndOffset;
+            float _DotSize;
             float _RadialScale;
             float _RadialPow;
             float _FlowNoiseTiling;
@@ -67,15 +71,15 @@
 
             float Ellipse(float2 uv)
             {
-                float d = length((uv * 2 - 1) / _Size);
+                float d = length((uv * 2 - 1) / _DotSize);
                 return saturate((1 - d) / fwidth(d));
             }
 
             float2 DotsUV(float2 uv)
             {
-                float2 dotsUV = uv * _TilesTilingAndOffset.xy;
-                float xTiles = step(1, fmod(dotsUV.y, 2)) * _TilesTilingAndOffset.z + dotsUV.x;
-                float yTiles = step(1, fmod(dotsUV.x, 2)) * _TilesTilingAndOffset.w + dotsUV.y;
+                float2 dotsUV = uv * _DotsTilesTilingAndOffset.xy;
+                float xTiles = step(1, fmod(dotsUV.y, 2)) * _DotsTilesTilingAndOffset.z + dotsUV.x;
+                float yTiles = step(1, fmod(dotsUV.x, 2)) * _DotsTilesTilingAndOffset.w + dotsUV.y;
                 return frac(float2(xTiles, yTiles));
             }
 

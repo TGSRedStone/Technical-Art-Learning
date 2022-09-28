@@ -62,7 +62,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/Waters/GerstnerWaves/GerstnerWavesShader.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessingVolume.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BoxBlur/BoxBlurPostProcessingVolume.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/KawaseBlur/GaussianBlur 1.shader" />
@@ -113,6 +112,7 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BokehBlurPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/BubbleShield.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/BubbleShield.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/DotShield/DotsShield.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -195,7 +195,7 @@
       <workItem from="1664254032330" duration="1396000" />
       <workItem from="1664268832121" duration="1867000" />
       <workItem from="1664277074833" duration="12743000" />
-      <workItem from="1664349129340" duration="11349000" />
+      <workItem from="1664349129340" duration="12336000" />
     </task>
     <servers />
   </component>
