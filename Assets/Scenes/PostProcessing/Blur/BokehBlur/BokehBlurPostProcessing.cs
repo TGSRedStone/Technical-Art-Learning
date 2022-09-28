@@ -49,7 +49,6 @@ public class BokehBlurPostProcessing : ScriptableRendererFeature
         private readonly int buffer0 = Shader.PropertyToID("buffer0");
         private readonly int goldenRot = Shader.PropertyToID("_GoldenRot");
         private readonly int Params = Shader.PropertyToID("_Params");
-        private readonly string _BlurOffset = "_BlurOffset";
 
         public BlitPass(BlitSettings settings, string tag)
         {
