@@ -22,7 +22,7 @@ public class GrassGenerator : MonoBehaviour
     uint[] args = new uint[5] { 0, 0, 0, 0, 0 };
 
     int cullResultBufferId, vpMatrixId, positionBufferId, hizTextureId;
-    
+
     public DepthTex DepthTexGenerator;
 
     private void Start()
@@ -40,7 +40,7 @@ public class GrassGenerator : MonoBehaviour
         InitGrassPosition();
         InitComputeShader();
     }
-    
+
     private void InitComputeShader()
     {
         kernel = Compute.FindKernel("CSMain");
@@ -48,13 +48,13 @@ public class GrassGenerator : MonoBehaviour
         Compute.SetInt("depthTextureSize", DepthTexGenerator.settings.size);
         Compute.SetBool("isOpenGL", Camera.main.projectionMatrix.Equals(GL.GetGPUProjectionMatrix(Camera.main.projectionMatrix, false)));
         Compute.SetBuffer(kernel, "grassMatrixBuffer", grassMatrixBuffer);
-        
+
         cullResultBufferId = Shader.PropertyToID("cullResultBuffer");
         vpMatrixId = Shader.PropertyToID("vpMatrix");
         hizTextureId = Shader.PropertyToID("hizTexture");
         positionBufferId = Shader.PropertyToID("positionBuffer");
     }
-    
+
     private void InitComputeBuffer()
     {
         if(grassMatrixBuffer != null) return;
@@ -63,7 +63,7 @@ public class GrassGenerator : MonoBehaviour
         grassMatrixBuffer = new ComputeBuffer(grassCount, sizeof(float) * 16);
         cullResultBuffer = new ComputeBuffer(grassCount, sizeof(float) * 16, ComputeBufferType.Append);
     }
-    
+
     float GetGroundHeight(Vector2 xz) {
         RaycastHit hit;
         if(Physics.Raycast(new Vector3(xz.x, 50, xz.y), Vector3.down, out hit, 60)) {
@@ -85,7 +85,7 @@ public class GrassGenerator : MonoBehaviour
         ComputeBuffer.CopyCount(cullResultBuffer, argsBuffer, sizeof(uint));
         Graphics.DrawMeshInstancedIndirect(GrassMesh, SubMeshIndex, GrassMaterial, new Bounds(Vector3.zero, new Vector3(100.0f, 100.0f, 100.0f)), argsBuffer);
     }
-    
+
     private void InitGrassPosition()
     {
         const int padding = 1;
@@ -102,7 +102,7 @@ public class GrassGenerator : MonoBehaviour
         }
         grassMatrixBuffer.SetData(grassMatrixs);
     }
-    
+
     void OnDisable() {
         grassMatrixBuffer?.Release();
         grassMatrixBuffer = null;

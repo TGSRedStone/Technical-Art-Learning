@@ -25,13 +25,8 @@ public class CreateRandomPNG : MonoBehaviour
             }
         }
         png.Apply();
-
-        byte[] dataBytes = png.EncodeToPNG();
-        string strSaveFile = Application.streamingAssetsPath + ".png";
-        FileStream fs = File.Open(strSaveFile, FileMode.OpenOrCreate);
-        fs.Write(dataBytes, 0, dataBytes.Length);
-        fs.Flush();
-        fs.Close();
+        
+        File.WriteAllBytes(Application.streamingAssetsPath + ".png", png.EncodeToPNG());
     }
 
 

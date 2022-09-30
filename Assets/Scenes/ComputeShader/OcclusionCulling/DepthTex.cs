@@ -4,48 +4,21 @@ using UnityEngine.Rendering.Universal;
 
 public class DepthTex : ScriptableRendererFeature
 {
-    [System.Serializable]
-    public class BlitSettings
-    {
-        public RenderPassEvent Event = RenderPassEvent.AfterRenderingOpaques;
-        public Material material = null;
-        public int blitMaterialPassIndex = 0;
-        public bool requireDepthNormals = false;
-        public RenderTexture depth;
-        public int size;
-    }
-
-    public BlitSettings settings = new BlitSettings();
-    private BlitPass blitPass;
-
-    public override void Create()
-    {
-        var passIndex = settings.material != null ? settings.material.passCount - 1 : 1;
-        settings.blitMaterialPassIndex = Mathf.Clamp(settings.blitMaterialPassIndex, -1, passIndex);
-        blitPass = new BlitPass(settings.Event, settings, name);
-    }
-
-    public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
-    {
-        blitPass.Setup(renderer);
-        renderer.EnqueuePass(blitPass);
-    }
-    
     private class BlitPass : ScriptableRenderPass
     {
         public Material material = null;
-        
+
         private static readonly int depthTextureID = Shader.PropertyToID("_CameraDepthTexture");
 
         private BlitSettings settings;
 
         private string profilerTag;
-        
+
         RenderTexture m_depthTexture;//带 mipmap 的深度图
         public RenderTexture depthTexture => m_depthTexture;
-        
+
         const RenderTextureFormat m_depthTextureFormat = RenderTextureFormat.RHalf;//深度取值范围0-1，单通道即可。
-        
+
         int m_depthTextureSize = 0;
         public int depthTextureSize {
             get {
@@ -92,7 +65,7 @@ public class DepthTex : ScriptableRendererFeature
             context.ExecuteCommandBuffer(cmd);
             CommandBufferPool.Release(cmd);
         }
-        
+
         void InitDepthTexture() {
             if(m_depthTexture != null) return;
             m_depthTexture = new RenderTexture(depthTextureSize, depthTextureSize, 0, m_depthTextureFormat);
@@ -109,7 +82,7 @@ public class DepthTex : ScriptableRendererFeature
 
             RenderTexture currentRenderTexture = null;//当前mipmapLevel对应的mipmap
             RenderTexture preRenderTexture = null;//上一层的mipmap，即mipmapLevel-1对应的mipmap
-    
+
             //如果当前的mipmap的宽高大于8，则计算下一层的mipmap
             while(w > 8) {
                 currentRenderTexture = RenderTexture.GetTemporary(w, w, 0, m_depthTextureFormat);
@@ -128,12 +101,38 @@ public class DepthTex : ScriptableRendererFeature
 
                 w /= 2;
                 mipmapLevel++;
-            
+
             }
             RenderTexture.ReleaseTemporary(preRenderTexture);
         }
 
         public override void FrameCleanup(CommandBuffer cmd) { }
     }
-}
 
+    [System.Serializable]
+    public class BlitSettings
+    {
+        public RenderPassEvent Event = RenderPassEvent.AfterRenderingOpaques;
+        public Material material = null;
+        public int blitMaterialPassIndex = 0;
+        public bool requireDepthNormals = false;
+        public RenderTexture depth;
+        public int size;
+    }
+
+    public BlitSettings settings = new BlitSettings();
+    private BlitPass blitPass;
+
+    public override void Create()
+    {
+        var passIndex = settings.material != null ? settings.material.passCount - 1 : 1;
+        settings.blitMaterialPassIndex = Mathf.Clamp(settings.blitMaterialPassIndex, -1, passIndex);
+        blitPass = new BlitPass(settings.Event, settings, name);
+    }
+
+    public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
+    {
+        blitPass.Setup(renderer);
+        renderer.EnqueuePass(blitPass);
+    }
+}

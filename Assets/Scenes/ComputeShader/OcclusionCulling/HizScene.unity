@@ -384,7 +384,7 @@ MonoBehaviour:
   GrassMaterial: {fileID: 2100000, guid: 73200e554d20aaf4dad898861135ecc8, type: 2}
   GrassCountPerRaw: 300
   Compute: {fileID: 7200000, guid: b3c3b763a532e6c479230dbc03d397cc, type: 3}
-  DepthTexGenerator: {fileID: -6570508103638953639, guid: 4a8e21d5c33334b11b34a596161b9360, type: 2}
+  DepthTexGenerator: {fileID: 38688783926630528, guid: 4a8e21d5c33334b11b34a596161b9360, type: 2}
 --- !u!64 &919132147939512142
 MeshCollider:
   m_ObjectHideFlags: 0

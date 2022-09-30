@@ -15,6 +15,7 @@
             CBUFFER_START(UnityPerMaterial)
             float _ID;
             float4 _Color;
+            float3 _WorldPos;
             CBUFFER_END
     
             struct appdata
@@ -27,12 +28,14 @@
             {
                 float2 uv : TEXCOORD0;
                 float4 vertex : SV_POSITION;
+                float3 worldPos : TEXCOORD1;
             };
     
             v2f vert (appdata v)
             {
                 v2f o;
                 o.vertex = TransformObjectToHClip(v.vertex.xyz);
+                o.worldPos = TransformObjectToWorld(v.vertex.xyz);
                 o.uv = v.uv;
                 return o;
             }
