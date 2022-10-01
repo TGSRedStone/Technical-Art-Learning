@@ -60,12 +60,11 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.1.0/Unity.Mathematics/math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Common.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/04/75434598/RenderTargetIdentifier.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Tool/CreateCubeMap/Editor/CreateCubeMap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/54/6a7da24e/SystemInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/KawaseBlur/KawaseBlurPostProcessing.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DualBlur/DualBlurPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BoxBlur 1.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BoxBlurPostProcessing1.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BokehBlurPostProcessingVolume.cs" />
@@ -105,7 +104,6 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BokehBlurPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/BubbleShield.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/DotShield/DotsShield.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/BubbleShield.shader" />
       <option value="$PROJECT_DIR$/Assets/Editor/Tools.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTex.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/GrassGenerator.cs" />
@@ -115,6 +113,9 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/CreateRandomPNG/CreateRandomPNG.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Lights/LowPolyPointLight/GetLightSphereWorldPos.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Lights/LowPolyPointLight/LowPolyPointLight.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/CreateCubeMap/Editor/CreateCubeMap.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/BubbleShield.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Sparkle/Sparkle.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -200,7 +201,10 @@
       <workItem from="1664349129340" duration="16809000" />
       <workItem from="1664375925552" duration="1006000" />
       <workItem from="1664447885037" duration="5597000" />
-      <workItem from="1664503491460" duration="4293000" />
+      <workItem from="1664503491460" duration="6027000" />
+      <workItem from="1664536112082" duration="651000" />
+      <workItem from="1664546588312" duration="6775000" />
+      <workItem from="1664584959596" duration="9760000" />
     </task>
     <servers />
   </component>

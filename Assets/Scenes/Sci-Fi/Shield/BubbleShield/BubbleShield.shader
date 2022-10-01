@@ -101,14 +101,14 @@
 
             float4 frag (v2f i) : SV_Target
             {
-                float NdotH = dot(i.worldNormal, i.worldViewDir);
+                float NdotV = dot(i.worldNormal, i.worldViewDir);
                 float2 screenPos = i.scrPos.xy / i.scrPos.w;
                 float depth = SAMPLE_TEXTURE2D(_CameraDepthTexture, sampler_CameraDepthTexture, screenPos).r;
 
                 half linearDepth = Linear01Depth(depth, _ZBufferParams);
                 half diff = linearDepth - i.depth;
                 half intersect = 1 - smoothstep(0, _ProjectionParams.w * _RimStrength, diff);
-                half rim = 1 - saturate(abs(NdotH) / _RimStrength);
+                half rim = 1 - saturate(abs(NdotV) / _RimStrength);
                 half glow = max(intersect, rim);
                 float4 glowColor = float4(lerp(_TotalColor.rgb, _EdgeColor.rgb, pow(glow, _GlowPower)), 1);
 
