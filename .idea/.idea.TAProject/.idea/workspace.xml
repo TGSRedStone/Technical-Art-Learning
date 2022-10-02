@@ -33,6 +33,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/dc/9c8ad4b0/Matrix4x4.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/BakedLitShader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cartoon/ShakeBottle/Wobble.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/E3172273-1037-4C8D-8FFE-E1CE96F1C5B7/14/8ad09c60/02000067pdb.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/SimpleLitShader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/LitShader.cs" root0="SKIP_HIGHLIGHTING" />
@@ -65,8 +66,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BoxBlur 1.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BoxBlurPostProcessing1.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BokehBlurPostProcessingVolume.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BokehBlur/BokehBlur.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/BoxBlur/BoxBlur.shader" />
@@ -116,6 +115,8 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/CreateCubeMap/Editor/CreateCubeMap.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/BubbleShield.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Sparkle/Sparkle.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/ShakeBottle/Wobble.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/ShakeBottle/ShakeBottle.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -204,7 +205,9 @@
       <workItem from="1664503491460" duration="6027000" />
       <workItem from="1664536112082" duration="651000" />
       <workItem from="1664546588312" duration="6775000" />
-      <workItem from="1664584959596" duration="9760000" />
+      <workItem from="1664584959596" duration="17124000" />
+      <workItem from="1664691980435" duration="3797000" />
+      <workItem from="1664696788848" duration="2707000" />
     </task>
     <servers />
   </component>
