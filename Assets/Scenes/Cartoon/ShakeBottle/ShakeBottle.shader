@@ -81,7 +81,7 @@
                 o.worldNormal = TransformObjectToWorldNormal(v.normal);
                 float3 vertexPosX = RotateAroundYInDegress(float4(v.vertex.xyz, 0), 360).xyz;
                 float3 vertexPosZ = vertexPosX.yzx;
-                float3 vertexPosAdjusted = v.vertex.xyz + (vertexPosX * _WobbleX) + (vertexPosZ * _WobbleZ);
+                float3 vertexPosAdjusted = (vertexPosX * _WobbleX) + (vertexPosZ * _WobbleZ) + worldPos;
                 o.fillEdge = vertexPosAdjusted.y + _FillAmount;
                 return o;
             }
