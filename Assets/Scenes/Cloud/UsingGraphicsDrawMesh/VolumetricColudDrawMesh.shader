@@ -84,11 +84,11 @@
 
 
                 float3 lightOffset = o.worldLightDir * worldTangent * _OffsetDistance;
-                o.uvOffsetLight.xy = o.uv12.xy + lightOffset;
-                o.uvOffsetLight.zw = o.uv12.zw + lightOffset;
+                o.uvOffsetLight.xy = o.uv12.xy + lightOffset.xy;
+                o.uvOffsetLight.zw = o.uv12.zw + lightOffset.xy;
 
-                o.uvOffsetBackLight.xy = o.uv12.xy - lightOffset;
-                o.uvOffsetBackLight.zw = o.uv12.zw - lightOffset;
+                o.uvOffsetBackLight.xy = o.uv12.xy - lightOffset.xy;
+                o.uvOffsetBackLight.zw = o.uv12.zw - lightOffset.xy;
                 
                 return o;
             }
@@ -100,18 +100,18 @@
                 float4 col2 = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, i.uv12.zw);
                 float4 col = col1 * col2;
 
-                float fallOff = pow(saturate(abs(_MidY - i.worldPos.y) / (_CloudHeight * 0.25)), _TaperPower);
+                float fallOff = pow(saturate(abs(_MidY - i.worldPos.y) / (_CloudHeight * 0.5)), _TaperPower);
                 clip(col.r - fallOff - _Cutoff);
 
-                float4 lightCol1 = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, i.uvOffsetLight.xy);
-                float4 lightCol2 = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, i.uvOffsetLight.zw);
+                float lightCol1 = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, i.uvOffsetLight.xy).r;
+                float lightCol2 = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, i.uvOffsetLight.zw).r;
                 float light = saturate(col1.r + col2.r - lightCol1 - lightCol2);
 
-                float4 backLightCol1 = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, i.uvOffsetBackLight.xy);
-                float4 backLightCol2 = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, i.uvOffsetBackLight.zw);
+                float backLightCol1 = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, i.uvOffsetBackLight.xy).r;
+                float backLightCol2 = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, i.uvOffsetBackLight.zw).r;
                 float backLight = saturate(col1.r + col2.r - backLightCol1 - backLightCol2);
 
-                float edgeLight = pow((1 - col.r), _EdgePower) * _EdgeStrength;
+                float edgeLight = pow(abs(1 - col.r), _EdgePower) * _EdgeStrength;
 
                 float4 finalCol = lerp(_Color, _MainLightColor, light + backLight + edgeLight);
                 

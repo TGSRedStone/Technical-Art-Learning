@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MI_VolumetricColudDrawMesh
-  m_Shader: {fileID: 4800000, guid: 12b16cef0b722e744ae1e98aa51223f4, type: 3}
+  m_Name: MI_SimpleSubsurfaceScattering
+  m_Shader: {fileID: 4800000, guid: d99075b2d271eb54f9293da6b69b78fe, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,23 +19,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: f159f1dc9e95c184faf785ec9746d9c9, type: 3}
+    - _MainTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _CloudDirX: 0.5
-    - _CloudDirZ: 1
-    - _CloudSpeed: 0.02
-    - _Cutoff: 0.047
-    - _EdgePower: 25
-    - _EdgeStrength: 3
-    - _Offset1: 0.82
-    - _Offset2: 0.18
-    - _OffsetDistance: 0.4
-    - _SSSPower: 47.93
-    - _SSSStrength: 1
-    - _TaperPower: 3
+    - _BackSubsurfaceDistortion: 0.7
+    - _FrontSSSStength: 0.4
+    - _FrontSubsurfaceDistortion: 1.1
+    - _Gloss: 75
+    - _SSSPower: 2
+    - _SSSStength: 1.5
+    - _SubsurfaceDistortion: 1
     m_Colors:
-    - _Color: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+    - _Color: {r: 0.654902, g: 0, b: 0.65098035, a: 1}
+    - _SSSColor: {r: 0.91764706, g: 0.3211765, b: 0.45195335, a: 1}
+    - _SpecularCol: {r: 0.752, g: 0.29779196, b: 0.49182242, a: 1}
   m_BuildTextureStacks: []

@@ -63,7 +63,7 @@
             {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
-                float4 AO : COLOR;
+                float3 AO : COLOR;
                 float2 uv : TEXCOORD0;
             };
 
@@ -71,7 +71,7 @@
             {
                 float4 vertex : SV_POSITION;
                 float3 worldNormal : NORMAL;
-                float4 AO : COLOR;
+                float3 AO : COLOR;
                 float2 uv : TEXCOORD0;
                 float3 worldViewDir : TEXCOORD1;
                 float4 scrPos : TEXCOORD2;
@@ -117,11 +117,11 @@
                 
                 float2 scrPos = i.scrPos.xy / i.scrPos.w;
                 scrPos += viewNormal.xy * _RimWidth * 0.001;
-                float depthTex = SAMPLE_TEXTURE2D(_CameraDepthTexture, sampler_CameraDepthTexture, scrPos);
+                float depthTex = SAMPLE_TEXTURE2D(_CameraDepthTexture, sampler_CameraDepthTexture, scrPos).r;
                 float depth = LinearEyeDepth(depthTex, _ZBufferParams);
                 float rim = saturate(depth - i.scrPos.w);
                 rim = smoothstep(min(_MinRange, 0.99), _MaxRange, rim);
-                float3 rimColor = rim * _RimColor;
+                float3 rimColor = rim * _RimColor.rgb;
                 
                 float3 backLightDir = worldNormal * _SubsurfaceDistortion + worldLightDir;
                 float backSSS = saturate(dot(worldViewDir, -backLightDir));
