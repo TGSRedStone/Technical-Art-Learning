@@ -67,14 +67,11 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/CommonMaterial.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/EntityLighting.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0614A9B9-7FAA-4D48-8EFE-1FE8ECE226ED/e1/945273dc/ImageConversion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/VolumetricColud.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Common.hlsl" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlur.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DualBlur/DualBlur.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/Tilt-ShiftBlur/BokehBlur 1.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/Tilt-ShiftBlur/Tilt-ShiftBlurPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/Tilt-ShiftBlur/TiltShiftBlurPostProcessingPostProcessingVolume.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/Tilt-ShiftBlur/TiltShiftBlurPostProcessingVolume.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/Tilt-ShiftBlur/TiltShiftBlurPostProcessing.shader" />
@@ -122,6 +119,10 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/NPRTree/NewBehaviourScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/NPRTree/CamRotateAroundPoint.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/NPRTree/NPRTree.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/StippleTransparency/StippleTransparency.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Dithering/Dithering.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/VolumetricColud.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/VolumetricColudDrawMesh.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -218,7 +219,8 @@
       <workItem from="1664857102759" duration="1464000" />
       <workItem from="1664872402796" duration="11814000" />
       <workItem from="1664943648990" duration="15904000" />
-      <workItem from="1665027334560" duration="8581000" />
+      <workItem from="1665027334560" duration="8837000" />
+      <workItem from="1665282771082" duration="16175000" />
     </task>
     <servers />
   </component>
