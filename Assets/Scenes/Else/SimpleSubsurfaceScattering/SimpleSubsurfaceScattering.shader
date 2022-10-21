@@ -73,7 +73,7 @@
                 float3 diffuse = lerp(ambient * _Color.rgb, _MainLightColor.rgb * _Color.rgb, NdotL);
 
                 float3 h = normalize(worldLightDir + worldViewDir);
-                float4 specularColor = pow(max(0, dot(worldNormal, h)), _Gloss) * _SpecularCol;
+                float3 specularColor = pow(max(0, dot(worldNormal, h)), _Gloss) * _SpecularCol.rgb;
                 
                 float3 frontLightDir = worldNormal * _FrontSubsurfaceDistortion - worldLightDir;
                 float3 backLightDir = worldNormal * _BackSubsurfaceDistortion + worldLightDir;
