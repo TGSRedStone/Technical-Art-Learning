@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.039319605, g: 0.0711664, b: 0.23530118, a: 1}
+  m_IndirectSpecularColor: {r: 0.025700048, g: 0.026681244, b: 0.072777264, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -180,8 +180,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 445618028}
+  - component: {fileID: 445618029}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Cloud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -195,12 +196,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445618027}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 700, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &445618029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445618027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0ce0849bfc84224a9432d3f57157425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CloudCount: 100
+  CloudHeight: 550
+  CloudMesh: {fileID: -462981019419857548, guid: fc7471b17ad975e48a655a17128e64f4, type: 3}
+  CloudMaterial: {fileID: 2100000, guid: 67e0e4eb6e9e22c45b3002aa837e98ba, type: 2}
+  layer: 1
+  useGpuInstancing: 0
 --- !u!1 &918460235
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,6 +232,8 @@ GameObject:
   - component: {fileID: 918460237}
   - component: {fileID: 918460236}
   - component: {fileID: 918460239}
+  - component: {fileID: 918460241}
+  - component: {fileID: 918460240}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -252,7 +273,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 5000
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -278,13 +299,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918460235}
-  m_LocalRotation: {x: 0.24838224, y: 0.010978347, z: 0.0025239526, w: -0.9685967}
-  m_LocalPosition: {x: -18.3833, y: 16.918922, z: 96.19873}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -28.765, y: -1.308, z: 0.037}
+  m_LocalEulerAnglesHint: {x: 0.06999493, y: -0.000005008956, z: 0}
 --- !u!114 &918460239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,7 +330,7 @@ MonoBehaviour:
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 1
-  m_Antialiasing: 0
+  m_Antialiasing: 2
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -318,6 +339,46 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!95 &918460240
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918460235}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!320 &918460241
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918460235}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 92d29fd38756e0d449964cfeb26a3f80, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -5962946574213552332, guid: 92d29fd38756e0d449964cfeb26a3f80, type: 2}
+    value: {fileID: 918460240}
+  - key: {fileID: 2005401047366411960, guid: 92d29fd38756e0d449964cfeb26a3f80, type: 2}
+    value: {fileID: 1065915329}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &1065915324
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,6 +390,7 @@ GameObject:
   - component: {fileID: 1065915326}
   - component: {fileID: 1065915325}
   - component: {fileID: 1065915327}
+  - component: {fileID: 1065915329}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -405,13 +467,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1065915324}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.98880994, y: -0, z: -0, w: -0.14918096}
+  m_LocalPosition: {x: 0, y: 15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 197.159, y: 0, z: 0}
 --- !u!114 &1065915327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -426,16 +488,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DirectionalLight: {fileID: 1065915326}
   SkyBoxMaterial: {fileID: 2100000, guid: 96666d28bdd1c074d966cc63886b4493, type: 2}
+  CloudMaterial: {fileID: 2100000, guid: 67e0e4eb6e9e22c45b3002aa837e98ba, type: 2}
   SampleCount: 16
-  MaxRayLength: 400
-  IncomingLight: {r: 1.4588236, g: 0.8, b: 0.20392157, a: 4}
-  MieScatterCoef: 1
+  IncomingLight: {r: 5.4060826, g: 1.6437877, b: 0.1166359, a: 0}
+  MieScatterCoef: 0.5
   MieExtinctionCoef: 1
   MieG: 0.76
-  AtmosphereHeight: 10000
+  AtmosphereHeight: 80000
   PlanetRadius: 6371000
   DensityScale: {x: 7994, y: 1200, z: 0, w: 0}
   MieSct: {x: 0.00002, y: 0.00002, z: 0.00002, w: 0}
+  Color1: {r: 1.4588236, g: 0.8, b: 0.20392157, a: 0}
+  Color2: {r: 10.680627, g: 2.7713034, b: 0, a: 0}
+  Color3: {r: 1.3350784, g: 1.3350784, b: 1.3350784, a: 0}
+--- !u!95 &1065915329
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065915324}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1552612684
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,13 +532,14 @@ GameObject:
   - component: {fileID: 1552612687}
   - component: {fileID: 1552612686}
   - component: {fileID: 1552612685}
-  m_Layer: 0
+  - component: {fileID: 1552612689}
+  m_Layer: 4
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &1552612685
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -488,7 +573,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: c4c209cc4594ffe41a32b76c7e3cb119, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -526,9 +611,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552612684}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1000, y: 1, z: 1000}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1552612689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552612684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b5c8e758c7818f4eaff6dddd154509b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_settings:
+    m_ResolutionMultiplier: 0
+    m_ClipPlaneOffset: 0.07
+    m_ReflectLayers:
+      serializedVersion: 2
+      m_Bits: 39
+    m_Shadows: 0
+  target: {fileID: 1552612684}
+  m_planeOffset: 0

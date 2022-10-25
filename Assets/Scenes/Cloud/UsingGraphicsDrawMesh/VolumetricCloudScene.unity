@@ -265,7 +265,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1301261618}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 100, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -284,8 +284,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CloudCount: 100
-  CloudHeight: 1
-  CloudMesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+  CloudHeight: 50
+  CloudMesh: {fileID: -8023080413318814639, guid: 1cc34d3413f37e14cadf6420baa3e53e, type: 3}
   CloudMaterial: {fileID: 2100000, guid: 38e9a8489fb3681419555ca60e93f434, type: 2}
   layer: 1
   useGpuInstancing: 0

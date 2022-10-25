@@ -14,6 +14,10 @@
         _OffsetDistance ("OffsetDistance", float) = 0.1
         _EdgePower ("EdgePower", float) = 1
         _EdgeStrength ("EdgeStrength", float) = 1
+        
+        _SSSColor ("SSSColor", color) = (1, 1, 1, 1)
+        _SubsurfaceDistortion ("SubsurfaceDistortion", float) = 1
+        _SSSStength("SSSStength", float) = 1
     }
     SubShader
     {
@@ -32,6 +36,7 @@
             CBUFFER_START(UnityPerMaterial)
             float4 _NoiseTex_ST;
             float4 _Color;
+            float4 _SSSColor;
             float _CloudSpeed;
             float _CloudDirX;
             float _CloudDirZ;
@@ -44,6 +49,9 @@
             float _OffsetDistance;
             float _EdgePower;
             float _EdgeStrength;
+
+            float _SubsurfaceDistortion;
+            float _SSSStength;
             CBUFFER_END
 
             TEXTURE2D(_NoiseTex); SAMPLER(sampler_NoiseTex);
@@ -53,6 +61,7 @@
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
                 float3 tangent : TANGENT;
+                float3 normal : NORMAL;
             };
 
             struct v2f
@@ -61,9 +70,10 @@
                 float4 uv12 : TEXCOORD0;
                 float3 worldPos : TEXCOORD1;
                 float3 worldLightDir : TEXCOORD2;
-                float3 worldViewDir : TEXCOORD3;
-                float4 uvOffsetLight : TEXCOORD4;
-                float4 uvOffsetBackLight : TEXCOORD5;
+                float4 uvOffsetLight : TEXCOORD3;
+                float4 uvOffsetBackLight : TEXCOORD4;
+                float3 worldNormal : TEXCOORD5;
+                float3 worldViewDir : TEXCOORD6;
             };
 
             v2f vert (appdata v)
@@ -71,8 +81,9 @@
                 v2f o;
                 o.vertex = TransformObjectToHClip(v.vertex.xyz);
                 o.worldPos = TransformObjectToWorld(v.vertex.xyz);
-                o.worldViewDir = GetWorldSpaceViewDir(o.worldPos);
                 o.worldLightDir = normalize(_MainLightPosition.xyz);
+                o.worldViewDir = GetCameraPositionWS() - o.worldPos;
+                o.worldNormal = TransformObjectToWorldNormal(v.normal);
                 float3 worldTangent = TransformObjectToWorld(v.tangent);
                 float2 uv = TRANSFORM_TEX(v.uv, _NoiseTex);
 
@@ -93,9 +104,17 @@
                 return o;
             }
 
+            //Day #007CC9
+            //Night #2E4865
+            //SSS #B6D0F7
+            
             //TODO: SSSCol
             float4 frag (v2f i) : SV_Target
             {
+                float3 worldNormal = normalize(i.worldNormal);
+                float3 worldLightDir = normalize(i.worldLightDir);
+                float3 worldViewDir = normalize(i.worldViewDir);
+
                 float4 col1 = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, i.uv12.xy);
                 float4 col2 = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, i.uv12.zw);
                 float4 col = col1 * col2;
@@ -113,9 +132,13 @@
 
                 float edgeLight = pow(abs(1 - col.r), _EdgePower) * _EdgeStrength;
 
-                float4 finalCol = lerp(_Color, _MainLightColor, light + backLight + edgeLight);
+                float3 backLightDir = worldNormal * _SubsurfaceDistortion + worldLightDir;
+                float backSSS = saturate(dot(worldViewDir, -backLightDir));
+                backSSS = saturate(dot(pow(backSSS, 1.6), _SSSStength));
+
+                float3 finalCol = lerp(_Color + backSSS * _SSSColor, _MainLightColor, light + backLight + edgeLight);
                 
-                return finalCol;
+                return float4(finalCol, 1);
             }
             ENDHLSL
         }

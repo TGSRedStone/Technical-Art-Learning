@@ -20,6 +20,9 @@
 	    _MoonGlowSize ("MoonGlowSize", float) = 1
         [HDR]_MoonColor ("MoonColor", color) = (1, 1, 1, 1)
 	    _MoonGlowColor ("MoonGlowColor", color) = (1, 1, 1, 1)
+    	_StarDensity ("StarDensity", float) = 1
+    	_StarTwinkleFrequency ("StarTwinkleFrequency", float) = 1
+    	_StarHeight ("StarHeight", range(0, 1)) = 0
     }
     SubShader
     {
@@ -37,6 +40,7 @@
 
             float4 _MoonTex_ST;
             float4 _StarTex_ST;
+            float4 _CloudNoiseTex_ST;
             float4 _SunColor;
             float4 _MoonColor;
             float4 _MoonGlowColor;
@@ -62,6 +66,9 @@
 			float3 _ExtinctionM;
             float4 _IncomingLight;
 
+            float _StarDensity;
+            float _StarTwinkleFrequency;
+            float _StarHeight;
 
             TEXTURE2D(_MoonTex); SAMPLER(sampler_MoonTex);
             TEXTURE2D(_StarTex); SAMPLER(sampler_StarTex);
@@ -71,6 +78,7 @@
             {
                 float4 vertex : POSITION;
                 float3 uv : TEXCOORD0;
+            	float3 tangent : TANGENT;
             };
 
             struct v2f
@@ -115,11 +123,6 @@
 				localDPA = exp(-height / _DensityScaleHeight.y);
 			
 				DPC = 0;
-				//DPC = ComputeDensityCP(position,lightDir);
-				/*
-				float cosAngle = dot(normalize(position - planetCenter), -lightDir.xyz);
-				DPC = tex2D(_TestTex,float2(cosAngle,height / _AtmosphereHeight)).r;
-				*/
 			}
 
             float MiePhaseFunction(float cosAngle)
@@ -214,9 +217,9 @@
                 float3 skyGradients = lerp(gradientNight, gradientDay, saturate(_MainLightPosition.y + _SkyGradientDayColTime));
 
             	//Star
-                float startMask = lerp(0, 1, -_MainLightPosition.y) ;
-            	float noise = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, i.uv.xz / i.uv.y + _Time.x).r;
-                float3 star = SAMPLE_TEXTURE2D(_StarTex, sampler_StarTex, i.uv.xz / i.uv.y) * noise;
+                float startMask = lerp(0, 1, -_MainLightPosition.y) * step(_StarHeight, i.uv.y);
+            	float noise = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, i.uv.xz / i.uv.y + _Time.x * _StarTwinkleFrequency).r;
+                float3 star = SAMPLE_TEXTURE2D(_StarTex, sampler_StarTex, i.uv.xz / i.uv.y * _StarDensity) * noise;
                 star = saturate(star * startMask);
 
             	//Mie scattering
@@ -234,7 +237,6 @@
 					rayLength = min(rayLength, intersection.x);
 				
 				float4 inscattering = IntegrateInscattering(rayStart, rayDir, rayLength, -_MainLightPosition.xyz, 16);
-				// scatteringColor = _MieColor * _MieStrength; //* ACESFilm(inscattering);
 
             	//Finally
                 return float4(sunAndMoonCol + skyGradients + star + ACESFilm(inscattering) + moonGlow, 1);

@@ -19,11 +19,11 @@ namespace Scenes.Cloud.UsingGraphicsDrawMesh
 
         void Update()
         {
-            CloudMaterial.SetFloat(MidY, transform.position.y + CloudHeight / 2f);
+            CloudMaterial.SetFloat(MidY, transform.position.y);
             CloudMaterial.SetFloat(Height, CloudHeight);
             
-            offset = CloudHeight / CloudCount;
-            Vector3 startPosition = transform.position;
+            offset = CloudHeight / CloudCount / 2f;
+            Vector3 startPosition = transform.position + (Vector3.up * (offset * CloudCount / 2f));
 
             if (useGpuInstancing)
             {
@@ -32,7 +32,7 @@ namespace Scenes.Cloud.UsingGraphicsDrawMesh
 
             for (int i = 0; i < CloudCount; i++)
             {
-                matrix = Matrix4x4.TRS(startPosition + Vector3.up * (offset * i), transform.rotation, transform.localScale);
+                matrix = Matrix4x4.TRS(startPosition - (Vector3.up * offset * i), transform.rotation, transform.localScale);
                 if (useGpuInstancing)
                 {
                     matrices[i] = matrix;

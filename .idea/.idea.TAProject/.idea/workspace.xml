@@ -33,6 +33,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EDEF46C9-B2DB-4B87-8C98-495BFDC516FA/93/6dd412e5/DirectoryInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/BubbleShield.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/SpaceTransforms.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/UniversalAdditionalCameraData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/ShadingModels/LitDetailGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/RenderTargetHandle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/1d/16f595ae/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
@@ -78,9 +79,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/IrisBlur/TiltShiftBlurPostProcessing1.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/IrisBlur/TiltShiftBlurPostProcessingVolume1.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/IrisBlur/IrisBlurPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/IrisBlur/IrisBlurPostProcessingVolume.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/IrisBlur/IrisBlur.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GrainyBlur/GrainyBlurPostProcessing1.cs" />
@@ -120,15 +118,18 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/NPRTree/CamRotateAroundPoint.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/StippleTransparency/StippleTransparency.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Dithering/Dithering.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/VolumetricColud.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/NPRTree/NPRTree.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/SimpleSubsurfaceScattering/SimpleSubsurfaceScattering.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/VolumetricColudDrawMesh.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/AtmosphericScattering/AtmosphericScattering.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/AtmosphericScattering/AtmosphericScatteringPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/AtmosphericScattering/AtmosphericScattering.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/ProceduralSkyBox.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/VolumetricColud.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/VolumetricColudDrawMesh.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/LocalToWorld.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/ProceduralSkyBox.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/PlanarReflections.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/PlanarReflections.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/CamContral.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -146,6 +147,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/build\TAProject.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\TGS\Desktop\work_folder\unity\study\TAProject\build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -238,7 +247,12 @@
       <workItem from="1666228694977" duration="10732000" />
       <workItem from="1666253145515" duration="5082000" />
       <workItem from="1666317970272" duration="7647000" />
-      <workItem from="1666337599420" duration="2566000" />
+      <workItem from="1666337599420" duration="4371000" />
+      <workItem from="1666347673934" duration="1912000" />
+      <workItem from="1666432831464" duration="11360000" />
+      <workItem from="1666489372944" duration="8667000" />
+      <workItem from="1666512035133" duration="11077000" />
+      <workItem from="1666587090824" duration="7482000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MI_VolumetricColudDrawMesh
+  m_Name: MI_Cloud
   m_Shader: {fileID: 4800000, guid: 12b16cef0b722e744ae1e98aa51223f4, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -27,10 +27,10 @@ Material:
     - _CloudDirX: 0.5
     - _CloudDirZ: 0.7
     - _CloudSpeed: 0.02
-    - _Cutoff: 0.038
+    - _Cutoff: 0.04
     - _DistanceBlend: 1
     - _DistanceFade: 1
-    - _EdgePower: 25
+    - _EdgePower: 51.43929
     - _EdgeStrength: 1
     - _Offset1: 0.35
     - _Offset2: 0.22
@@ -41,6 +41,6 @@ Material:
     - _SubsurfaceDistortion: 0
     - _TaperPower: 3
     m_Colors:
-    - _Color: {r: 0.18129228, g: 0.2840868, b: 0.3962264, a: 1}
+    - _Color: {r: 0.15303376, g: 0.3106784, b: 0.45292872, a: 1}
     - _SSSColor: {r: 0.7137255, g: 0.81568635, b: 0.9686275, a: 1}
   m_BuildTextureStacks: []
