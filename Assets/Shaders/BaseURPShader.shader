@@ -1,4 +1,4 @@
-﻿Shader "Waters/BaseURPShader"
+﻿Shader "Shaders/BaseURPShader"
 {
     Properties
     {
@@ -8,8 +8,6 @@
     SubShader
     {
         Tags{"RenderType" = "Opaque" "RenderPipeline" = "UniversalPipeline"}
-
-        blend SrcAlpha OneMinusSrcAlpha
 
         Pass
         {

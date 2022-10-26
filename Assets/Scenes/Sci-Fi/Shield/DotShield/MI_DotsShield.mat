@@ -49,6 +49,7 @@ Material:
     - _Size: 0.6
     m_Colors:
     - _Color: {r: 0, g: 0.9490196, b: 2, a: 1}
+    - _DotsTilesTilingAndOffset: {r: 5, g: 5, b: 1, a: 1}
     - _FlowSparkNoiseColor: {r: 0, g: 3.0564578, b: 4.8246565, a: 1}
     - _OutLineColor: {r: 8, g: 6.211765, b: 0, a: 1}
     - _TilesTilingAndOffset: {r: 18, g: 10, b: 0.5, a: 0.5}

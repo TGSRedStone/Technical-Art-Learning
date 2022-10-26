@@ -198,11 +198,11 @@
             	float sunPoint = distance(i.uv, _MainLightPosition.xyz);
                 float sunArea = 1.0 - smoothstep(0.0, _SunSize, sunPoint);
                 sunArea *= _SunGlow;
-                float3 sunUV = mul(i.uv.xyz, _LtoW);
+                float3 sunUV = mul(i.uv.xyz, (float3x3)_LtoW);
                 float2 moonUV = sunUV.xy * (1 / (_MoonSize + 0.001));
                 float4 moonTex = SAMPLE_TEXTURE2D(_MoonTex, sampler_MoonTex, TRANSFORM_TEX(moonUV, _MoonTex));
-				float3 sunCol = _SunColor * saturate(sunArea);
-                float3 moonCol = moonTex.rgb * moonTex.a * step(0, sunUV.z) * _MoonColor;
+				float3 sunCol = _SunColor.rgb * saturate(sunArea);
+                float3 moonCol = moonTex.rgb * moonTex.a * step(0, sunUV.z) * _MoonColor.rgb;
 				
                 float3 sunAndMoonCol = sunCol + moonCol;
 
@@ -212,14 +212,14 @@
             	float3 moonGlow = moonGlowMask * _MoonGlowColor.rgb;
 
             	//Sky
-                float3 gradientDay = lerp(_DayBottomColor, _DayTopColor, saturate(i.uv.y));
-                float3 gradientNight = lerp(_NightBottomColor, _NightTopColor, saturate(i.uv.y));
-                float3 skyGradients = lerp(gradientNight, gradientDay, saturate(_MainLightPosition.y + _SkyGradientDayColTime));
+                float4 gradientDay = lerp(_DayBottomColor, _DayTopColor, saturate(i.uv.y));
+                float4 gradientNight = lerp(_NightBottomColor, _NightTopColor, saturate(i.uv.y));
+                float4 skyGradients = lerp(gradientNight, gradientDay, saturate(_MainLightPosition.y + _SkyGradientDayColTime));
 
             	//Star
                 float startMask = lerp(0, 1, -_MainLightPosition.y) * step(_StarHeight, i.uv.y);
             	float noise = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, i.uv.xz / i.uv.y + _Time.x * _StarTwinkleFrequency).r;
-                float3 star = SAMPLE_TEXTURE2D(_StarTex, sampler_StarTex, i.uv.xz / i.uv.y * _StarDensity) * noise;
+                float3 star = SAMPLE_TEXTURE2D(_StarTex, sampler_StarTex, i.uv.xz / i.uv.y * _StarDensity).rgb * noise;
                 star = saturate(star * startMask);
 
             	//Mie scattering
@@ -239,7 +239,7 @@
 				float4 inscattering = IntegrateInscattering(rayStart, rayDir, rayLength, -_MainLightPosition.xyz, 16);
 
             	//Finally
-                return float4(sunAndMoonCol + skyGradients + star + ACESFilm(inscattering) + moonGlow, 1);
+                return float4(sunAndMoonCol + skyGradients.rgb + star + ACESFilm(inscattering) + moonGlow, 1);
             }
             ENDHLSL
         }
