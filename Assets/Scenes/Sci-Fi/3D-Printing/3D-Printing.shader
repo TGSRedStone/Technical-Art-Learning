@@ -7,6 +7,8 @@
         _GradientColor ("GradientColor", color) = (1, 1, 1, 1)
         _CutY ("CutY", float) = 1
         _GradientLength ("GradientLength", float) = 1
+        _Frequency ("Frequency", float) = 60
+        _Amplitude ("Amplitude", float) = 120
     }
     SubShader
     {
@@ -28,6 +30,8 @@
             float4 _GradientColor;
             float _CutY;
             float _GradientLength;
+            float _Frequency;
+            float _Amplitude;
             CBUFFER_END
 
             TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
@@ -62,7 +66,7 @@
 
             float4 frag (v2f i) : SV_Target
             {
-                float swing = sin((i.objPos.x * i.objPos.z) * 60 + _Time.w) / 120;
+                float swing = sin((i.objPos.x * i.objPos.z) * _Frequency + _Time.w) / _Amplitude;
                 clip(_CutY - i.objPos.y + swing);
                 float mask = step(1, _CutY - i.objPos.y + _GradientLength + swing) * step(0, dot(i.worldNormal, i.worldViewDir));
                 float3 col = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, i.uv).rgb * _Color.rgb;
