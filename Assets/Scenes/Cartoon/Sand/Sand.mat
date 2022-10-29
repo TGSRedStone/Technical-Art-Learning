@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sand
+  m_Shader: {fileID: 4800000, guid: 8d8b7679c64592547b57f0d7d717b83b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RandomNoiseTex:
+        m_Texture: {fileID: 2800000, guid: 402cc5ee36dc40847a49b73592f0fbf4, type: 3}
+        m_Scale: {x: 25, y: 25}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _NormalLerp: 0.21
+    - _OceanSpecularPower: 75
+    - _OceanSpecularStrength: 0.5
+    - _RimPower: 25
+    - _RimStrength: 1
+    m_Colors:
+    - _OceanSpecularColor: {r: 1.9999998, g: 1.6858637, b: 1.0052354, a: 1}
+    - _RimColor: {r: 4.5072246, g: 2.3003373, b: 0.92848814, a: 1}
+    - _ShadowColor: {r: 0.7, g: 0.5497382, b: 0.49109948, a: 1}
+    - _TerrainColor: {r: 0.85098046, g: 0.7058824, b: 0.63529414, a: 1}
+  m_BuildTextureStacks: []

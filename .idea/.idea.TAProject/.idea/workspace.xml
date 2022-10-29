@@ -80,7 +80,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GrainyBlur/GrainyBlurPostProcessingVolume.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/BoxBlur 1.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/BoxBlurPostProcessing1.cs" />
@@ -131,6 +130,7 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/CD-ROM/CD-ROM.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/3D-Printing/3D-Printing.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/3D-Printing/PrintDotween.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/Sand/Sand.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -257,7 +257,7 @@
       <workItem from="1666686588658" duration="3332000" />
       <workItem from="1666760239685" duration="1462000" />
       <workItem from="1666789255562" duration="2275000" />
-      <workItem from="1667006984690" duration="722000" />
+      <workItem from="1667006984690" duration="10857000" />
     </task>
     <servers />
   </component>
