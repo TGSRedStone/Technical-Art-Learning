@@ -30,6 +30,6 @@ Material:
     - _GradientLength: 0.8
     - _GradientY: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.15303376, g: 0.3106784, b: 0.45292872, a: 1}
     - _GradientColor: {r: 0.90099996, g: 0.68573606, b: 0.22344801, a: 1}
   m_BuildTextureStacks: []

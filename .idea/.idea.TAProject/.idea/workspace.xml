@@ -19,6 +19,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRshaderGUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/API/D3D11.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/9e/293319f2/ComputeShader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/ScriptableRenderer.cs" root0="SKIP_HIGHLIGHTING" />
@@ -34,6 +35,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/BubbleShield.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/SpaceTransforms.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/UniversalAdditionalCameraData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/LitInput.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/ShadingModels/LitDetailGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/RenderTargetHandle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/1d/16f595ae/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
@@ -43,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Macros.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/684C6D9D-FDE3-40B0-AA10-51AF5CDC513D/86/1e346c3e/GUIContent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/8f/655a5413/ShimManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/ImageBasedLighting.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/UniversalRenderPipelineCore.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.1.0/Unity.Mathematics/math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/72/d08f3383/Camera.cs" root0="SKIP_HIGHLIGHTING" />
@@ -65,6 +68,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Input.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/SurfaceData.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ScriptableRendererDataEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Color.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Packing.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Core.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/ShaderVariablesFunctions.hlsl" root0="SKIP_HIGHLIGHTING" />
@@ -80,9 +84,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessing.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/BoxBlur 1.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/BoxBlurPostProcessing1.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/BoxBlurPostProcessingVolume1.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/RadialBlur.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/RadialBlurPostProcessing.cs" />
@@ -131,6 +132,9 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/3D-Printing/3D-Printing.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/3D-Printing/PrintDotween.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/Sand/Sand.shader" />
+      <option value="$PROJECT_DIR$/../../../../工程项目/shader学习之旅/Assets/Else Effect/PBR/PBR.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRshaderGUI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRShader.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -257,7 +261,13 @@
       <workItem from="1666686588658" duration="3332000" />
       <workItem from="1666760239685" duration="1462000" />
       <workItem from="1666789255562" duration="2275000" />
-      <workItem from="1667006984690" duration="10857000" />
+      <workItem from="1667006984690" duration="10909000" />
+      <workItem from="1667132618036" duration="7789000" />
+      <workItem from="1667202214650" duration="17802000" />
+      <workItem from="1667277003200" duration="2796000" />
+      <workItem from="1667290628537" duration="9360000" />
+      <workItem from="1667437878489" duration="9456000" />
+      <workItem from="1667451580474" duration="30000" />
     </task>
     <servers />
   </component>

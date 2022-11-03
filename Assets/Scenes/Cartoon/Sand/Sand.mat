@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _GlitterTex:
+        m_Texture: {fileID: 2800000, guid: 25d7ac89424ac1b4eacbb2ddaf4615cb, type: 3}
+        m_Scale: {x: 25, y: 25}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -27,15 +31,26 @@ Material:
         m_Texture: {fileID: 2800000, guid: 402cc5ee36dc40847a49b73592f0fbf4, type: 3}
         m_Scale: {x: 25, y: 25}
         m_Offset: {x: 0, y: 0}
+    - _ShallowTex:
+        m_Texture: {fileID: 2800000, guid: a3ebd921eafc50348814505287cf544e, type: 3}
+        m_Scale: {x: 25, y: 25}
+        m_Offset: {x: 0, y: 0}
+    - _SteepTex:
+        m_Texture: {fileID: 2800000, guid: f019532611db92146b9674db527ee56b, type: 3}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _NormalLerp: 0.21
-    - _OceanSpecularPower: 75
+    - _GlitterThreshold: 0.91
+    - _NormalLerp: 0.2
+    - _OceanSpecularPower: 128
     - _OceanSpecularStrength: 0.5
     - _RimPower: 25
-    - _RimStrength: 1
+    - _RimStrength: 0.5
+    - _SteepnessSharpnessPower: 25
     m_Colors:
+    - _GlitterColor: {r: 7.999999, g: 6.743455, b: 4.0209417, a: 1}
     - _OceanSpecularColor: {r: 1.9999998, g: 1.6858637, b: 1.0052354, a: 1}
     - _RimColor: {r: 4.5072246, g: 2.3003373, b: 0.92848814, a: 1}
-    - _ShadowColor: {r: 0.7, g: 0.5497382, b: 0.49109948, a: 1}
-    - _TerrainColor: {r: 0.85098046, g: 0.7058824, b: 0.63529414, a: 1}
+    - _ShadowColor: {r: 0.70199996, g: 0.5521829, b: 0.48797557, a: 1}
+    - _TerrainColor: {r: 0.75, g: 0.6183511, b: 0.55851066, a: 1}
   m_BuildTextureStacks: []
