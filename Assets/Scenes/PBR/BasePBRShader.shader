@@ -93,12 +93,8 @@
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 o.worldPos = TransformObjectToWorld(v.vertex.xyz);
                 o.worldNormal = TransformObjectToWorldNormal(v.normal);
-                
-#ifdef _NORMAL_SETUP
                 o.worldTangentDir = normalize(TransformObjectToWorld(v.tangent.xyz));
                 o.worldBitangentDir = normalize(cross(o.worldNormal, o.worldTangentDir) * v.tangent.w);
-#endif
-                
                 return o;
             }
 
@@ -121,11 +117,11 @@
 #endif
 
 #ifdef _METALLIC_SETUP
-                _Metallic = lerp(1 - SAMPLE_TEXTURE2D(_MetallicTex, sampler_MetallicTex, i.uv), 1, _Metallic);
+                _Metallic = lerp(0, SAMPLE_TEXTURE2D(_MetallicTex, sampler_MetallicTex, i.uv).r, _Metallic);
 #endif
 
 #ifdef _ROUGHNESS_SETUP
-                _Smooth = lerp(1 - SAMPLE_TEXTURE2D(_RoughnessTex, sampler_RoughnessTex, i.uv), 1, _Smooth);
+                _Smooth = lerp(0, 1 - SAMPLE_TEXTURE2D(_RoughnessTex, sampler_RoughnessTex, i.uv).r, _Smooth);
 #endif
 
                 float perceptualRoughness = 1.0 - _Smooth;
@@ -172,7 +168,6 @@
                 float2 envBDRF = SAMPLE_TEXTURE2D(_LUT, sampler_LUT, float2(lerp(0.0, 0.99, NDotV), lerp(0.0, 0.99, roughness))).rg;
                 
                 float3 Flast = fresnelSchlickRoughness(max(NDotV, 0.0), F0, roughness);
-// return float4(Flast, 1);
                 
                 float kdLast = (1 - Flast.r) * (1 - _Metallic);
 
@@ -189,7 +184,6 @@
 // return float4(indirectLightResult, 1);
                 
                 float4 result = float4(directLightResult + indirectLightResult, 1);
-
                 
                 return result;
             }
