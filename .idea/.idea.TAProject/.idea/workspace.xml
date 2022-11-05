@@ -84,11 +84,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/BoxBlurPostProcessingVolume1.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/RadialBlur.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/RadialBlurPostProcessing.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/RadialBlur/RadialBlurPostProcessingVolume.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DirectionalBlur/RadialBlur 1.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DirectionalBlur/DirectionalBlur.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DirectionalBlur/DirectionalBlurPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/DirectionalBlur/DirectionalBlurPostProcessingVolume.cs" />
@@ -135,6 +130,11 @@
       <option value="$PROJECT_DIR$/../../../../工程项目/shader学习之旅/Assets/Else Effect/PBR/PBR.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRshaderGUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRShader.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RimOutLine/RimOutLine.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/ExtrusionOutLine/NormalExtrusionOutLine/NormalExtrusionOutLine.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/ExtrusionOutLine/ClipSpaceNormalExtrusionOutLine/ClipSpaceNormalExtrusionOutLine.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/ExtrusionOutLine/StencilOutLine/StencilOutLine.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/StencilOutLine/StencilOutLine.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -269,7 +269,7 @@
       <workItem from="1667437878489" duration="9456000" />
       <workItem from="1667451580474" duration="30000" />
       <workItem from="1667536654841" duration="1601000" />
-      <workItem from="1667564074156" duration="2176000" />
+      <workItem from="1667564074156" duration="10472000" />
     </task>
     <servers />
   </component>
