@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
   m_Name: ForwardRenderer
   m_EditorClassIdentifier: 
-  m_RendererFeatures:
-  - {fileID: 2058948382502491698}
-  m_RendererFeatureMap: 3216ed25a5da921c
+  m_RendererFeatures: []
+  m_RendererFeatureMap: 
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   shaders:
@@ -43,23 +42,3 @@ MonoBehaviour:
   m_ShadowTransparentReceive: 1
   m_RenderingMode: 0
   m_AccurateGbufferNormals: 0
---- !u!114 &2058948382502491698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f09d44ade3eb84d876c829b79cbe01, type: 3}
-  m_Name: NewEdgeDetectionOutLine
-  m_EditorClassIdentifier: 
-  m_Active: 1
-  Settings:
-    EdgeType: 1
-    Event: 550
-    Shader: {fileID: 4800000, guid: 8377174c6e4adbe41af982716394ab6d, type: 3}
-    OutLineColor: {r: 1, g: 0.12061543, b: 0, a: 0}
-    EdgePower: 2
-    SampleRange: 1

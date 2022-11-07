@@ -2,6 +2,10 @@
 {
     SubShader
     {
+    	ZTest Always
+        ZWrite Off
+        Cull Off
+    	
         HLSLINCLUDE
 
         #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
@@ -68,10 +72,10 @@
 			{
 				v2f o;
 				o.vertex = TransformObjectToHClip(v.vertex.xyz);
-				o.uvRoberts[0] = v.uv + float2(-1, -1) * _MainTex_TexelSize * _SampleRange;
-				o.uvRoberts[1] = v.uv + float2( 1, -1) * _MainTex_TexelSize * _SampleRange;
-				o.uvRoberts[2] = v.uv + float2(-1,  1) * _MainTex_TexelSize * _SampleRange;
-				o.uvRoberts[3] = v.uv + float2( 1,  1) * _MainTex_TexelSize * _SampleRange;
+				o.uvRoberts[0] = v.uv + float2(-1, -1) * _MainTex_TexelSize.xy * _SampleRange;
+				o.uvRoberts[1] = v.uv + float2( 1, -1) * _MainTex_TexelSize.xy * _SampleRange;
+				o.uvRoberts[2] = v.uv + float2(-1,  1) * _MainTex_TexelSize.xy * _SampleRange;
+				o.uvRoberts[3] = v.uv + float2( 1,  1) * _MainTex_TexelSize.xy * _SampleRange;
 				o.uvRoberts[4] = v.uv;
 				return o;
 			}
@@ -80,7 +84,7 @@
 			{
 				half4 col = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, i.uvRoberts[4]);
 				float g = Roberts(i);
-				g = pow(g, _EdgePower);
+				g = pow(abs(g), _EdgePower);
 				col.rgb = lerp(_OutLineColor.rgb, col.rgb, g);
 			
 				return col;
@@ -133,15 +137,15 @@
 			{
 				v2f o;
 				o.vertex = TransformObjectToHClip(v.vertex.xyz);
-				o.uvSobel[0] = v.uv + float2(-1, -1) * _MainTex_TexelSize * _SampleRange;
-				o.uvSobel[1] = v.uv + float2( 0, -1) * _MainTex_TexelSize * _SampleRange;
-				o.uvSobel[2] = v.uv + float2( 1, -1) * _MainTex_TexelSize * _SampleRange;
-				o.uvSobel[3] = v.uv + float2(-1,  0) * _MainTex_TexelSize * _SampleRange;
-				o.uvSobel[4] = v.uv + float2( 0,  0) * _MainTex_TexelSize * _SampleRange;
-				o.uvSobel[5] = v.uv + float2( 1,  0) * _MainTex_TexelSize * _SampleRange;
-				o.uvSobel[6] = v.uv + float2(-1,  1) * _MainTex_TexelSize * _SampleRange;
-				o.uvSobel[7] = v.uv + float2( 0,  1) * _MainTex_TexelSize * _SampleRange;
-				o.uvSobel[8] = v.uv + float2( 1,  1) * _MainTex_TexelSize * _SampleRange;
+				o.uvSobel[0] = v.uv + float2(-1, -1) * _MainTex_TexelSize.xy * _SampleRange;
+				o.uvSobel[1] = v.uv + float2( 0, -1) * _MainTex_TexelSize.xy * _SampleRange;
+				o.uvSobel[2] = v.uv + float2( 1, -1) * _MainTex_TexelSize.xy * _SampleRange;
+				o.uvSobel[3] = v.uv + float2(-1,  0) * _MainTex_TexelSize.xy * _SampleRange;
+				o.uvSobel[4] = v.uv + float2( 0,  0) * _MainTex_TexelSize.xy * _SampleRange;
+				o.uvSobel[5] = v.uv + float2( 1,  0) * _MainTex_TexelSize.xy * _SampleRange;
+				o.uvSobel[6] = v.uv + float2(-1,  1) * _MainTex_TexelSize.xy * _SampleRange;
+				o.uvSobel[7] = v.uv + float2( 0,  1) * _MainTex_TexelSize.xy * _SampleRange;
+				o.uvSobel[8] = v.uv + float2( 1,  1) * _MainTex_TexelSize.xy * _SampleRange;
 				return o;
 			}
 
@@ -149,7 +153,7 @@
 			{
 				half4 col = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, i.uvSobel[4]);
 				float g = Sobel(i);
-				g = pow(g, _EdgePower);
+				g = pow(abs(g), _EdgePower);
 				col.rgb = lerp(_OutLineColor.rgb, col.rgb, g);
 			
 				return col;
@@ -158,4 +162,5 @@
             ENDHLSL
         }
     }
+	Fallback Off
 }

@@ -12,9 +12,9 @@ public class EdgeDetectionOutLine : ScriptableRendererFeature
     [System.Serializable]
     public class BlitSettings
     {
-        public EdgeType EdgeType;
         public RenderPassEvent Event = RenderPassEvent.AfterRenderingOpaques;
         public Shader Shader = null;
+        public EdgeType EdgeType;
         public Color OutLineColor;
         public float EdgePower;
         public float SampleRange;
@@ -52,6 +52,7 @@ public class EdgeDetectionOutLine : ScriptableRendererFeature
         private string profilerTag;
 
         private readonly int buffer0 = Shader.PropertyToID("buffer0");
+        private const string _BlurSize = "_BlurSize";
 
         public BlitPass(BlitSettings settings, string tag)
         {
@@ -100,9 +101,9 @@ public class EdgeDetectionOutLine : ScriptableRendererFeature
             int h = renderingData.cameraData.camera.scaledPixelHeight;
 
             cmd.GetTemporaryRT(buffer0, w,h,0, FilterMode.Bilinear);
-            
-            cmd.Blit(source, dest, material, (int)settings.EdgeType);
+            cmd.Blit(source,buffer0, material, (int)settings.EdgeType);
 
+            cmd.Blit(buffer0, dest);
             cmd.ReleaseTemporaryRT(buffer0);
         }
     }
