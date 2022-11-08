@@ -86,8 +86,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/GrassGenerator.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ComputeShader/CreateRandomPNGUseComputerShader/CreateRandomPNGUseComputerShader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/CreateRandomPNG/YYFCreateRandomPNG.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/CreateRandomPNG/YYFCreateRandomPNG1.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/CreateRandomPNG/CreateRandomPNG.cs" />
@@ -137,6 +135,8 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/EdgeDetectionOutLine/EdgeDetectionOutLine1.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/EdgeDetectionOutLine/EdgeDetectionOutLine.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/EdgeDetectionOutLine/EdgeDetectionOutLine.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/CreateRandomPNG/FBMNoise.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/FBMNoise.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -274,7 +274,8 @@
       <workItem from="1667564074156" duration="10472000" />
       <workItem from="1667722136472" duration="10350000" />
       <workItem from="1667740487678" duration="4777000" />
-      <workItem from="1667794232666" duration="2033000" />
+      <workItem from="1667794232666" duration="2636000" />
+      <workItem from="1667907347690" duration="6455000" />
     </task>
     <servers />
   </component>
