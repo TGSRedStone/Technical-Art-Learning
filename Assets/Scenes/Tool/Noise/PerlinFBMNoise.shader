@@ -1,11 +1,8 @@
-﻿Shader "Tool/Noise/FBMNoise"
+﻿Shader "Tool/Noise/PerlinFBMNoise"
 {
     Properties
     {
         _Resolution ("Resolution", float) = 1
-    	_Color ("Color", color) = (1, 1, 1, 1)
-    	_Color2 ("Color2", color) = (1, 1, 1, 1)
-    	_Color3 ("Color3", color) = (1, 1, 1, 1)
     }
     SubShader
     {
@@ -21,9 +18,6 @@
 
             CBUFFER_START(UnityPerMaterial)
             float _Resolution;
-            float4 _Color;
-            float4 _Color2;
-            float4 _Color3;
             CBUFFER_END
 
             TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
@@ -77,7 +71,7 @@
                 // Loop of octaves
                 for (int i = 0; i < OCTAVES; i++)
                 {
-                    value += amplitude * perlinNoise(st + _Time.z);
+                    value += amplitude * perlinNoise(st);
                     st *= 2.;
                     amplitude *= .5;
                 }
@@ -105,8 +99,9 @@
 
             float4 frag (v2f i) : SV_Target
             {
+            	i.uv *= _Resolution;
                 float3 col = 0;
-                col += fbm(i.uv * _Resolution * 5.0);
+                col += fbm(i.uv);
                 return float4(col, 1);
             }
             ENDHLSL

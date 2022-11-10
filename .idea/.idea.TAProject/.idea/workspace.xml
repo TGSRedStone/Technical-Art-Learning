@@ -86,26 +86,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/CreateRandomPNG/YYFCreateRandomPNG.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/CreateRandomPNG/YYFCreateRandomPNG1.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/CreateRandomPNG/CreateRandomPNG.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Lights/LowPolyPointLight/GetLightSphereWorldPos.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Lights/LowPolyPointLight/LowPolyPointLight.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/CreateCubeMap/Editor/CreateCubeMap.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/BubbleShield.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Sparkle/Sparkle.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/ShakeBottle/Wobble.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/ShakeBottle/ShakeBottle.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/NPRTree/NewUnlitShader.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/NPRTree/NewBehaviourScript.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/NPRTree/CamRotateAroundPoint.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/StippleTransparency/StippleTransparency.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Dithering/Dithering.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/NPRTree/NPRTree.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/AtmosphericScattering/AtmosphericScattering.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/AtmosphericScattering/AtmosphericScatteringPostProcessing.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/AtmosphericScattering/AtmosphericScattering.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/VolumetricColud.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/VolumetricColudDrawMesh.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/PlanarReflections.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/PlanarReflections.shader" />
@@ -137,6 +117,26 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/EdgeDetectionOutLine/EdgeDetectionOutLine.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/CreateRandomPNG/FBMNoise.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/FBMNoise.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/WorleyNoise.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/VoronoiNoise.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/VoronoiNoise2.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/PerlinFBMNoise.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/TurbulenceFBMNoise.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/TurbulenceFBMNoise 1.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/RidgeFBMNoise.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping1.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping2.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping3.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping4.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping5.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping8.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping6.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping7.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping9.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping10.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping11.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping12.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -276,6 +276,9 @@
       <workItem from="1667740487678" duration="4777000" />
       <workItem from="1667794232666" duration="2636000" />
       <workItem from="1667907347690" duration="6455000" />
+      <workItem from="1667960762572" duration="2928000" />
+      <workItem from="1668045886637" duration="9706000" />
+      <workItem from="1668082419045" duration="3198000" />
     </task>
     <servers />
   </component>

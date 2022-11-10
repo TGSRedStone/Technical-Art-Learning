@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FBMNoise
-  m_Shader: {fileID: 4800000, guid: f49c010dbd343c04b82a4757c5dd78e3, type: 3}
+  m_Name: Shaping7
+  m_Shader: {fileID: 4800000, guid: df107e80ef5167f459b2c6648f6cfbde, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,11 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _Density: 6.19
-    - _Resolution: 2
-    m_Colors:
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
-    - _Color2: {r: 0.32645798, g: 0, b: 1, a: 1}
-    - _Color3: {r: 0, g: 0.9489484, b: 1, a: 1}
-    - _Resolution: {r: 1, g: 0.16, b: 1, a: 1}
+    - _Modulus: 0.5
+    - _Resolution: 1
+    m_Colors: []
   m_BuildTextureStacks: []
