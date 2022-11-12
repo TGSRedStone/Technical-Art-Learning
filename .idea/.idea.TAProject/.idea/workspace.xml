@@ -86,46 +86,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/VolumetricColudDrawMesh.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/PlanarReflections.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/PlanarReflections.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/CamContral.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/LocalToWorld.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/ProceduralSkyBox.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/CD-ROM/BaseURPShader 1.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/SimpleSubsurfaceScattering/SimpleSubsurfaceScattering.shader" />
-      <option value="$PROJECT_DIR$/Assets/Shaders/BaseURPShader.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/CD-ROM/CD-ROM.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/3D-Printing/3D-Printing.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/3D-Printing/PrintDotween.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/Sand/Sand.shader" />
-      <option value="$PROJECT_DIR$/../../../../工程项目/shader学习之旅/Assets/Else Effect/PBR/PBR.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRshaderGUI.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRShader.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RimOutLine/RimOutLine.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/ExtrusionOutLine/NormalExtrusionOutLine/NormalExtrusionOutLine.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/ExtrusionOutLine/ClipSpaceNormalExtrusionOutLine/ClipSpaceNormalExtrusionOutLine.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/ExtrusionOutLine/StencilOutLine/StencilOutLine.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/StencilOutLine/StencilOutLine.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/BlurProcessingOutLine/GaussianBlur 1.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/BlurProcessingOutLine/BlurProcessingOutLine.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/BlurProcessingOutLine/BlurProcessingOutLineMask.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/BlurProcessingOutLine/BlurProcessingOutLine.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Blit.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/EdgeDetectionOutLine/EdgeDetectionOutLine1.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/EdgeDetectionOutLine/EdgeDetectionOutLine.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/EdgeDetectionOutLine/EdgeDetectionOutLine.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/CreateRandomPNG/FBMNoise.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/FBMNoise.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/WorleyNoise.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/VoronoiNoise.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/VoronoiNoise2.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/PerlinFBMNoise.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/TurbulenceFBMNoise.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/TurbulenceFBMNoise 1.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/Noise/RidgeFBMNoise.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping1.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping2.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping3.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping4.shader" />
@@ -137,6 +97,46 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping10.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping11.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping12.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping13.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping14.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping15.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping16.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/EasingFunctions/EasingFunctions.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/ColorGradient/ColorGradient.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/ColorGradient/RainBow.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/ColorGradient/HSV.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/ColorGradient/PolarCoordinatesHSV.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/TheBookOfShaders/ColorGradient/ColorGradient.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ColorGradient/ColorGradient.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ColorGradient/HSV.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ColorGradient/PolarCoordinatesHSV.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ColorGradient/RainBow.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/EasingFunctions/EasingFunctions.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping1.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping10.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping11.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping12.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping13.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping14.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping15.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping16.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping2.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping3.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping4.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping5.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping6.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping7.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping8.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping9.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/Shapes1.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/Box.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/SmoothStepBox.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/BoxGraphics.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/Circular.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/StepCircular.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/SmoothStepCircular.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/CircularGraphics.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/DotCircular.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -279,6 +279,9 @@
       <workItem from="1667960762572" duration="2928000" />
       <workItem from="1668045886637" duration="9706000" />
       <workItem from="1668082419045" duration="3198000" />
+      <workItem from="1668140811016" duration="3021000" />
+      <workItem from="1668159840677" duration="9127000" />
+      <workItem from="1668214050007" duration="8068000" />
     </task>
     <servers />
   </component>
