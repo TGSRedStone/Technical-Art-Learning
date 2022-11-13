@@ -22,8 +22,6 @@
             float _a;
             CBUFFER_END
 
-            TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
-
             struct appdata
             {
                 float4 vertex : POSITION;
@@ -38,7 +36,7 @@
 
             float StepCircular(float a, float2 uv)
             {
-                return step(0.5, distance(uv, _a));
+                return step(0.5, distance(uv, a));
             }
 
             v2f vert (appdata v)

@@ -22,8 +22,6 @@
             float _a;
             CBUFFER_END
 
-            TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
-
             struct appdata
             {
                 float4 vertex : POSITION;
@@ -38,10 +36,10 @@
 
             float StepBoxMask(float a, float2 uv)
             {
-                float2 bl = step(_a, uv);
+                float2 bl = step(a, uv);
                 float pct = bl.x * bl.y;
 
-                float2 tr = step(_a, 1 - uv);
+                float2 tr = step(a, 1 - uv);
                 return pct *= tr.x * tr.y;
             }
 

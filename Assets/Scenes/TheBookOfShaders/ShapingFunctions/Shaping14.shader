@@ -22,8 +22,6 @@
             float _a;
             CBUFFER_END
 
-            TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
-
             struct appdata
             {
                 float4 vertex : POSITION;

@@ -19,10 +19,7 @@
 
             CBUFFER_START(UnityPerMaterial)
             float _Resolution;
-            float _a;
             CBUFFER_END
-
-            TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
 
             struct appdata
             {

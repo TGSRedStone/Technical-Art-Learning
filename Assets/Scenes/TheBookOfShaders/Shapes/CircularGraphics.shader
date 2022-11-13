@@ -3,7 +3,6 @@
     Properties
     {
         _Resolution ("Resolution", float) = 1
-        _a ("a", float) = 0
     }
     SubShader
     {
@@ -19,10 +18,7 @@
 
             CBUFFER_START(UnityPerMaterial)
             float _Resolution;
-            float _a;
             CBUFFER_END
-
-            TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
 
             struct appdata
             {

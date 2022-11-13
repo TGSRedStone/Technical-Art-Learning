@@ -1,9 +1,9 @@
-﻿Shader "TheBookOfShaders/ShapingFunctions/Shaping4"
+﻿Shader "TheBookOfShaders/Shapes/SDF1"
 {
     Properties
     {
         _Resolution ("Resolution", float) = 1
-        _Boundary ("Boundary", range(0, 1)) = 1
+        _a ("a", float) = 0
     }
     SubShader
     {
@@ -19,7 +19,7 @@
 
             CBUFFER_START(UnityPerMaterial)
             float _Resolution;
-            float _Boundary;
+            float _a;
             CBUFFER_END
 
             struct appdata
@@ -42,18 +42,19 @@
                 return o;
             }
 
-            float Plot(float2 uv, float pct)
-            {
-                return smoothstep(pct - 0.02, pct, uv.y) - smoothstep(pct, pct + 0.02, uv.y);
-            }
-
             float4 frag (v2f i) : SV_Target
             {
                 float2 uv = i.uv * _Resolution;
-                float y = smoothstep(_Boundary, 1 - _Boundary, uv.x);
-                float3 col = y;
-                float pct = Plot(uv, y);
-                return float4(lerp(col, pct * float3(0, 1, 0), pct), 1);
+                float3 d = 0.0;
+                uv = uv * 2 - 1;
+                d = length(abs(uv) - 0.5);
+                d = length(min(abs(uv)- 0.3, 0.0));
+                d = length(max(abs(uv)- 0.3, 0.0));
+
+                return float4(float3(frac(d * _a * 10.0)), 1.0);
+                // return float4(float3(step(0.3, d)), 1.0);
+                // return float4(float3(step(0.3, d) * step(d, 0.4)), 1.0);
+                // return float4(float3(smoothstep(0.3, 0.4, d) * smoothstep(0.6, 0.5, d)) ,1.0);
             }
             ENDHLSL
         }

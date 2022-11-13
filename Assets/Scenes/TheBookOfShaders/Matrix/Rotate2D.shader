@@ -1,9 +1,8 @@
-﻿Shader "TheBookOfShaders/Shapes/SmoothStepBox"
+﻿Shader "TheBookOfShaders/Matrix/Rotate2D"
 {
     Properties
     {
-        _Resolution ("Resolution", float) = 1
-        _a ("a", float) = 0
+        _a ("a", float) = 1
     }
     SubShader
     {
@@ -18,7 +17,6 @@
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 
             CBUFFER_START(UnityPerMaterial)
-            float _Resolution;
             float _a;
             CBUFFER_END
 
@@ -34,13 +32,21 @@
                 float4 vertex : SV_POSITION;
             };
 
-            float SmoothStepBoxMask(float a, float2 uv)
+            float2x2 Rotate2d(float angle)
             {
-                float2 bl = smoothstep(a, a + 0.1, uv);
-                float pct = bl.x * bl.y;
+                return float2x2(cos(angle), -sin(angle), sin(angle), cos(angle));
+            }
 
-                float2 tr = smoothstep(a, a + 0.1, 1 - uv);
-                return pct *= tr.x * tr.y;
+            float box(in float2 _st, in float2 _size)
+            {
+                _size = 0.5 - _size * 0.5;
+                float2 uv = smoothstep(_size, _size + 0.001, _st);
+                uv *= smoothstep(_size, _size + 0.001, 1.0 - _st);
+                return uv.x * uv.y;
+            }
+            
+            float cross(in float2 _st, float _size){
+                return  box(_st, float2(_size, _size / 4.0)) + box(_st, float2(_size / 4.0, _size));
             }
 
             v2f vert (appdata v)
@@ -53,11 +59,17 @@
 
             float4 frag (v2f i) : SV_Target
             {
-                float2 uv = i.uv * _Resolution;
-                
-                float pct = SmoothStepBoxMask(_a, uv);
+                float3 col = 0;
+                float2 uv = i.uv;
+                uv -= 0.5;
+                uv = mul(uv, Rotate2d(sin(_Time.y) * PI));
+                uv += 0.5;
 
-                return pct;
+                col = float3(uv.x, uv.y, 0);
+
+                col += cross(uv, _a);
+                
+                return float4(col, 1);
             }
             ENDHLSL
         }

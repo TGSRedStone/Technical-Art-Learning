@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Box
-  m_Shader: {fileID: 4800000, guid: 1ac48dbe594f36a4981effb4db6cbe0e, type: 3}
+  m_Name: Rotate2D
+  m_Shader: {fileID: 4800000, guid: b0e23dacce4833048a7418286eb85117, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,7 +20,6 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _Resolution: 1
-    - _a: 0.3
+    - _a: 0.2
     m_Colors: []
   m_BuildTextureStacks: []
