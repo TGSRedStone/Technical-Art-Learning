@@ -82,13 +82,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/LocalToWorld.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/ShaderTypes.cs.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Common.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/FXAA/FXAAQualityPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/XR/XRSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping7.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping9.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping10.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping11.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping12.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/ShapingFunctions/Shaping13.shader" />
@@ -137,6 +135,9 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Matrix/Rotate2D.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/EasingFunctions/EasingFunctions.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ColorGradient/RainBow.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/FXAA/FXAAQuality.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/FXAA/FXAAQualityPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/FXAA/FXAAQuality.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -284,6 +285,8 @@
       <workItem from="1668214050007" duration="8068000" />
       <workItem from="1668235915817" duration="8296000" />
       <workItem from="1668306304628" duration="8074000" />
+      <workItem from="1668769073418" duration="3079000" />
+      <workItem from="1668832444854" duration="301000" />
     </task>
     <servers />
   </component>
