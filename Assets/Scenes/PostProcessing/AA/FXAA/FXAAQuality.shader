@@ -1,7 +1,7 @@
 ﻿//reference : https://zhuanlan.zhihu.com/p/431384101
 //reference : http://www.iryoku.com/aacourse/
 //reference : https://github.com/Raphael2048/AntiAliasing/tree/main/Assets
-Shader "Shaders/BaseURPShader"
+Shader "PostProcessing/AA/FXAA"
 {
     SubShader
     {
