@@ -84,8 +84,8 @@ public class TAAPostProcessing : ScriptableRendererFeature
             Vector2 jitter = new Vector2((HaltonSequence9[index].x - 0.5f) / camera.pixelWidth,
                 (HaltonSequence9[index].y - 0.5f) / camera.pixelHeight);
             jitter *= settings.jitter;
-            pm.m02 -= jitter.x * 2;
-            pm.m12 -= jitter.y * 2;
+            pm.m02 += jitter.x * 2;
+            pm.m12 += jitter.y * 2;
             camera.projectionMatrix = pm;
             index = (index + 1) % 9;
         }

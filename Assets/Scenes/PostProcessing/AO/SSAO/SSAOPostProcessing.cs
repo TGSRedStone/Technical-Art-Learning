@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
-public class BasePostProcessing : ScriptableRendererFeature
+public class SSAOPostProcessing : ScriptableRendererFeature
 {
     [System.Serializable]
     public class BlitSettings
@@ -10,6 +10,19 @@ public class BasePostProcessing : ScriptableRendererFeature
         public RenderPassEvent Event = RenderPassEvent.AfterRenderingOpaques;
         public Shader Shader = null;
         public int blitMaterialPassIndex = 0;
+
+        [Range(0, 128)]
+        public int SampleCount = 8;
+        [Range(0f, 0.8f)]
+        public float Radius = 0.5f;
+        [Range(0f, 1f)]
+        public float EdgeCheck = 0.5f;
+        [Range(0f, 10f)]
+        public float aoInt = 1f;
+        [Range(1f, 4f)]
+        public float BlurRadius = 2f;
+        [Range(0, 0.2f)]
+        public float BilaterFilterStrength = 0.2f;
     }
 
     public BlitSettings Settings = new BlitSettings();
@@ -89,9 +102,22 @@ public class BasePostProcessing : ScriptableRendererFeature
             opaqueDesc.depthBufferBits = 0;
             cmd.GetTemporaryRT(tempColorTex.id, opaqueDesc);
             cmd.SetGlobalTexture(mainTexId, source);
+            
+            Matrix4x4 vp_Matrix = renderingData.cameraData.camera.projectionMatrix * renderingData.cameraData.camera.worldToCameraMatrix; 
+            material.SetMatrix("_invVPMatrix", vp_Matrix.inverse);
+            material.SetMatrix("_worldToCameraMatrix", renderingData.cameraData.camera.worldToCameraMatrix);
+            material.SetMatrix("_projectionMatrix", renderingData.cameraData.camera.projectionMatrix);
+            material.SetInt("_SampleCount", settings.SampleCount);
+            material.SetFloat("_Radius", settings.Radius);
+            material.SetFloat("_edgeCheck", settings.EdgeCheck);
+            material.SetFloat("_BilaterFilterFactor", 1.0f - settings.BilaterFilterStrength);
+            material.SetFloat("_BlurRadius", settings.BlurRadius);
 
-            cmd.Blit(source, tempColorTex.Identifier(), material);
-            cmd.Blit(tempColorTex.Identifier(), dest);
+            cmd.Blit(source, tempColorTex.Identifier(), material, 0);
+            cmd.Blit(tempColorTex.Identifier(), dest, material, 1);
+
+            // cmd.Blit(dest, source, material, 2);
+            // cmd.Blit(tempColorTex.Identifier(), dest);
         }
     }
 }

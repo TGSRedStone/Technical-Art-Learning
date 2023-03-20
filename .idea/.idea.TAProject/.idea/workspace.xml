@@ -22,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRshaderGUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/API/D3D11.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/9e/293319f2/ComputeShader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/RendererFeatures/ScreenSpaceAmbientOcclusion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/ScriptableRenderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/BaseShaderGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/dc/9c8ad4b0/Matrix4x4.cs" root0="SKIP_HIGHLIGHTING" />
@@ -33,6 +34,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/E3172273-1037-4C8D-8FFE-E1CE96F1C5B7/28/331334c7/02000003pdb.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EDEF46C9-B2DB-4B87-8C98-495BFDC516FA/93/6dd412e5/DirectoryInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/BubbleShield.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/ScriptableRenderPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAOPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/SpaceTransforms.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/UniversalAdditionalCameraData.cs" root0="SKIP_HIGHLIGHTING" />
@@ -62,6 +65,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTexGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Lighting.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EDEF46C9-B2DB-4B87-8C98-495BFDC516FA/80/4b98e0a7/Math.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0783DE0-DFDA-4D3A-9D14-E718139E2D0D/18/5e9c0b07/ScriptableRenderPassInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/1d/52aefefb/ComputeBufferType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/SurfaceInput.hlsl" root0="SKIP_HIGHLIGHTING" />
@@ -83,6 +87,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/UnityInput.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/VolumetricColud.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/LocalToWorld.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/DeclareNormalsTexture.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/ShaderTypes.cs.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Common.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/FXAA/FXAAQualityPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
@@ -90,14 +95,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/EasingFunctions/EasingFunctions.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/ColorGradient/ColorGradient.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/ColorGradient/RainBow.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/ColorGradient/HSV.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/ColorGradient/PolarCoordinatesHSV.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/TheBookOfShaders/ColorGradient/ColorGradient.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ColorGradient/ColorGradient.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ColorGradient/HSV.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ColorGradient/PolarCoordinatesHSV.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/Shapes1.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/Box.shader" />
@@ -137,10 +134,18 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAASimple.cs" />
       <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/UniversalRenderPipeline.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/FXAAQuality 1.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAA.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/FXAA/FXAAQualityPostProcessing.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAACamera.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAA.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/SSAO.hlsl" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAO 1.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/New Folder/1.7.1-DisplayNormalTexture.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/New Folder/Pass/DisplayNormalTexturePass.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/BasePostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAO.hlsl" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAO.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAOPostProcessing.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -292,6 +297,8 @@
       <workItem from="1668832444854" duration="1825000" />
       <workItem from="1669111733143" duration="4132000" />
       <workItem from="1669172051676" duration="7520000" />
+      <workItem from="1669200556189" duration="13441000" />
+      <workItem from="1669257444923" duration="17680000" />
     </task>
     <servers />
   </component>
