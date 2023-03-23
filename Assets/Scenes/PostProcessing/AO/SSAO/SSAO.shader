@@ -11,7 +11,7 @@ Shader "PostProcessing/AO/SSAO"
     float _edgeCheck;
     float _BlurRadius;
     float _BilaterFilterFactor;
-	float2 _MainTex_TexelSize;
+	float2 _AOTex_TexelSize;
     float4x4 _worldToCameraMatrix;
     float4x4 _projectionMatrix;
     
@@ -98,7 +98,7 @@ Shader "PostProcessing/AO/SSAO"
 
     float4 frag_Blur(v2f i) : SV_TARGET
     {
-        float2 delta = _MainTex_TexelSize.xy * _BlurRadius.xx;
+        float2 delta = _AOTex_TexelSize.xy * _BlurRadius.xx;
 
         float2 uv = i.uv;
 		float2 uv0a = i.uv - delta;
@@ -116,13 +116,13 @@ Shader "PostProcessing/AO/SSAO"
 		float3 normal2a = GetNormal(uv2a);
 		float3 normal2b = GetNormal(uv2b);
 		
-		float4 col =   SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, uv);
-		float4 col0a = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, uv0a);
-		float4 col0b = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, uv0b);
-		float4 col1a = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, uv1a);
-		float4 col1b = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, uv1b);
-		float4 col2a = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, uv2a);
-		float4 col2b = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, uv2b);
+		float4 col =   SAMPLE_TEXTURE2D(_AOTex, sampler_AOTex, uv);
+		float4 col0a = SAMPLE_TEXTURE2D(_AOTex, sampler_AOTex, uv0a);
+		float4 col0b = SAMPLE_TEXTURE2D(_AOTex, sampler_AOTex, uv0b);
+		float4 col1a = SAMPLE_TEXTURE2D(_AOTex, sampler_AOTex, uv1a);
+		float4 col1b = SAMPLE_TEXTURE2D(_AOTex, sampler_AOTex, uv1b);
+		float4 col2a = SAMPLE_TEXTURE2D(_AOTex, sampler_AOTex, uv2a);
+		float4 col2b = SAMPLE_TEXTURE2D(_AOTex, sampler_AOTex, uv2b);
 		
 		half w = 0.37004405286;
 		half w0a = CompareNormal(normal, normal0a) * 0.31718061674;

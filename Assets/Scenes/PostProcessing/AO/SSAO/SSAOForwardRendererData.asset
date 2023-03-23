@@ -21,7 +21,7 @@ MonoBehaviour:
     Radius: 0.5
     EdgeCheck: 0.5
     aoInt: 1
-    BlurRadius: 2
+    BlurRadius: 1
     BilaterFilterStrength: 0.2
 --- !u!114 &11400000
 MonoBehaviour:

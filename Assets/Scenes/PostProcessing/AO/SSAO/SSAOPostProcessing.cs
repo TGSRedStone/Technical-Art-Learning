@@ -56,7 +56,7 @@ public class SSAOPostProcessing : ScriptableRendererFeature
         private RenderTargetIdentifier source { get; set; }
         private RenderTargetIdentifier dest { get; set; }
 
-        private RenderTargetHandle tempColorTex;
+        private RenderTargetHandle AO_Tex;
 
         private string profilerTag;
 
@@ -100,7 +100,7 @@ public class SSAOPostProcessing : ScriptableRendererFeature
         {
             RenderTextureDescriptor opaqueDesc = renderingData.cameraData.cameraTargetDescriptor;
             opaqueDesc.depthBufferBits = 0;
-            cmd.GetTemporaryRT(tempColorTex.id, opaqueDesc);
+            cmd.GetTemporaryRT(AO_Tex.id, opaqueDesc);
             cmd.SetGlobalTexture(mainTexId, source);
             
             Matrix4x4 vp_Matrix = renderingData.cameraData.camera.projectionMatrix * renderingData.cameraData.camera.worldToCameraMatrix; 
@@ -113,11 +113,12 @@ public class SSAOPostProcessing : ScriptableRendererFeature
             material.SetFloat("_BilaterFilterFactor", 1.0f - settings.BilaterFilterStrength);
             material.SetFloat("_BlurRadius", settings.BlurRadius);
 
-            cmd.Blit(source, tempColorTex.Identifier(), material, 0);
-            cmd.Blit(tempColorTex.Identifier(), dest, material, 1);
-
-            // cmd.Blit(dest, source, material, 2);
-            // cmd.Blit(tempColorTex.Identifier(), dest);
+            cmd.Blit(source, AO_Tex.Identifier(), material, 0);
+            cmd.SetGlobalTexture("_AOTex", AO_Tex.Identifier());
+            cmd.Blit(AO_Tex.Identifier(), AO_Tex.Identifier(), material, 1);
+            cmd.SetGlobalTexture("_AOTex", AO_Tex.Identifier());
+            cmd.Blit(source, dest, material, 2);
+            cmd.ReleaseTemporaryRT(AO_Tex.id);
         }
     }
 }
