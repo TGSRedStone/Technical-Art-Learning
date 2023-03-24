@@ -115,6 +115,8 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _AtmosphereThickness: 1
+    - _AuroraSpeed: 0.25
+    - _AuroraStrength: 0.3
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -163,10 +165,12 @@ Material:
     - _SunPower: 6
     - _SunSize: 0.07
     - _SunSizeConvergence: 5
+    - _SurAuroraColFactor: 0.4
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - _AuroraColor: {r: 0.07477799, g: 0.2952351, b: 0.363, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CloudColor: {r: 1, g: 0, b: 0, a: 1}
     - _CloudColor1: {r: 1, g: 1, b: 1, a: 1}

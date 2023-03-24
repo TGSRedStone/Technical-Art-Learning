@@ -95,7 +95,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ColorGradient/PolarCoordinatesHSV.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/Shapes1.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/Box.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/DotCircular.shader" />
@@ -146,6 +145,7 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAO.hlsl" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAO.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAOPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/ProceduralSkyBox.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -300,6 +300,7 @@
       <workItem from="1669200556189" duration="13441000" />
       <workItem from="1669257444923" duration="17680000" />
       <workItem from="1679548174954" duration="7123000" />
+      <workItem from="1679634439311" duration="2075000" />
     </task>
     <servers />
   </component>
