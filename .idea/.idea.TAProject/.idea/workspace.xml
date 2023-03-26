@@ -33,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/LitShader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/E3172273-1037-4C8D-8FFE-E1CE96F1C5B7/28/331334c7/02000003pdb.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EDEF46C9-B2DB-4B87-8C98-495BFDC516FA/93/6dd412e5/DirectoryInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/UseDepthAndNormalOutLine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/BubbleShield.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/ScriptableRenderPass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAOPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,6 +67,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Lighting.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EDEF46C9-B2DB-4B87-8C98-495BFDC516FA/80/4b98e0a7/Math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0783DE0-DFDA-4D3A-9D14-E718139E2D0D/18/5e9c0b07/ScriptableRenderPassInput.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/ChinesePaintingOutLine/ChinesePaintingOutLine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/1d/52aefefb/ComputeBufferType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/SurfaceInput.hlsl" root0="SKIP_HIGHLIGHTING" />
@@ -95,10 +97,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/Shapes1.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/Box.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/DotCircular.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/SDF1.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/SmoothStepCircular.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/Circular.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/StepCircular.shader" />
@@ -146,6 +144,10 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAO.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAOPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/ProceduralSkyBox.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/UseDepthAndNormalOutLine.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/UseDepthAndNormalOutLine.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/ChinesePaintingOutLine/ChinesePaintingOutLine.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/ChinesePaintingOutLine/ChinesePaintingOutLine.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -300,7 +302,11 @@
       <workItem from="1669200556189" duration="13441000" />
       <workItem from="1669257444923" duration="17680000" />
       <workItem from="1679548174954" duration="7123000" />
-      <workItem from="1679634439311" duration="2075000" />
+      <workItem from="1679634439311" duration="2732000" />
+      <workItem from="1679641253371" duration="5661000" />
+      <workItem from="1679649746647" duration="876000" />
+      <workItem from="1679741701494" duration="6477000" />
+      <workItem from="1679825635744" duration="3406000" />
     </task>
     <servers />
   </component>
