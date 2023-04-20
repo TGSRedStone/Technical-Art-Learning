@@ -73,6 +73,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/SurfaceInput.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/E3172273-1037-4C8D-8FFE-E1CE96F1C5B7/14/8ad09c60/02000067pdb.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.1.0/Unity.Mathematics/int2.gen.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTex.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0783DE0-DFDA-4D3A-9D14-E718139E2D0D/77/751a4b26/IPostProcessComponent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Input.hlsl" root0="SKIP_HIGHLIGHTING" />
@@ -97,11 +98,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/SmoothStepCircular.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/Circular.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/StepCircular.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/SDF3.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/SDF2.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/CircularGraphics.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/BoxGraphics.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Matrix/Scale.shader" />
@@ -148,6 +144,11 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/UseDepthAndNormalOutLine.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/ChinesePaintingOutLine/ChinesePaintingOutLine.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/ChinesePaintingOutLine/ChinesePaintingOutLine.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/PlanarReflections.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/PlanarReflections.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Wireframe/BaseURPShader 1.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Wireframe/Wireframe.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Tessellation/Tessellation.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -306,7 +307,12 @@
       <workItem from="1679641253371" duration="5661000" />
       <workItem from="1679649746647" duration="876000" />
       <workItem from="1679741701494" duration="6477000" />
-      <workItem from="1679825635744" duration="3406000" />
+      <workItem from="1679825635744" duration="4679000" />
+      <workItem from="1680072415893" duration="245000" />
+      <workItem from="1680425846624" duration="145000" />
+      <workItem from="1681803727570" duration="2258000" />
+      <workItem from="1681899990615" duration="1982000" />
+      <workItem from="1681969731804" duration="3427000" />
     </task>
     <servers />
   </component>

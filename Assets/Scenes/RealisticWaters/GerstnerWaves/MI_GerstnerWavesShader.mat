@@ -43,7 +43,7 @@ Material:
     - _Steepness: 1
     - _Stepness: 0.691
     - _TopFoamSpeed: 2
-    - _WaveHeight: 1.3
+    - _WaveHeight: 1.5
     - _WaveLength: 0.43
     - _WaveSpeed: 1
     m_Colors:
