@@ -98,8 +98,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/CircularGraphics.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Shapes/BoxGraphics.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/Matrix/Scale.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping13.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping1.shader" />
@@ -149,6 +147,8 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Wireframe/BaseURPShader 1.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Wireframe/Wireframe.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Tessellation/Tessellation.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Tessellation/BaseTessellation/BaseTessellation.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Tessellation/TessellationWithWireframe/TessellationWithWireframe.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -312,7 +312,7 @@
       <workItem from="1680425846624" duration="145000" />
       <workItem from="1681803727570" duration="2258000" />
       <workItem from="1681899990615" duration="1982000" />
-      <workItem from="1681969731804" duration="3427000" />
+      <workItem from="1681969731804" duration="7962000" />
     </task>
     <servers />
   </component>

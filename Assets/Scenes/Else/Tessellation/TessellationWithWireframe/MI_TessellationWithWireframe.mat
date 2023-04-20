@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MI_Tessellation
+  m_Name: MI_TessellationWithWireframe
   m_Shader: {fileID: 4800000, guid: 7227111fadda8a0428edbad7f86ed0e1, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -24,6 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _TessellationUniform: 1
     - _WireframeSmoothing: 1
     - _WireframeThickness: 1
     m_Colors:
