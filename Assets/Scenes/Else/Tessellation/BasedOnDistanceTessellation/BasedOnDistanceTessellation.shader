@@ -1,4 +1,4 @@
-﻿Shader "Else/Tessellation/TessellationWithWireframe"
+﻿Shader "Else/Tessellation/BasedOnDistanceTessellation"
 {
     Properties
     {
@@ -6,6 +6,8 @@
         _Color ("Color", color) = (1, 1, 1, 1)
     	
     	_TessellationUniform("Tessellation Uniform", Range(1, 64)) = 1
+    	_MaxTessDistance("Max Tess Distance", Range(1, 32)) = 20
+        _MinTessDistance("Min Tess Distance", Range(1, 32)) = 1
         
         _WireframeColor ("Wireframe Color", color) = (0, 0, 0)
         _WireframeSmoothing ("Wireframe Smoothing", range(0, 10)) = 1
@@ -33,6 +35,9 @@
             float4 _WireframeColor;
             float _WireframeSmoothing;
             float _WireframeThickness;
+            float _TessellationUniform;
+            float _MaxTessDistance;
+            float _MinTessDistance;
             CBUFFER_END
 
             TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
@@ -83,16 +88,27 @@
             	o.uv = v.uv;
             	return o;
             }
-			
-			float _TessellationUniform;
+
+            float CalcDistanceTessFactor(float4 vertex, float minDist, float maxDist, float tess)
+            {
+                float3 worldPosition = TransformObjectToWorld(vertex.xyz);
+                float dist = distance(worldPosition,  GetCameraPositionWS());
+                float f = clamp(1.0 - (dist - minDist) / (maxDist - minDist), 0.01, 1.0) * tess;
+                return (f);
+            }
 			
 			TessellationFactors patchConstantFunction (InputPatch<tessInput, 3> patch)
 			{
 				TessellationFactors f;
-				f.edge[0] = _TessellationUniform;
-				f.edge[1] = _TessellationUniform;
-				f.edge[2] = _TessellationUniform;
-				f.inside = _TessellationUniform;
+
+            	float edge0 = CalcDistanceTessFactor(patch[0].vertex, _MinTessDistance, _MaxTessDistance, _TessellationUniform);
+                float edge1 = CalcDistanceTessFactor(patch[1].vertex, _MinTessDistance, _MaxTessDistance, _TessellationUniform);
+                float edge2 = CalcDistanceTessFactor(patch[2].vertex, _MinTessDistance, _MaxTessDistance, _TessellationUniform);
+            	
+				f.edge[0] = (edge1 + edge2) / 2;
+                f.edge[1] = (edge2 + edge0) / 2;
+                f.edge[2] = (edge0 + edge1) / 2;
+                f.inside = (edge0 + edge1 + edge2) / 3;
 				return f;
 			}
 			
