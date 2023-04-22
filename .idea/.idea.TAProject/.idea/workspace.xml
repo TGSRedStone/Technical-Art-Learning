@@ -28,6 +28,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/dc/9c8ad4b0/Matrix4x4.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Else/AtmosphericScattering/AtmosphericScatteringPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/BakedLitShader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BloomPostProcessingVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cartoon/ShakeBottle/Wobble.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/SimpleLitShader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/LitShader.cs" root0="SKIP_HIGHLIGHTING" />
@@ -74,9 +75,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/E3172273-1037-4C8D-8FFE-E1CE96F1C5B7/14/8ad09c60/02000067pdb.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.1.0/Unity.Mathematics/int2.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BloomPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTex.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0783DE0-DFDA-4D3A-9D14-E718139E2D0D/77/751a4b26/IPostProcessComponent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Input.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/b2/256fb1a4/CommandBuffer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/SurfaceData.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ScriptableRendererDataEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Color.hlsl" root0="SKIP_HIGHLIGHTING" />
@@ -98,11 +101,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping13.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping1.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping10.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping11.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping12.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping14.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping15.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping16.shader" />
@@ -149,6 +147,11 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Tessellation/BaseTessellation/BaseTessellation.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Tessellation/TessellationWithWireframe/TessellationWithWireframe.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Tessellation/BasedOnDistanceTessellation/BasedOnDistanceTessellation.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BokehBlur 1.shader" />
+      <option value="$PROJECT_DIR$/../../../../工程项目/shader学习之旅/Assets/Shaders/Bloom.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BloomPostProcessingVolume.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/Bloom.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BloomPostProcessing.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -314,6 +317,10 @@
       <workItem from="1681899990615" duration="1982000" />
       <workItem from="1681969731804" duration="8884000" />
       <workItem from="1681986475545" duration="1582000" />
+      <workItem from="1682051973777" duration="13069000" />
+      <workItem from="1682080051163" duration="930000" />
+      <workItem from="1682081010744" duration="9000" />
+      <workItem from="1682141533449" duration="8829000" />
     </task>
     <servers />
   </component>
