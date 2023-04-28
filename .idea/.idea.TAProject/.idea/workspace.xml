@@ -101,8 +101,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping14.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping15.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping16.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping2.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/TheBookOfShaders/ShapingFunctions/Shaping3.shader" />
@@ -152,6 +150,8 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BloomPostProcessingVolume.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/Bloom.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BloomPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/FacialShadow/FacialShadow.shader" />
+      <option value="$PROJECT_DIR$/Assets/Shaders/ShowVertexColor.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -320,7 +320,14 @@
       <workItem from="1682051973777" duration="13069000" />
       <workItem from="1682080051163" duration="930000" />
       <workItem from="1682081010744" duration="9000" />
-      <workItem from="1682141533449" duration="10179000" />
+      <workItem from="1682141533449" duration="11354000" />
+      <workItem from="1682160905991" duration="4011000" />
+      <workItem from="1682320375583" duration="4600000" />
+      <workItem from="1682398323216" duration="5718000" />
+      <workItem from="1682404821996" duration="2231000" />
+      <workItem from="1682419187791" duration="5721000" />
+      <workItem from="1682504904295" duration="7997000" />
+      <workItem from="1682569573786" duration="2179000" />
     </task>
     <servers />
   </component>
