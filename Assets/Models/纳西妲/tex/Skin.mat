@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _LightMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 30f8e1c159e3a6048936b07c553f466e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -31,12 +31,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MetalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NormalTex:
         m_Texture: {fileID: 2800000, guid: a23ab32554ca4494796c8f89a790949e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadowRamp:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: d1d8cf6af323a8e46b559b89148a94fd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ToonTex:
@@ -44,10 +48,13 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Alpha: 1
     - _BlinnPhongPower: 50
     - _DiffColorFac: 0.5
     - _DiffuseColorFac: 1
     - _DiffuseTexFac: 1
+    - _KsMetallic: 1
+    - _KsNonMetallic: 1
     - _MatcapMullAdd: 0
     - _MatcapTexFac: 0.5
     - _Pass: 0

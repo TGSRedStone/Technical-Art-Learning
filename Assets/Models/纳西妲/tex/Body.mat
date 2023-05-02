@@ -31,6 +31,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MetalTex:
+        m_Texture: {fileID: 2800000, guid: aec82fb6faee1cc41976a649cae96f6c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NormalTex:
         m_Texture: {fileID: 2800000, guid: a23ab32554ca4494796c8f89a790949e, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -44,10 +48,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Alpha: 1
     - _BlinnPhongPower: 50
     - _DiffColorFac: 0.5
     - _DiffuseColorFac: 1
     - _DiffuseTexFac: 1
+    - _DoubleSide: 0
+    - _KsMetallic: 1
+    - _KsNonMetallic: 0.5
     - _MatcapMullAdd: 0
     - _MatcapTexFac: 0.5
     - _Pass: 0
@@ -56,6 +64,8 @@ Material:
     - _RampTexRow2: 3
     - _RampTexRow3: 5
     - _RampTexRow4: 2
+    - _StencilComp: 8
+    - _StencilRef: 0
     - _ToonTexFac: 1
     - _matcapMullAdd: 1
     m_Colors:

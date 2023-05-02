@@ -68,6 +68,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MetalTex:
+        m_Texture: {fileID: 2800000, guid: aec82fb6faee1cc41976a649cae96f6c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -109,6 +113,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Alpha: 1
     - _AlphaClip: 0
     - _Blend: 0
     - _BlinnPhongPower: 50
@@ -122,11 +127,14 @@ Material:
     - _DiffColorFac: 0.5
     - _DiffuseColorFac: 1
     - _DiffuseTexFac: 1
+    - _DoubleSide: 0
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _KsMetallic: 1
+    - _KsNonMetallic: 0.5
     - _MatcapMullAdd: 0
     - _MatcapTexFac: 0
     - _Metallic: 0
@@ -135,17 +143,19 @@ Material:
     - _Pass: 0
     - _QueueOffset: 0
     - _RampTexRow0: 1
-    - _RampTexRow1: 5
-    - _RampTexRow2: 1
+    - _RampTexRow1: 4
+    - _RampTexRow2: 3
     - _RampTexRow3: 5
-    - _RampTexRow4: 3
+    - _RampTexRow4: 2
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _StencilComp: 0
+    - _StencilRef: 0
     - _Surface: 0
-    - _ToonTexFac: 0
+    - _ToonTexFac: 1
     - _WorkflowMode: 1
     - _ZWrite: 1
     - _matcapMullAdd: 1

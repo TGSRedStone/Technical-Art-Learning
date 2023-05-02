@@ -69,7 +69,7 @@
     <splitMeshNoShadowCastingFlag>1</splitMeshNoShadowCastingFlag>
     <sameVertexLength>0</sameVertexLength>
     <edgeStretchEnabled>0</edgeStretchEnabled>
-    <sameVertexLengthEdgeStretch>0.001</sameVertexLengthEdgeStretch>
+    <sameVertexLengthEdgeStretch>0.0010000000474974513</sameVertexLengthEdgeStretch>
     <rotationOrderToZXY>1</rotationOrderToZXY>
     <enableFBXTexture>0</enableFBXTexture>
     <exportFBXFormat />
@@ -180,5 +180,7 @@
       <selfShadowEnabled>true</selfShadowEnabled>
       <sphereMapEnabled>true</sphereMapEnabled>
     </materialGlobalProperty>
+    <materialProperyList />
+    <materialBlockPropertyList />
   </mmd4MecanimProperty>
 </PMX2FBXConfig>

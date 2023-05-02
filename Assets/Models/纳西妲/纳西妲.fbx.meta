@@ -2,7 +2,14 @@ fileFormatVersion: 2
 guid: 3f2bf2768402abb478d1a52b4ed29935
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: 6688586335057350514
+    second: "TAProject/Assets/Models/\u7EB3\u897F\u59B2/\u4E82MMD\u510C\u4E55\u50D4\u5111\u511E\u4E83Tell
+      Your World\u4E82\u5117\u50BE\u689D\u4E83_vmd"
+  - first:
+      74: 8940922489345524093
+    second: "\u4E82MMD\u510C\u4E55\u50D4\u5111\u511E\u4E83Tell Your World\u4E82\u5117\u50BE\u689D\u4E83_vmd"
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -145,7 +152,37 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: "\u4E82MMD\u510C\u4E55\u50D4\u5111\u511E\u4E83Tell Your World\u4E82\u5117\u50BE\u689D\u4E83_vmd"
+      takeName: "TAProject/Assets/Models/\u7EB3\u897F\u59B2/\u4E82MMD\u510C\u4E55\u50D4\u5111\u511E\u4E83Tell
+        Your World\u4E82\u5117\u50BE\u689D\u4E83_vmd"
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 2155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -203,13 +240,13 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
