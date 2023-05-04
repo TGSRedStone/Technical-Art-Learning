@@ -83,7 +83,7 @@ Material:
     - _ToonTexFac: 1
     m_Colors:
     - _DiffColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ForwardVector: {r: 0, g: -0.00000019684505, b: 1, a: 0}
+    - _ForwardVector: {r: 7.8404774e-13, g: -0.00000020553341, b: 1, a: 0}
     - _RightVector: {r: 1, g: 0, b: 0, a: 0}
     - _ShadowColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
