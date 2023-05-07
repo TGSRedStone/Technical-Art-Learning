@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
   m_Name: ForwardRendererData
   m_EditorClassIdentifier: 
-  m_RendererFeatures:
-  - {fileID: 2630075100948974154}
-  m_RendererFeatureMap: 4acaa99c5ee77f24
+  m_RendererFeatures: []
+  m_RendererFeatureMap: 
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   shaders:
@@ -43,28 +42,3 @@ MonoBehaviour:
   m_ShadowTransparentReceive: 1
   m_RenderingMode: 0
   m_AccurateGbufferNormals: 0
---- !u!114 &2630075100948974154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 988a9f479399e5e48a3f9c365bbcc06b, type: 3}
-  m_Name: NewOutLineRenderFeature
-  m_EditorClassIdentifier: 
-  m_Active: 1
-  Event: 300
-  filterSettings:
-    renderQueueType: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 448
-    renderingLayerMask: 1
-  material: {fileID: 2100000, guid: d0470f1cd0a8d484ea43a0137bc32eee, type: 2}
-  passes: 00000000
-  overrideDepthState: 0
-  depthCompareFunction: 4
-  enableWrite: 1

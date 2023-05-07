@@ -1,27 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8117603412341067714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a384fb2c3d0a0844bc44d68fc935388, type: 3}
-  m_Name: NewUseDepthAndNormalOutLine
-  m_EditorClassIdentifier: 
-  m_Active: 1
-  Settings:
-    Event: 550
-    Shader: {fileID: 4800000, guid: 668fe2d71e3dcf74c91f068c2214f280, type: 3}
-    scale: 4
-    depthThreshold: 0.2
-    normalThreshold: 0.4
-    depthNormalThreshold: 0.5
-    depthNormalThresholdScale: 7
-    color: {r: 0, g: 0, b: 0, a: 0.4}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
-  m_Name: UseDepthAndNormalOutLineForwardRendererData
+  m_Name: RenderObjectOutLineForwardRendererData
   m_EditorClassIdentifier: 
   m_RendererFeatures:
-  - {fileID: -8117603412341067714}
-  m_RendererFeatureMap: 3e70e993b47a588f
+  - {fileID: 4739442287797925495}
+  m_RendererFeatureMap: 77f6a86da6e1c541
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   shaders:
@@ -65,3 +43,28 @@ MonoBehaviour:
   m_ShadowTransparentReceive: 1
   m_RenderingMode: 0
   m_AccurateGbufferNormals: 0
+--- !u!114 &4739442287797925495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 988a9f479399e5e48a3f9c365bbcc06b, type: 3}
+  m_Name: NewOutLineRenderFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  Event: 300
+  filterSettings:
+    renderQueueType: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 1
+    renderingLayerMask: 1
+  material: {fileID: 2100000, guid: 1dd9c293991168f43842753daa726e4a, type: 2}
+  passes: 00000000
+  overrideDepthState: 0
+  depthCompareFunction: 4
+  enableWrite: 1

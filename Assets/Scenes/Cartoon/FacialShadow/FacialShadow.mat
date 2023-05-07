@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PlanarReflections
-  m_Shader: {fileID: 4800000, guid: a53e1c2de32407340b1c6600628668b6, type: 3}
+  m_Name: FacialShadow
+  m_Shader: {fileID: 4800000, guid: 435ef40d64c4d2747a38df8829e3514d, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,13 +19,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: f159f1dc9e95c184faf785ec9746d9c9, type: 3}
+    - _FaceShadow:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ReflectDistortInt: 0
-    - _XSpeed: 0
-    - _YSpeed: 0
-    m_Colors: []
+    - _SDF:
+        m_Texture: {fileID: 2800000, guid: 1ab7665197383c743b38691a8522cc8d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _ForwardVector: {r: 0, g: 0, b: 1, a: 0}
+    - _RightVector: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

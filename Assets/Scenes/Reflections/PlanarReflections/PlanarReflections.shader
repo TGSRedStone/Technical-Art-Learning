@@ -3,7 +3,7 @@
     Properties
     {
 //        _ReflectDistortInt ("ReflectDistortInt", float) = 1
-        _NoiseTex ("NoiseTex", 2d) = "white" {}
+        _NoiseTex ("NoiseTex", 2d) = "black" {}
         _XSpeed ("XSpeed", range(-1, 1)) = 0
         _YSpeed ("YSpeed", range(-1, 1)) = 0
     }
@@ -51,7 +51,7 @@
             {
                 v2f o;
                 o.vertex = TransformObjectToHClip(v.vertex.xyz);
-                o.uv = v.uv * _NoiseTex_ST.xy;
+                o.uv = TRANSFORM_TEX(v.uv, _NoiseTex);
                 o.uv += float2(_XSpeed, _YSpeed) * _Time.x;
                 o.screenPos = ComputeScreenPos(o.vertex);
                 // o.worldNormal = TransformObjectToWorldNormal(v.normal);
@@ -65,7 +65,7 @@
                 // float3 worldNormal = normalize(i.worldNormal);
                 // float3 worldViewDir = normalize(i.worldViewDir);
                 // float NdotV = saturate(dot(worldNormal, worldViewDir));
-                half noise = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, i.uv).r - 0.5;
+                half noise = SAMPLE_TEXTURE2D(_NoiseTex, sampler_NoiseTex, i.uv).r;
                 half4 reflect = SAMPLE_TEXTURE2D(_PlanarReflectionTexture, sampler_PlanarReflectionTexture, i.screenPos.xy / i.screenPos.w + noise * 0.1);
                 return reflect;
             }

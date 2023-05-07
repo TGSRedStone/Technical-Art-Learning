@@ -2,11 +2,9 @@
 {
     Properties
     {
-        _MainTex ("MainTex", 2d) = "white" {}
-        _IlmTex ("IlmTex", 2d) = "white" {}
-        _Color ("Color", color) = (1, 1, 1, 1)
-        _ShadowColor ("ShadowColor", color) = (0, 0, 0, 1)
-        _LerpMax ("LerpMax", float) = 1
+        [NoScaleOffset]_SDF ("SDF", 2d) = "white" {}
+        _ForwardVector ("ForwardVector", vector) = (0, 0, 1, 0)
+        _RightVector ("RightVector", vector) = (1, 0, 0, 0)
     }
     SubShader
     {
@@ -21,14 +19,11 @@
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 
             CBUFFER_START(UnityPerMaterial)
-            float4 _MainTex_ST;
-            float4 _Color;
-            float4 _ShadowColor;
-            float _LerpMax;
+            float4 _ForwardVector;
+            float4 _RightVector;
             CBUFFER_END
 
-            TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
-            TEXTURE2D(_IlmTex); SAMPLER(sampler_IlmTex);
+            TEXTURE2D(_SDF); SAMPLER(sampler_SDF);
 
             struct appdata
             {
@@ -52,32 +47,27 @@
 
             float4 frag (v2f i) : SV_Target
             {
-                float isSahdow = 0;
-                float3 diffuse = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, i.uv);
+                float3 worldLight = normalize(_MainLightPosition.xyz);
+                float3 forwardVector = _ForwardVector;
+                float3 rightVector = _RightVector;
+                float3 upVector = cross(forwardVector, rightVector);
+                float3 LightProjectionUp = dot(worldLight, upVector) / pow(length(upVector), 2) * upVector;
+                float3 LpHeadHorizon = worldLight - LightProjectionUp;
                 
-                half4 shadowL = SAMPLE_TEXTURE2D(_IlmTex, sampler_IlmTex, i.uv);
-                half4 shadowR = SAMPLE_TEXTURE2D(_IlmTex, sampler_IlmTex, float2(1 - i.uv.x, i.uv.y));
-                 float3 UP = float3(0,1,0);
-                // float2 Left = normalize(TransformObjectToWorldDir(float3(1, 0, 0)).xz);	//世界空间角色正左侧方向向量
-                // float2 Front = normalize(TransformObjectToWorldDir(float3(0, 0, 1)).xz);
-                float3 Front = float3(0,0,1);
-    float3 Left = cross(UP, Front);
-                float3 lightDir = normalize(float3(-_MainLightPosition.x, 0, -_MainLightPosition.z));
-
-                float lightAtten = 1 - (dot(lightDir, Front) * 0.5 + 0.5);
-                float filpU = sign(dot(lightDir, Left));
-                float ilm = filpU > 0 ? shadowL.r : shadowR.r;//确定采样的贴图
-                isSahdow = step(ilm, lightAtten);
-                float bias = smoothstep(0, _LerpMax, abs(lightAtten - ilm));
-                if (lightAtten > 0.99 || isSahdow == 1)
-                    diffuse = lerp(diffuse , diffuse * _ShadowColor.xyz ,bias);
-                // float3 shaodwRamp = tex2D(_ShaodwRamp, i.uv * float2(filpU, 1));
+                float pi = 3.14159265358979323846;
+                float value = acos(dot(normalize(LpHeadHorizon), normalize(rightVector))) / pi;
+                float exposeRight = step(value, 0.5);
                 
-                // float faceShadow = step(lightAtten, shaodwRamp.r);
-
+                float valueR = pow(1 - value * 2, 3);
+                float valueL = pow(value * 2 - 1, 3);
+                float mixValue = lerp(valueL, valueR, exposeRight);
                 
-                return float4(diffuse, 1);
-
+                float sdfLeft = SAMPLE_TEXTURE2D(_SDF, sampler_SDF, float2(1 - i.uv.x, i.uv.y)).r;
+                float sdfRight = SAMPLE_TEXTURE2D(_SDF, sampler_SDF, i.uv).r;
+                float mixSdf = lerp(sdfRight, sdfLeft, exposeRight);
+                float sdf = step(mixValue, mixSdf);
+                sdf = lerp(0, sdf, step(0, dot(normalize(LpHeadHorizon), normalize(forwardVector))));
+                return sdf;
             }
             ENDHLSL
         }

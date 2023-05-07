@@ -2,11 +2,11 @@ using System;
 using UnityEngine.Experimental.Rendering;
 using UnityEngine.Serialization;
 using Unity.Mathematics;
+using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
-
-namespace UnityEngine.Rendering.Universal
-{
-    [ExecuteAlways]
+[ExecuteAlways]
     public class PlanarReflections : MonoBehaviour
     {
         [Serializable]
@@ -72,7 +72,7 @@ namespace UnityEngine.Rendering.Universal
             }
         }
 
-        private static void SafeDestroy(Object obj)
+        private static void SafeDestroy(GameObject obj)
         {
             if (Application.isEditor)
             {
@@ -296,4 +296,3 @@ namespace UnityEngine.Rendering.Universal
             }
         }
     }
-}

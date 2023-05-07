@@ -285,7 +285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CloudCount: 100
   CloudHeight: 50
-  CloudMesh: {fileID: -8023080413318814639, guid: 1cc34d3413f37e14cadf6420baa3e53e, type: 3}
+  CloudMesh: {fileID: 4300000, guid: 3be9c8d549c7e4907a8eeb6a5476a60f, type: 2}
   CloudMaterial: {fileID: 2100000, guid: 38e9a8489fb3681419555ca60e93f434, type: 2}
   layer: 1
   useGpuInstancing: 0
