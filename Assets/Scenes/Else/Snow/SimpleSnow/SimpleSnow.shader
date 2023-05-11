@@ -138,7 +138,7 @@
 #endif
                 //差值金属和光滑度
                 _Metallic = lerp(_Metallic, 0, snowLerp);
-                float snowSmooth = SAMPLE_TEXTURE2D(_SnowRoughnessTex, sampler_SnowRoughnessTex, i.uv);
+                float snowSmooth = 1 - SAMPLE_TEXTURE2D(_SnowRoughnessTex, sampler_SnowRoughnessTex, i.uv).r;
                 _Smooth = lerp(_Smooth, snowSmooth, snowLerp);                
 
                 float perceptualRoughness = 1.0 - _Smooth;
