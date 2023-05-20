@@ -1,9 +1,11 @@
-﻿Shader "Else/StippleTransparency/StippleTransparency"
+﻿Shader "Else/StippleTransparency/StippleTransparencyWithDistance"
 {
     Properties
     {
         _MainTex ("MainTex", 2d) = "white" {}
         _Color ("Color", color) = (1, 1, 1, 1)
+        _Near ("Near", float) = 1
+        _Far ("Far", float) = 10
     }
     SubShader
     {
@@ -21,6 +23,8 @@
             float4 _MainTex_ST;
             float4 _Color;
             float _Alpha;
+            float _Near;
+            float _Far;
             CBUFFER_END
 
             TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
@@ -36,6 +40,7 @@
                 float2 uv : TEXCOORD0;
                 float4 vertex : SV_POSITION;
                 float4 screenPos : TEXCOORD1;
+                float3 worldPos : TEXCOORD2;
             };
 
             v2f vert (appdata v)
@@ -44,11 +49,14 @@
                 o.vertex = TransformObjectToHClip(v.vertex.xyz);
                 o.uv = v.uv;
                 o.screenPos = ComputeScreenPos(o.vertex);
+                o.worldPos = TransformObjectToWorld(o.vertex);
                 return o;
             }
 
             float4 frag (v2f i) : SV_Target
             {
+                float DistanceRamp = distance(i.worldPos, _WorldSpaceCameraPos.xyz);
+                DistanceRamp = smoothstep(_Near, _Far, DistanceRamp);
                 //https://digitalrune.github.io/DigitalRune-Documentation/html/fa431d48-b457-4c70-a590-d44b0840ab1e.htm
                 /*With 4 x 4 threshold values, it is possible to create 17 states: visible, invisible, and 15 patterns in between. The result is shown in the image above.
                 //The threshold matrix used in this example is the same matrix as used by ordered dithering [1]. It is also known as index matrix or Bayer matrix. Dither
@@ -64,8 +72,13 @@
                 float4x4 _RowAccess = {1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1};
                 float2 pos = i.screenPos.xy / i.screenPos.w;
                 pos *= _ScreenParams.xy;
-                clip(_Color.a - thresholdMatrix[fmod(pos.x, 4)] * _RowAccess[fmod(pos.y, 4)]);
+                //高度渐变
+			    //float HightRamp = 1 - smoothstep(_FogLow, _FogHight, i.WordPos.y);
+			    //保留地面
+			    //DistanceRamp = saturate( DistanceRamp + HightRamp);
+                clip(_Color.a * DistanceRamp - thresholdMatrix[fmod(pos.x, 4)] * _RowAccess[fmod(pos.y, 4)]);
                 float4 col = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, i.uv) * _Color;
+                col *= pow(DistanceRamp, 5);
                 return col;
             }
             ENDHLSL
