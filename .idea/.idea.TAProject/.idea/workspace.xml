@@ -64,6 +64,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/72/d08f3383/Camera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/04/75434598/RenderTargetIdentifier.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Tool/CreateCubeMap/Editor/CreateCubeMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/Runtime/Common/CommandBufferPool.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/54/6a7da24e/SystemInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/280FB357-6F92-435F-94E4-9DF9A35167BB/cd/1a0b1e8a/ShaderGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0783DE0-DFDA-4D3A-9D14-E718139E2D0D/3d/11905e8c/RenderQueueType.cs" root0="SKIP_HIGHLIGHTING" />
@@ -76,6 +77,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Lighting.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EDEF46C9-B2DB-4B87-8C98-495BFDC516FA/80/4b98e0a7/Math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/OutLineRenderFeature.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFurRenderFeature.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/1d/52aefefb/ComputeBufferType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/SurfaceInput.hlsl" root0="SKIP_HIGHLIGHTING" />
@@ -112,9 +114,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Wireframe/BaseURPShader 1.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Wireframe/Wireframe.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Tessellation/Tessellation.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Tessellation/BaseTessellation/BaseTessellation.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Tessellation/TessellationWithWireframe/TessellationWithWireframe.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Tessellation/BasedOnDistanceTessellation/BasedOnDistanceTessellation.shader" />
@@ -163,6 +162,9 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Snow/SimpleSnowMaterial/SimpleSnow.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRShader.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Snow/SimpleSnow/SimpleSnow.shader" />
+      <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/RenderObjectsPass.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFurRenderFeature.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFur.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -350,7 +352,9 @@
       <workItem from="1683391217251" duration="8274000" />
       <workItem from="1683449371497" duration="5238000" />
       <workItem from="1683796423408" duration="6404000" />
-      <workItem from="1683817582247" duration="1771000" />
+      <workItem from="1683817582247" duration="7411000" />
+      <workItem from="1684571025733" duration="10104000" />
+      <workItem from="1684597877615" duration="9055000" />
     </task>
     <servers />
   </component>
