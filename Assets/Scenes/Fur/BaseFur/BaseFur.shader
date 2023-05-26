@@ -4,6 +4,7 @@
     {
         _MainTex ("MainTex", 2D) = "white" {}
         _FurMask ("FurMask", 2d) = "white" {}
+        _DataTex ("DataTex", 2d) = "black" {}
         
         _Color ("Color", color) = (1, 1, 1, 1)
         _Specular ("Specular", color) = (0, 0, 0, 1)
@@ -124,6 +125,7 @@
 
             TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
             TEXTURE2D(_FurMask); SAMPLER(sampler_FurMask);
+            TEXTURE2D(_DataTex); SAMPLER(sampler_DataTex);
 
             struct appdata
             {
@@ -143,7 +145,12 @@
             v2f vert (appdata v)
             {
                 v2f o;
-                float3 p = v.vertex.xyz + v.normal * _FurLength * _FurStep;
+                #if !defined(SHADER_API_OPENGL)
+                    float dataLength = SAMPLE_TEXTURE2D_LOD(_DataTex, sampler_DataTex, v.uv.xy,0).r;
+                    float3 p = v.vertex.xyz + v.normal * _FurLength * (0.99 - dataLength) * _FurStep;
+                #else
+                    float3 p = v.vertex.xyz + v.normal * _FurLength * _FurStep;
+                #endif
                 p += clamp(mul(unity_WorldToObject, _ForceGlobal).xyz + _ForceLocal.xyz, -1, 1) * pow(_FurStep, 3) * _FurLength;
                 o.vertex = TransformObjectToHClip(p);
                 o.uv.xy = TRANSFORM_TEX(v.uv, _MainTex);
@@ -170,8 +177,8 @@
                 float3 specular = _MainLightColor.rgb * _Specular.rgb * pow(saturate(dot(worldNormal, worldHalf)), _Shininess);
             
                 float3 color = ambient + diffuse + specular + _RimColor.rgb * pow(rim, _RimPower);
-                float mask = SAMPLE_TEXTURE2D(_FurMask, sampler_FurMask, i.uv.zw * _FurThinness).r;
-                float alpha = clamp(mask - (_FurStep * _FurStep) * _FurDensity, 0, 1);
+                float alpha = SAMPLE_TEXTURE2D(_FurMask, sampler_FurMask, i.uv.zw).r;
+                alpha = saturate((alpha * 2 - (_FurStep * _FurStep)) * _FurDensity);
 
                 return float4(color, alpha);
             }

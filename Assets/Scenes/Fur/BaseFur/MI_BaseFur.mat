@@ -19,25 +19,37 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _FurMask:
-        m_Texture: {fileID: 2800000, guid: 39fdad458263c3b42b4a1537f6685039, type: 3}
+    - _DataTex:
+        m_Texture: {fileID: 2800000, guid: 0db44e546902ba849a27cea44736e96d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _FurDataMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FurDataTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FurMask:
+        m_Texture: {fileID: 2800000, guid: c72f52bb448328d4fb1b11a08c692973, type: 3}
+        m_Scale: {x: 15, y: 15}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f159f1dc9e95c184faf785ec9746d9c9, type: 3}
+        m_Texture: {fileID: 2800000, guid: acf22f7687ba5b94285b707a59827194, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _FurDensity: 0.5
-    - _FurLength: 0.1
+    - _FurDensity: 0.3
+    - _FurLength: 0.058
     - _FurShading: 0.4
-    - _FurThinness: 8
+    - _FurThinness: 4
     - _RimPower: 2
-    - _Shininess: 5
+    - _Shininess: 1
     m_Colors:
-    - _Color: {r: 1, g: 0.96494466, b: 0.19999999, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ForceGlobal: {r: 0, g: 0, b: 0, a: 0}
     - _ForceLocal: {r: 0, g: 0, b: 0, a: 0}
     - _RimeColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Specular: {r: 0.15686275, g: 0.15686275, b: 0.15686275, a: 1}
+    - _Specular: {r: 0.25, g: 0.25, b: 0.25, a: 1}
   m_BuildTextureStacks: []

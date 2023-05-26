@@ -71,9 +71,11 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-MMD4Mecanim
-MMD4Mecanim.meta
-DoNotUpload
-DoNotUpload.meta
-Plugins
-Plugins.meta
+/[Aa]ssets/MMD4Mecanim
+/[Aa]ssets/MMD4Mecanim.meta
+/[Aa]ssets/DoNotUpload
+/[Aa]ssets/DoNotUpload.meta
+/[Aa]ssets/Plugins
+/[Aa]ssets/Plugins.meta
+/[Aa]ssets/Scenes/Tool/MeshPainter/Editor/Brushes
+/[Aa]ssets/Scenes/Tool/MeshPainter/Editor/Brushes.meta

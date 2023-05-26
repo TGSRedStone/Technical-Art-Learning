@@ -65,4 +65,4 @@ MonoBehaviour:
     renderingLayerMask: 1
   material: {fileID: 2100000, guid: b3e0a5f1e754e3d4cbabb86bf6bbbfc9, type: 2}
   passes: 01000000
-  step: 20
+  step: 15

@@ -114,9 +114,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Tessellation/BaseTessellation/BaseTessellation.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Tessellation/TessellationWithWireframe/TessellationWithWireframe.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Tessellation/BasedOnDistanceTessellation/BasedOnDistanceTessellation.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BokehBlur 1.shader" />
       <option value="$PROJECT_DIR$/../../../../工程项目/shader学习之旅/Assets/Shaders/Bloom.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BloomPostProcessingVolume.cs" />
@@ -164,6 +161,9 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Snow/SimpleSnow/SimpleSnow.shader" />
       <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/RenderObjectsPass.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFurRenderFeature.cs" />
+      <option value="$PROJECT_DIR$/Assets/MeshPaint/Editor/MeshPainterStyle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/MeshPainter/MeshPainter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/MeshPainter/Editor/MeshPainterStyle.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFur.shader" />
     </changedPaths>
   </component>
@@ -180,6 +180,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
@@ -355,6 +356,10 @@
       <workItem from="1683817582247" duration="7411000" />
       <workItem from="1684571025733" duration="10104000" />
       <workItem from="1684597877615" duration="9055000" />
+      <workItem from="1684984504785" duration="7655000" />
+      <workItem from="1685029612408" duration="7446000" />
+      <workItem from="1685072618968" duration="2611000" />
+      <workItem from="1685075497774" duration="10684000" />
     </task>
     <servers />
   </component>
