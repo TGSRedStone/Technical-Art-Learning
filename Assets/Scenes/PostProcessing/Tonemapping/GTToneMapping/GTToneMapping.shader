@@ -1,4 +1,4 @@
-Shader "Unlit/GTToneMapping"
+Shader "PostProcessing/Tonemapping/GTToneMapping"
 {
 	SubShader
     {

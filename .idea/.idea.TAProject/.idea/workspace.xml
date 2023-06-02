@@ -114,11 +114,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BokehBlur 1.shader" />
-      <option value="$PROJECT_DIR$/../../../../工程项目/shader学习之旅/Assets/Shaders/Bloom.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BloomPostProcessingVolume.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/Bloom.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BloomPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RotateAroundPoint.cs" />
       <option value="$PROJECT_DIR$/Assets/Shaders/ShowVertexColor 1.shader" />
       <option value="$PROJECT_DIR$/Assets/Shaders/ShowVertexColor.shader" />
@@ -165,6 +160,11 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/MeshPainter/MeshPainter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/MeshPainter/Editor/MeshPainterStyle.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFur.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Tonemapping/GTToneMapping/GTToneMapping.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/MatCap/BaseMatCap/BaseMatCapWithNormalMap.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/MatCap/BaseMatCap/BaseMatCap.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/MatCap/PlaneSampleImprovementMatCap/PlaneSampleImprovementMatCap.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/MatCap/ImproveMatCap/ImproveMatCapMatCap.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -359,7 +359,9 @@
       <workItem from="1684984504785" duration="7655000" />
       <workItem from="1685029612408" duration="7446000" />
       <workItem from="1685072618968" duration="2611000" />
-      <workItem from="1685075497774" duration="10684000" />
+      <workItem from="1685075497774" duration="10685000" />
+      <workItem from="1685169002100" duration="941000" />
+      <workItem from="1685684963940" duration="11251000" />
     </task>
     <servers />
   </component>
