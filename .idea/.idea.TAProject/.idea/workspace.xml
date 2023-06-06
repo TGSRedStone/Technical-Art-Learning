@@ -48,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/LitInput.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/ShadingModels/LitDetailGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/RenderTargetHandle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../../Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/CGIncludes/UnityCG.cginc" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/1d/16f595ae/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sci-Fi/3D-Printing/PrintDotween.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/MainLightShadowCasterPass.cs" root0="SKIP_HIGHLIGHTING" />
@@ -98,7 +99,9 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Core.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/CommonMaterial.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/ShaderVariablesFunctions.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/DeclareDepthTexture.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/EntityLighting.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/TGS/Desktop/work_folder/unity/study/TAProject/Assets/Scenes/ParallaxMapping/ParallaxMapping.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0614A9B9-7FAA-4D48-8EFE-1FE8ECE226ED/e1/945273dc/ImageConversion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/UnityInput.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Shadows.hlsl" root0="SKIP_HIGHLIGHTING" />
@@ -114,12 +117,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/RotateAroundPoint.cs" />
-      <option value="$PROJECT_DIR$/Assets/Shaders/ShowVertexColor 1.shader" />
-      <option value="$PROJECT_DIR$/Assets/Shaders/ShowVertexColor.shader" />
-      <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Lighting.hlsl" />
-      <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/BangShadow.cs" />
-      <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/BangShadow.shader" />
       <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/OutLineRenderPassFeature.cs" />
       <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/OutLine.shader" />
       <option value="$PROJECT_DIR$/OutLineRenderFeature.cs" />
@@ -165,6 +162,12 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/MatCap/BaseMatCap/BaseMatCap.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/MatCap/PlaneSampleImprovementMatCap/PlaneSampleImprovementMatCap.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/MatCap/ImproveMatCap/ImproveMatCapMatCap.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/HBAO/HBAOPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/HBAO/SSAO 1.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/HBAO/HBAO.shader" />
+      <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Packing.hlsl" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxMapping.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -361,7 +364,10 @@
       <workItem from="1685072618968" duration="2611000" />
       <workItem from="1685075497774" duration="10685000" />
       <workItem from="1685169002100" duration="941000" />
-      <workItem from="1685684963940" duration="11251000" />
+      <workItem from="1685684963940" duration="14630000" />
+      <workItem from="1685798882881" duration="16952000" />
+      <workItem from="1685960004607" duration="2248000" />
+      <workItem from="1686067665130" duration="5780000" />
     </task>
     <servers />
   </component>
