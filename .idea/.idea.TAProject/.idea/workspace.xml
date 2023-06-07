@@ -101,7 +101,6 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/ShaderVariablesFunctions.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/DeclareDepthTexture.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/EntityLighting.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/TGS/Desktop/work_folder/unity/study/TAProject/Assets/Scenes/ParallaxMapping/ParallaxMapping.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0614A9B9-7FAA-4D48-8EFE-1FE8ECE226ED/e1/945273dc/ImageConversion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/UnityInput.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Shadows.hlsl" root0="SKIP_HIGHLIGHTING" />
@@ -117,7 +116,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/OutLineRenderPassFeature.cs" />
       <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/OutLine.shader" />
       <option value="$PROJECT_DIR$/OutLineRenderFeature.cs" />
       <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/ShadowUtils.cs" />
@@ -168,6 +166,7 @@
       <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Packing.hlsl" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxMapping.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ShaderToy/glowingMarblingBlack/glowingMarblingBlack.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -368,6 +367,7 @@
       <workItem from="1685798882881" duration="16952000" />
       <workItem from="1685960004607" duration="2248000" />
       <workItem from="1686067665130" duration="5780000" />
+      <workItem from="1686154916330" duration="1126000" />
     </task>
     <servers />
   </component>
