@@ -80,6 +80,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/OutLineRenderFeature.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFurRenderFeature.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/1d/52aefefb/ComputeBufferType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Else/InteractiveMask/SetInteractiveMaskWorldPos.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/SurfaceInput.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
@@ -116,8 +117,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/OutLine.shader" />
-      <option value="$PROJECT_DIR$/OutLineRenderFeature.cs" />
       <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/ShadowUtils.cs" />
       <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/NewBehaviourScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/NPRBangShadow.shader" />
@@ -167,6 +166,8 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxMapping.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ShaderToy/glowingMarblingBlack/glowingMarblingBlack.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/InteractiveMask/SetInteractiveMaskWorldPos.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/InteractiveMask/InteractiveMask.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -368,6 +369,7 @@
       <workItem from="1685960004607" duration="2248000" />
       <workItem from="1686067665130" duration="5780000" />
       <workItem from="1686154916330" duration="1126000" />
+      <workItem from="1686163778563" duration="1961000" />
     </task>
     <servers />
   </component>
