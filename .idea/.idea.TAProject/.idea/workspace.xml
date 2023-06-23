@@ -21,6 +21,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRshaderGUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/API/D3D11.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseRenderObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/9e/293319f2/ComputeShader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/RendererFeatures/ScreenSpaceAmbientOcclusion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/ScriptableRenderer.cs" root0="SKIP_HIGHLIGHTING" />
@@ -117,10 +118,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/NewBehaviourScript.cs" />
-      <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/NPRBangShadow.shader" />
-      <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/FilterSettings.cs" />
-      <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/OutLineRenderFeature.cs" />
       <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/BangShadowRenderFeature.cs" />
       <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/BangShadow/BangShadow.shader" />
       <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/BangShadow/BangShadow 1.shader" />
@@ -145,10 +142,8 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Snow/Snow.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Snow/SimpleSnowMaterial/Snow.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Snow/SimpleSnowMaterial/SimpleSnow.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRShader.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Snow/SimpleSnow/SimpleSnow.shader" />
       <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/RenderObjectsPass.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFurRenderFeature.cs" />
       <option value="$PROJECT_DIR$/Assets/MeshPaint/Editor/MeshPainterStyle.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/MeshPainter/MeshPainter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Tool/MeshPainter/Editor/MeshPainterStyle.cs" />
@@ -168,6 +163,12 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/InteractiveMask/SetInteractiveMaskWorldPos.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/InteractiveMask/InteractiveMask.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/FlowMap/FlowMap.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFurRenderFeature.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PBR/PBRInclude.hlsl" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRShader.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BaseRenderObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Shaders/PBRInclude.hlsl" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Laser/Laser.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -370,6 +371,7 @@
       <workItem from="1686067665130" duration="5780000" />
       <workItem from="1686154916330" duration="1126000" />
       <workItem from="1686163778563" duration="9611000" />
+      <workItem from="1687494853831" duration="12858000" />
     </task>
     <servers />
   </component>
