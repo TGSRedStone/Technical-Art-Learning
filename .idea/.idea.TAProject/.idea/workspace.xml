@@ -45,6 +45,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0783DE0-DFDA-4D3A-9D14-E718139E2D0D/18/5e9c0b07/ScriptableRenderPassInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFurRenderFeature.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Else/InteractiveMask/SetInteractiveMaskWorldPos.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/SNNFilter/SNNFilterPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/E3172273-1037-4C8D-8FFE-E1CE96F1C5B7/14/8ad09c60/02000067pdb.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BloomPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
@@ -119,8 +120,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/GT-ToneMapping.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/GT-ToneMapping.cs" />
       <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/NPRFace.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/GTToneMapping.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/GTToneMapping.cs" />
@@ -170,6 +169,8 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SSR/SSRPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/InteriorMapping/InteriorMapping2DAtlas.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/InteriorMapping/InteriorMapping.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SNNFilter/SNNFilter.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SNNFilter/SNNFilterPostProcessing.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -380,7 +381,8 @@
       <workItem from="1688747977063" duration="3485000" />
       <workItem from="1688898700379" duration="6749000" />
       <workItem from="1688923990883" duration="1335000" />
-      <workItem from="1688972574280" duration="10414000" />
+      <workItem from="1688972574280" duration="11010000" />
+      <workItem from="1689008563414" duration="3012000" />
     </task>
     <servers />
   </component>
