@@ -120,11 +120,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/NPRFace.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/GTToneMapping.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/GTToneMapping.cs" />
-      <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/NPRBody.shader" />
-      <option value="$PROJECT_DIR$/Assets/Models/纳西妲/tex/NahidaFaceSDF.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/NPROutLine.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/UseDepthAndNormalOutLine.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Reflections/PlanarReflections/PlanarReflections.cs" />
@@ -171,6 +166,11 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/InteriorMapping/InteriorMapping.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SNNFilter/SNNFilter.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SNNFilter/SNNFilterPostProcessing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CreateShadowMapCam.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CreateDepthTex.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/DepthTexture.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CreateShadowMapTexture.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CustomShadowMap.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -383,6 +383,7 @@
       <workItem from="1688923990883" duration="1335000" />
       <workItem from="1688972574280" duration="11010000" />
       <workItem from="1689008563414" duration="3012000" />
+      <workItem from="1689106476675" duration="23339000" />
     </task>
     <servers />
   </component>
