@@ -61,9 +61,11 @@ Material:
     - _LocalNormal: 1
     - _Metallic: 0
     - _ParallaxIntensity: 0.1
+    - _ParallaxSamples: 50
+    - _ParallaxStrength: 0.2
     - _Smooth: 0.5
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 11.29412, g: 1.9513401, b: 1.1826303, a: 1}
+    - _EmissionColor: {r: 2.82353, g: 0.48783502, b: 0.29565758, a: 1}
     - _Tint: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

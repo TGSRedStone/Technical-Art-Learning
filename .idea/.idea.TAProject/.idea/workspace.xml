@@ -32,12 +32,14 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/ScriptableRenderPass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/SpaceTransforms.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/ShadingModels/LitDetailGUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/DepthOnlyPass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../../Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/CGIncludes/UnityCG.cginc" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sci-Fi/3D-Printing/PrintDotween.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/MainLightShadowCasterPass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Macros.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/684C6D9D-FDE3-40B0-AA10-51AF5CDC513D/86/1e346c3e/GUIContent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/ImageBasedLighting.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/cd/26468e3c/DrawingSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/72/d08f3383/Camera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Tool/CreateCubeMap/Editor/CreateCubeMap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/Runtime/Common/CommandBufferPool.cs" root0="SKIP_HIGHLIGHTING" />
@@ -61,6 +63,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/LocalToWorld.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/68/54946b86/CameraType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Common.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/59/034c276b/RenderTextureFormat.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/92/8869170f/FilteringSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRshaderGUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/API/D3D11.hlsl" root0="SKIP_HIGHLIGHTING" />
@@ -120,9 +123,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/NPROutLine.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/UseDepthAndNormalOutLine.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Reflections/PlanarReflections/PlanarReflections.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/FacialShadow/FacialShadow.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Snow/Snow.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Snow/SimpleSnowMaterial/Snow.shader" />
@@ -152,7 +152,6 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/PBR/PBRInclude.hlsl" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRShader.shader" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BaseRenderObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Shaders/PBRInclude.hlsl" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Laser/Laser.shader" />
       <option value="$PROJECT_DIR$/../../../../工程项目/shader学习之旅/Assets/SSR/NewUnlitShader.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SSR/SSRreflection-main/ScreenSpaceReflection1.cs" />
@@ -169,8 +168,12 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CreateShadowMapCam.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CreateDepthTex.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/DepthTexture.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CreateShadowMapTexture.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CustomShadowMap.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CreateShadowMapTexture.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure/NewUnlitShader.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxMapping/ParallaxMapping.shader" />
+      <option value="$PROJECT_DIR$/Assets/Shaders/PBRInclude.hlsl" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure/ParallaxGroundFissure.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -384,6 +387,9 @@
       <workItem from="1688972574280" duration="11010000" />
       <workItem from="1689008563414" duration="3012000" />
       <workItem from="1689106476675" duration="23339000" />
+      <workItem from="1689645400417" duration="14746000" />
+      <workItem from="1689684593453" duration="735000" />
+      <workItem from="1689751156751" duration="10413000" />
     </task>
     <servers />
   </component>
