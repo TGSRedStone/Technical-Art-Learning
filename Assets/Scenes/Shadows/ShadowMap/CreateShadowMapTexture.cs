@@ -49,14 +49,14 @@ public class CreateShadowMapTexture : MonoBehaviour
             LightDepthTexture.Release();
             InitDepthTexture((int) shadowQuality);
             LightCam.targetTexture = LightDepthTexture;
+            currentShadowQuality = shadowQuality;
         }
 
         if (!LightDepthTexture)
         {
-            
-            // _blurTexture = CreateTexture((int) shadowResolution);
+            InitDepthTexture((int) shadowQuality);
+            LightCam.targetTexture = LightDepthTexture;
         }
-        currentShadowQuality = shadowQuality;
     }
     
     private void ResetCamera()
