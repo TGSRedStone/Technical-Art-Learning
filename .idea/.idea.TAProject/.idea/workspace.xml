@@ -29,6 +29,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/RenderObjectsPass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/LitShader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/BubbleShield.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/3f/e32a3335/NativeArray`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/ScriptableRenderPass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/SpaceTransforms.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/ShadingModels/LitDetailGUI.cs" root0="SKIP_HIGHLIGHTING" />
@@ -52,6 +53,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/E3172273-1037-4C8D-8FFE-E1CE96F1C5B7/14/8ad09c60/02000067pdb.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BloomPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/c8/5d0c8c78/ScriptableRenderContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/012CA602-3C75-4E63-84F2-0D14E09F256E/bd/9da494cc/Int32.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTex.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Color.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/18/6f572d8a/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
@@ -63,6 +65,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/LocalToWorld.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/68/54946b86/CameraType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Common.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/0f/a7dcc7e6/ComputeBuffer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/59/034c276b/RenderTextureFormat.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/92/8869170f/FilteringSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRshaderGUI.cs" root0="FORCE_HIGHLIGHTING" />
@@ -73,6 +76,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/RendererFeatures/RenderObjects.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/ShadowUtils.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cartoon/ShakeBottle/Wobble.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Small xxHash/HashVisualization.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/E3172273-1037-4C8D-8FFE-E1CE96F1C5B7/28/331334c7/02000003pdb.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EDEF46C9-B2DB-4B87-8C98-495BFDC516FA/93/6dd412e5/DirectoryInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/UseDepthAndNormalOutLine.cs" root0="FORCE_HIGHLIGHTING" />
@@ -81,6 +85,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/UniversalAdditionalCameraData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/LitInput.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x3.gen.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/RenderTargetHandle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/1d/16f595ae/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/0e/5f8550f2/RenderTextureDescriptor.cs" root0="SKIP_HIGHLIGHTING" />
@@ -101,6 +106,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Lighting.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EDEF46C9-B2DB-4B87-8C98-495BFDC516FA/80/4b98e0a7/Math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/OutLineRenderFeature.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/1d/52aefefb/ComputeBufferType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/SurfaceInput.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
@@ -123,18 +129,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/FacialShadow/FacialShadow.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Snow/Snow.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Snow/SimpleSnowMaterial/Snow.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Snow/SimpleSnowMaterial/SimpleSnow.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Snow/SimpleSnow/SimpleSnow.shader" />
-      <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/RenderObjectsPass.cs" />
-      <option value="$PROJECT_DIR$/Assets/MeshPaint/Editor/MeshPainterStyle.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/MeshPainter/MeshPainter.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Tool/MeshPainter/Editor/MeshPainterStyle.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFur.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/Tonemapping/GTToneMapping/GTToneMapping.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/MatCap/BaseMatCap/BaseMatCapWithNormalMap.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/MatCap/BaseMatCap/BaseMatCap.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/MatCap/PlaneSampleImprovementMatCap/PlaneSampleImprovementMatCap.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/MatCap/ImproveMatCap/ImproveMatCapMatCap.shader" />
@@ -174,6 +168,18 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxMapping/ParallaxMapping.shader" />
       <option value="$PROJECT_DIR$/Assets/Shaders/PBRInclude.hlsl" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure/ParallaxGroundFissure.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Fractal/Fractal.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Fractal/FractalNoTransform.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Fractal/FractalJobsSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Fractal/FractalGPU.hlsl" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Small xxHash/SmallXXHash.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Small xxHash/SmallxxHashGPU.hlsl" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Small xxHash/HashVisualization.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Hashing Space/SpaceTRS.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Hashing Space/HashingSpaceGPU.hlsl" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Hashing Space/HashingSpaceHashVisualization.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Hashing Space/Shapes.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Hashing Space/HashingSpaceSmallXXHash.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -389,7 +395,10 @@
       <workItem from="1689106476675" duration="23339000" />
       <workItem from="1689645400417" duration="14746000" />
       <workItem from="1689684593453" duration="735000" />
-      <workItem from="1689751156751" duration="10413000" />
+      <workItem from="1689751156751" duration="11014000" />
+      <workItem from="1689991814892" duration="19551000" />
+      <workItem from="1690076999110" duration="22378000" />
+      <workItem from="1690194407129" duration="7702000" />
     </task>
     <servers />
   </component>
