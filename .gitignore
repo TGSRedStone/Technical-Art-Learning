@@ -77,5 +77,7 @@ crashlytics-build.properties
 /[Aa]ssets/DoNotUpload.meta
 /[Aa]ssets/Plugins
 /[Aa]ssets/Plugins.meta
+/[Aa]ssets/MegascansLibray
+/[Aa]ssets/MegascansLibray.meta
 /[Aa]ssets/Scenes/Tool/MeshPainter/Editor/Brushes
 /[Aa]ssets/Scenes/Tool/MeshPainter/Editor/Brushes.meta

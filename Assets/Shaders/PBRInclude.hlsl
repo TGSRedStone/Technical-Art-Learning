@@ -1,20 +1,9 @@
 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
 
-float4 _MainTex_ST;
-float4 _LUT_ST;
-float4 _Tint;
-float _Metallic;
-float _Smooth;
-float _LocalNormal;
-
 #define UNITY_PI            3.14159265359f
 #define UNITY_INV_PI        0.31830988618f
 
-TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
 TEXTURE2D(_LUT); SAMPLER(sampler_LUT);
-TEXTURE2D(_NormalTex); SAMPLER(sampler_NormalTex);
-TEXTURE2D(_MetallicTex); SAMPLER(sampler_MetallicTex);
-TEXTURE2D(_RoughnessTex); SAMPLER(sampler_RoughnessTex);
 
 float Pow5(float x)
 {
@@ -39,11 +28,6 @@ float4 PBR(float3 worldNormal, float3 worldViewDir, float3 Albedo, float smooth,
 {
     float3 worldLightDir = _MainLightPosition.xyz;
     float3 halfVector = SafeNormalize(worldViewDir + worldLightDir);
-
-    // float3 normalTex = UnpackNormal(SAMPLE_TEXTURE2D(_NormalTex, sampler_NormalTex, i.uv));
-    // float3x3 tangentTransform = float3x3(i.worldTangentDir, i.worldBitangentDir, i.worldNormal);
-    // float3 worldNormalTex = mul(normalTex, tangentTransform);
-    // float3 finiNormal = lerp(worldNormal, worldNormalTex, _LocalNormal);
 
     float3 finiNormal = worldNormal;
 

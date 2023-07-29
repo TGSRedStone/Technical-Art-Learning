@@ -37,8 +37,17 @@
             float _ParallaxStrength;
             float4 _EmissionColor;
             float _AOStength;
+            float _LocalNormal;
             CBUFFER_END
-
+            
+            TEXTURE2D(_MainTex);
+            SAMPLER(sampler_MainTex);
+            TEXTURE2D(_RoughnessTex);
+            SAMPLER(sampler_RoughnessTex);
+            TEXTURE2D(_MetallicTex);
+            SAMPLER(sampler_MetallicTex);
+            TEXTURE2D(_NormalTex);
+            SAMPLER(sampler_NormalTex);
             TEXTURE2D(_HeightMap);
             SAMPLER(sampler_HeightMap);
             TEXTURE2D(_EmissionTex);
@@ -182,7 +191,8 @@
             {
                 float3 worldNormal = normalize(i.worldNormal);
                 float3 worldPos = i.worldPos;
-                float3 worldViewDir = normalize(GetWorldSpaceViewDir(worldPos));
+                float3 worldViewVector = GetWorldSpaceViewDir(worldPos);
+                float3 worldViewDir = normalize(worldViewVector);
                 i.viewTS = normalize(i.viewTS);
                 i.viewTS.xy /= i.viewTS.z + 0.42;
 

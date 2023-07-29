@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MI_CartoonSand
+  m_Shader: {fileID: 4800000, guid: 562beb067d9dc3b488033d4831c4c8af, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DetailTex:
+        m_Texture: {fileID: 2800000, guid: a3ebd921eafc50348814505287cf544e, type: 3}
+        m_Scale: {x: 25, y: 25}
+        m_Offset: {x: 0, y: 0}
+    - _GlitterTex:
+        m_Texture: {fileID: 2800000, guid: b83b591aebe4e7e46bd898cdeb08d30d, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+    - _RandomNoiseTex:
+        m_Texture: {fileID: 2800000, guid: 402cc5ee36dc40847a49b73592f0fbf4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RandomTex:
+        m_Texture: {fileID: 2800000, guid: 25d7ac89424ac1b4eacbb2ddaf4615cb, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _ShallowTex:
+        m_Texture: {fileID: 2800000, guid: a3ebd921eafc50348814505287cf544e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShallowTexX:
+        m_Texture: {fileID: 2800000, guid: 9fabe62e4041ef04f92a65dc49cf9f9c, type: 3}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _ShallowTexZ:
+        m_Texture: {fileID: 2800000, guid: dd4edbe1f28b49b4691544f60f029d97, type: 3}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _SteepTex:
+        m_Texture: {fileID: 2800000, guid: f019532611db92146b9674db527ee56b, type: 3}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _SteepTexX:
+        m_Texture: {fileID: 2800000, guid: 4d8823e0cab3543499cb71ec42edae57, type: 3}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _SteepTexZ:
+        m_Texture: {fileID: 2800000, guid: f019532611db92146b9674db527ee56b, type: 3}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DetailOceanSpecularPower: 25
+    - _DetailOceanSpecularStrength: 1
+    - _GlitterMutiplyer: 0.393
+    - _GlitterRange: 1
+    - _GlitterThreshold: 1
+    - _Glitterness: 1
+    - _NormalLerp: 0.175
+    - _OceanSpecularPower: 128
+    - _OceanSpecularStrength: 0.5
+    - _RimPower: 15
+    - _RimStrength: 1
+    - _Roughness: 0.5
+    - _SandStrength: 0.15
+    - _ShallowLerp: 1
+    - _SteepLerp: 0.7
+    - _SteepnessSharpnessPower: 0.83
+    m_Colors:
+    - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OceanSpecularColor: {r: 1, g: 0.87958115, b: 0.7120419, a: 1}
+    - _RimColor: {r: 1, g: 0.8980392, b: 0.7411765, a: 1}
+    - _ShadowColor: {r: 0.7019608, g: 0.5529412, b: 0.4862745, a: 1}
+    - _TerrainColor: {r: 0.9, g: 0.6670588, b: 0.5964706, a: 1}
+  m_BuildTextureStacks: []

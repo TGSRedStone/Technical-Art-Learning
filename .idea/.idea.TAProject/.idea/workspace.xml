@@ -129,9 +129,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/MatCap/BaseMatCap/BaseMatCap.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/MatCap/PlaneSampleImprovementMatCap/PlaneSampleImprovementMatCap.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/MatCap/ImproveMatCap/ImproveMatCapMatCap.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/HBAO/HBAOPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/HBAO/SSAO 1.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/HBAO/HBAO.shader" />
@@ -146,7 +143,6 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/PBR/PBRInclude.hlsl" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRShader.shader" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BaseRenderObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Laser/Laser.shader" />
       <option value="$PROJECT_DIR$/../../../../工程项目/shader学习之旅/Assets/SSR/NewUnlitShader.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SSR/SSRreflection-main/ScreenSpaceReflection1.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SSR/Script/ScreenSpaceReflection1.cs" />
@@ -166,8 +162,6 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CreateShadowMapTexture.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure/NewUnlitShader.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxMapping/ParallaxMapping.shader" />
-      <option value="$PROJECT_DIR$/Assets/Shaders/PBRInclude.hlsl" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure/ParallaxGroundFissure.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Fractal/Fractal.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Fractal/FractalNoTransform.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Fractal/FractalJobsSystem.cs" />
@@ -180,6 +174,12 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Hashing Space/HashingSpaceHashVisualization.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Hashing Space/Shapes.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Hashing Space/HashingSpaceSmallXXHash.cs" />
+      <option value="$PROJECT_DIR$/Assets/Shaders/PBRInclude.hlsl" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure/ParallaxGroundFissure.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Laser/Laser.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Sand/CartoonSand/CartoonSandSand 1.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Sand/Sand/Sand.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Sand/CartoonSand/CartoonSandSand.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -398,7 +398,11 @@
       <workItem from="1689751156751" duration="11014000" />
       <workItem from="1689991814892" duration="19551000" />
       <workItem from="1690076999110" duration="22378000" />
-      <workItem from="1690194407129" duration="7702000" />
+      <workItem from="1690194407129" duration="8063000" />
+      <workItem from="1690270647556" duration="10879000" />
+      <workItem from="1690441350117" duration="18433000" />
+      <workItem from="1690526139743" duration="7440000" />
+      <workItem from="1690618760956" duration="9427000" />
     </task>
     <servers />
   </component>

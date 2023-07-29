@@ -14,9 +14,23 @@
     {
         HLSLINCLUDE
 
+            #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
+            #include "Assets/Shaders/PBRInclude.hlsl"
+
             float _Saturation;
             float _Brightness;
             float _LightOffset;
+            float _LocalNormal;
+            float4 _MainTex_ST;
+
+            TEXTURE2D(_MainTex);
+            SAMPLER(sampler_MainTex);
+            TEXTURE2D(_RoughnessTex);
+            SAMPLER(sampler_RoughnessTex);
+            TEXTURE2D(_MetallicTex);
+            SAMPLER(sampler_MetallicTex);
+            TEXTURE2D(_NormalTex);
+            SAMPLER(sampler_NormalTex);
         
             float3 HUEToRGB(float H)
             {
@@ -42,9 +56,6 @@
             HLSLPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-
-            #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
-            #include "Assets/Shaders/PBRInclude.hlsl"
 
             struct appdata
             {
@@ -101,8 +112,6 @@
             #pragma vertex vert
             #pragma fragment frag
 
-            #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
-            #include "Assets/Shaders/PBRInclude.hlsl"
 
             struct appdata
             {
