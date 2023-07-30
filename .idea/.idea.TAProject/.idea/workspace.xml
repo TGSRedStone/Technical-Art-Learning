@@ -129,8 +129,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/HBAO/HBAOPostProcessing.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/HBAO/SSAO 1.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/HBAO/HBAO.shader" />
       <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Packing.hlsl" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxMapping.shader" />
@@ -180,6 +178,8 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Sand/CartoonSand/CartoonSandSand 1.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Sand/Sand/Sand.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Sand/CartoonSand/CartoonSandSand.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/VertexAnimation/ModelSphericalBending/ModelSphericalBending.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/VertexAnimation/ModelBending/ModelBending.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -403,6 +403,7 @@
       <workItem from="1690441350117" duration="18433000" />
       <workItem from="1690526139743" duration="7440000" />
       <workItem from="1690618760956" duration="12278000" />
+      <workItem from="1690700256273" duration="2624000" />
     </task>
     <servers />
   </component>

@@ -4,7 +4,7 @@
     {
         _MainTex ("MainTex", 2d) = "white" {}
         _Color ("Color", color) = (1, 1, 1, 1)
-        _SwerveY("上下", Range(-0.01,0.01)) = 0.0
+        _Swerve("弯曲程度", Range(-0.05, 1)) = 0.0
     }
     SubShader
     {
@@ -21,7 +21,7 @@
             CBUFFER_START(UnityPerMaterial)
             float4 _MainTex_ST;
             float4 _Color;
-            float _SwerveY;
+            float _Swerve;
             CBUFFER_END
 
             TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
@@ -43,8 +43,9 @@
                 v2f o;
                 o.uv = v.uv;
                 float3 worldPos = TransformObjectToWorld(v.vertex.xyz);
-                worldPos.y += pow(worldPos.x, 2) * _SwerveY;
-                worldPos.y += pow(worldPos.z, 2) * _SwerveY;
+                float Zdis = -_Swerve * pow((worldPos - _WorldSpaceCameraPos).z, 2);
+                float Xdis = -_Swerve * pow((worldPos - _WorldSpaceCameraPos).x, 2);
+                worldPos.y = worldPos.y + Zdis + Xdis;
                 v.vertex.xyz = TransformWorldToObject(worldPos);
                 o.vertex = TransformObjectToHClip(v.vertex.xyz);
                 return o;
