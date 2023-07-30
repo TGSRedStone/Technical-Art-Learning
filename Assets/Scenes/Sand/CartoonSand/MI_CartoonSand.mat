@@ -24,8 +24,8 @@ Material:
         m_Scale: {x: 25, y: 25}
         m_Offset: {x: 0, y: 0}
     - _GlitterTex:
-        m_Texture: {fileID: 2800000, guid: b83b591aebe4e7e46bd898cdeb08d30d, type: 3}
-        m_Scale: {x: 100, y: 100}
+        m_Texture: {fileID: 2800000, guid: 402cc5ee36dc40847a49b73592f0fbf4, type: 3}
+        m_Scale: {x: 50, y: 50}
         m_Offset: {x: 0, y: 0}
     - _RandomNoiseTex:
         m_Texture: {fileID: 2800000, guid: 402cc5ee36dc40847a49b73592f0fbf4, type: 3}
@@ -63,7 +63,9 @@ Material:
     - _DetailOceanSpecularPower: 25
     - _DetailOceanSpecularStrength: 1
     - _GlitterMutiplyer: 0.393
+    - _GlitterPower: 9
     - _GlitterRange: 1
+    - _GlitterSpeed: 1
     - _GlitterThreshold: 1
     - _Glitterness: 1
     - _NormalLerp: 0.175
@@ -77,7 +79,7 @@ Material:
     - _SteepLerp: 0.7
     - _SteepnessSharpnessPower: 0.83
     m_Colors:
-    - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlitterColor: {r: 99.41779, g: 72.87168, b: 65.064, a: 1}
     - _OceanSpecularColor: {r: 1, g: 0.87958115, b: 0.7120419, a: 1}
     - _RimColor: {r: 1, g: 0.8980392, b: 0.7411765, a: 1}
     - _ShadowColor: {r: 0.7019608, g: 0.5529412, b: 0.4862745, a: 1}

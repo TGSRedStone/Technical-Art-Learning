@@ -19,7 +19,8 @@
         _SteepnessSharpnessPower ("SteepnessSharpnessPower", float) = 0.5
         _OceanSpecularPower ("OceanSpecularPower", float) = 1
         _OceanSpecularStrength ("OceanSpecularStrength", float) = 1
-        _GlitterThreshold ("GlitterThreshold", range(0, 1)) = 1
+        _GlitterSpeed ("GlitterSpeed", float) = 1
+        _GlitterPower ("GlitterPower", float) = 10
     }
     SubShader
     {
@@ -33,6 +34,7 @@
             HLSLPROGRAM
             #pragma vertex vert
             #pragma fragment frag
+            #pragma multi_compile_fog
 
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
@@ -55,7 +57,8 @@
             float _SteepnessSharpnessPower;
             float _OceanSpecularPower;
             float _OceanSpecularStrength;
-            float _GlitterThreshold;
+            float _GlitterSpeed;
+            float _GlitterPower;
             CBUFFER_END
 
             TEXTURE2D(_RandomTex);
@@ -88,6 +91,7 @@
                 float3 worldBitangentDir : TEXCOORD3;
                 float3 worldNormal : NORMAL;
                 float3 worldViewDir : TEXCOORD4;
+                half fogCoord: TEXCOORD5;
             };
 
             float3 DiffuseColor(float3 N, float3 L)
@@ -138,21 +142,25 @@
                 return specular * _OceanSpecularColor;
             }
 
-            float3 GetGlitterNoise(float2 uv)
+            float GetGlitterNoise(float2 uv)
             {
                 return SAMPLE_TEXTURE2D(_GlitterTex, sampler_GlitterTex, _GlitterTex_ST.xy * uv.xy + _GlitterTex_ST.zw);
             }
 
             float3 GlitterSpecular(float2 uv, float3 N, float3 L, float3 V)
             {
-                float3 G = normalize(GetGlitterNoise(uv) * 2 - 1);
-                float3 R = reflect(L, G);
-                float RdotV = max(0, dot(R, V));
-                if (RdotV > _GlitterThreshold)
-                {
-                    return 0;
-                }
-                return (1 - RdotV) * _GlitterColor;
+                // float3 G = normalize(GetGlitterNoise(uv) * 2 - 1);
+                // float3 R = reflect(L, G);
+                // float RdotV = max(0, dot(R, V));
+                // if (RdotV > _GlitterThreshold)
+                // {
+                //     return 0;
+                // }
+                // return (1 - RdotV) * _GlitterColor;
+                float G1 = GetGlitterNoise(uv + float2 (0.3, _Time.x * 0.001 * _GlitterSpeed));
+                float G2 = GetGlitterNoise(uv * 1.4 + float2 (_Time.x * 0.001 * _GlitterSpeed, 0.3));
+                float G = pow(G1 * G2 * 1.5, _GlitterPower);
+                return G * _GlitterColor;
             }
 
             v2f vert(appdata v)
@@ -165,6 +173,7 @@
                 o.worldTangentDir = normalize(TransformObjectToWorld(v.tangent.xyz));
                 o.worldBitangentDir = normalize(cross(o.worldNormal, o.worldTangentDir) * v.tangent.w);
                 o.worldViewDir = GetWorldSpaceViewDir(o.worldPos);
+                o.fogCoord = ComputeFogFactor(o.vertex.z);
                 return o;
             }
 
@@ -182,7 +191,8 @@
                 float3 specular = saturate(max(rimColor, oceanSpecular));
                 float3 glitterColor = GlitterSpecular(i.uv, worldNormal, worldLightDir, worldViewDir);
 
-                float3 color = diffuse + specular;
+                float3 color = diffuse + specular + glitterColor;
+                color = MixFog(color, i.fogCoord);
                 return float4(color, 1);
             }
             ENDHLSL
