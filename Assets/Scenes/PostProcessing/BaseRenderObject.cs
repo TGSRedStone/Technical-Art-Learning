@@ -12,7 +12,7 @@ public class BaseRenderObject : ScriptableRendererFeature
     public Material material;//我想用的新的渲染指定物体的材质
     public int[] passes;//我想指定的几个Pass的Index
 
-    List<BaseFurRenderPass> m_ScriptablePasses = new List<BaseFurRenderPass>(2);
+    List<BaseRenderPass> m_ScriptablePasses = new List<BaseRenderPass>(2);
 
     /// <summary>
     /// 最重要的方法，用来生成RenderPass
@@ -24,7 +24,7 @@ public class BaseRenderObject : ScriptableRendererFeature
         //根据Shader的Pass数生成多个RenderPass
         for (int i = 0; i < passes.Length; i++)
         {
-            var scriptablePass = new BaseFurRenderPass(name, Event, filterSettings);
+            var scriptablePass = new BaseRenderPass(name, Event, filterSettings);
             scriptablePass.overrideMaterial = material;
             scriptablePass.overrideMaterialPassIndex = passes[i];
 
@@ -41,7 +41,7 @@ public class BaseRenderObject : ScriptableRendererFeature
         }
     }
     
-    public class BaseFurRenderPass : ScriptableRenderPass
+    public class BaseRenderPass : ScriptableRenderPass
     {
         private string m_ProfilerTag;
         private ProfilingSampler m_ProfilingSampler;
@@ -62,9 +62,9 @@ public class BaseRenderObject : ScriptableRendererFeature
             new ShaderTagId("LightweightForward")
         };
         
-        public BaseFurRenderPass(string profilerTag, RenderPassEvent renderPassEvent, FilterSettings filterSettings)
+        public BaseRenderPass(string profilerTag, RenderPassEvent renderPassEvent, FilterSettings filterSettings)
         {
-            base.profilingSampler = new ProfilingSampler(nameof(BaseFurRenderPass));
+            base.profilingSampler = new ProfilingSampler(nameof(BaseRenderPass));
             m_ProfilerTag = profilerTag;
             m_ProfilingSampler = new ProfilingSampler(profilerTag);
 
