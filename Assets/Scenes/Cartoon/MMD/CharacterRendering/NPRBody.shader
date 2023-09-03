@@ -1,4 +1,4 @@
-﻿Shader "Shaders/NPRBody"
+﻿Shader "Cartoon/NPRBody"
 {
     Properties
     {

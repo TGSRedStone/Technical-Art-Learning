@@ -1,4 +1,4 @@
-﻿Shader "Shaders/NPRFace"
+﻿Shader "Cartoon/NPRFace"
 {
     Properties
     {

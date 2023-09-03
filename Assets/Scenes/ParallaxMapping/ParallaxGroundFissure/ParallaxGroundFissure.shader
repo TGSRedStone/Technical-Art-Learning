@@ -1,4 +1,4 @@
-﻿Shader "Shaders/ParallaxGroundFissure"
+﻿Shader "ParallaxMapping/ParallaxGroundFissure"
 {
     Properties
     {
