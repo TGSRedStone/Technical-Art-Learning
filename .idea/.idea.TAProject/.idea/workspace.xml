@@ -19,6 +19,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseRenderObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/BaseShaderGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/dc/9c8ad4b0/Matrix4x4.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Else/AtmosphericScattering/AtmosphericScatteringPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
@@ -128,6 +129,9 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
+      <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Packing.hlsl" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxMapping.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ShaderToy/glowingMarblingBlack/glowingMarblingBlack.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/InteractiveMask/SetInteractiveMaskWorldPos.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/InteractiveMask/InteractiveMask.shader" />
@@ -142,9 +146,11 @@
       <option value="$PROJECT_DIR$/../../../../工程项目/shader学习之旅/Assets/SSR/SSR.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SSR/Shader/SSRori.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SSR/Script/ReflectionFeature.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SSR/SSR.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SSR/SSRPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/InteriorMapping/InteriorMapping2DAtlas.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/InteriorMapping/InteriorMapping.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SNNFilter/SNNFilter.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SNNFilter/SNNFilterPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CreateShadowMapCam.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CreateDepthTex.cs" />
@@ -166,19 +172,14 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Hashing Space/Shapes.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Hashing Space/HashingSpaceSmallXXHash.cs" />
       <option value="$PROJECT_DIR$/Assets/Shaders/PBRInclude.hlsl" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure/ParallaxGroundFissure.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Laser/Laser.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Sand/CartoonSand/CartoonSandSand 1.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Sand/Sand/Sand.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Sand/CartoonSand/CartoonSandSand.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/VertexAnimation/ModelSphericalBending/ModelSphericalBending.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/VertexAnimation/ModelBending/ModelBending.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/VFX/SwordSlash/SwordSlash.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SNNFilter/SNNFilter.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Laser/Laser.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/NPRBody.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/NPRFace.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure/ParallaxGroundFissure.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SSR/SSR.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SSR/SSR.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
@@ -409,8 +410,6 @@
       <workItem from="1690962973683" duration="6378000" />
       <workItem from="1691041549086" duration="1309000" />
       <workItem from="1691134104073" duration="1732000" />
-      <workItem from="1693639539478" duration="10550000" />
-      <workItem from="1693727712628" duration="6841000" />
     </task>
     <servers />
   </component>

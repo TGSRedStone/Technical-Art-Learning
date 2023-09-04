@@ -1,4 +1,4 @@
-﻿Shader "Else/Laser"
+﻿Shader "Shaders/Else/Laser"
 {
     Properties
     {

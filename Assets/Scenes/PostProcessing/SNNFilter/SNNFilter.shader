@@ -1,4 +1,4 @@
-﻿Shader "PostProcessing/SNNFilter"
+﻿Shader "SNNFilter/SNNFilter"
 {
     SubShader
     {
