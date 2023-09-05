@@ -1,4 +1,4 @@
-﻿Shader "VertexAnimation/ModelBending"
+﻿Shader "VertexEffect/ModelBending"
 {
     Properties
     {

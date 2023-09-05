@@ -17,7 +17,7 @@ MonoBehaviour:
     Event: 550
     Shader: {fileID: 4800000, guid: 5ee3bb5f0adad5f4ebca2661b2ae3766, type: 3}
     blitMaterialPassIndex: 0
-    jitter: 1
+    jitter: 0.1
     blend: 0.05
 --- !u!114 &11400000
 MonoBehaviour:

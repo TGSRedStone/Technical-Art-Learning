@@ -1,4 +1,4 @@
-﻿Shader "VertexAnimation/ModelSphericalBending"
+﻿Shader "VertexEffect/ModelSphericalBending"
 {
     Properties
     {
