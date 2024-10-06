@@ -6,80 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e6196b1f-027f-4517-b775-e2fc53f92604" name="默认变更列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TAProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TAProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/M_SandRendering.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/M_SandRendering.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/M_Torus.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/M_Torus.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/Body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/Body.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/Drapery.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/Drapery.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/HairAndModule.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/HairAndModule.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/NPRFace 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/NPRFace 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/NPRFace.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/NPRFace.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/NPRFace.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/NPRFace.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/Skin.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/Skin.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/Tell your world/TellYourWorldMMDScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/Tell your world/TellYourWorldMMDScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/RenderObjectOutLine.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/RenderObjectOutLine.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/RenderObjectOutLine.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/RenderObjectOutLine.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/SmoothNormals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/SmoothNormals.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/ChinesePaintingOutLine/ChinesePaintingOutLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/ChinesePaintingOutLine/ChinesePaintingOutLine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/ChinesePaintingOutLine/ChinesePaintingOutLineScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/ChinesePaintingOutLine/ChinesePaintingOutLineScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cloud/Using3DNosie.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cloud/Using3DNosie/VolumetricCloudScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cloud/Using3DNosie/VolumetricCloudScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/MI_VolumetricColudDrawMesh.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/MI_VolumetricColudDrawMesh.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ComputeShader/FrustumCulling/FrustumCulling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ComputeShader/FrustumCulling/FrustumCulling.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/HizScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/HizScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Else/Laser/Laser.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Else/Laser/Laser.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Else/Laser/LaserScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Else/Laser/LaserScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFurScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFurScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/MI_BaseFur.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/MI_BaseFur.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassDrawMesh.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassDrawMesh.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassDrawMeshScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassDrawMeshScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassRenderFeature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassRenderFeature.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/MI_GrassDrawMesh.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/MI_GrassDrawMesh.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure/ParallaxGroundFissureScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure/ParallaxGroundFissureScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/Environment_Free.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/Environment_Free.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAA.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAA.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAACamera.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAACamera.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAForwardRendererData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAForwardRendererData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAPostProcessing.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAPostProcessing.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAOForwardRendererData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAOForwardRendererData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAOScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAOScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/ReBuildWoldPos/UseDepthTexReBuildWoldPos/UseDepthTexReBuildWoldPos.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/ReBuildWoldPos/UseDepthTexReBuildWoldPos/UseDepthTexReBuildWoldPos.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RealisticWaters/GerstnerWaves/GerstnerWaves/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RealisticWaters/GerstnerWaves/GerstnerWaves/Global Volume Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Reflections/PlanarReflections/PlanarReflections.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Reflections/PlanarReflections/PlanarReflections.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/MI_BubbleShield.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/MI_BubbleShield.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CustomShadowMap.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CustomShadowMap.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/DepthTexture.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/DepthTexture.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/MI_CustomShadowMap.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/MI_CustomShadowMap.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/ShadowMapScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/ShadowMapScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/LocalToWorld.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/LocalToWorld.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/MI_Cloud.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/MI_Cloud.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/MI_ProceduralSkyBox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/MI_ProceduralSkyBox.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/ProceduralSkyBoxScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/ProceduralSkyBoxScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VertexEffect/BillBoard/MI_BillBoard.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VertexEffect/BillBoard/MI_BillBoard.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP-HighQuality.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP-HighQuality.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/BaseURPShader.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/BaseURPShader.shader.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/FurDataTex/M_Sphere.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/FurDataTex/M_Sphere.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,25 +25,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../../../../../../Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/CGIncludes/UnityCG.cginc" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/365a61908d3e42dfa5870d0c183176c257400/0d/082e2545/MotionBlurQuality.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/365a61908d3e42dfa5870d0c183176c257400/18/3bb30222/RenderingData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/365a61908d3e42dfa5870d0c183176c257400/66/b430800a/MotionBlurMode.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/365a61908d3e42dfa5870d0c183176c257400/76/56fc369f/RenderQueueType.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/388cbae2d6f74d9e93f2a786bd7b2c4917a648/7d/6669f398/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/0f/fd50fe61/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/15/aee2397e/ScriptableRenderContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/2f/af00a989/ShaderTagId.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/34/d683bc58/PerObjectData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/51/a1eb30ab/Mesh.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/67/5effbac9/CommandBuffer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/75/a5a44fac/GeometryUtility.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/95/0a2bc63f/RenderStateBlock.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/a9/af59c329/SortingLayerRange.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/cc/4d3dd24b/DrawingSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/ce/cb3fff63/Graphics.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/d1/981c37f5/Plane.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/e3/9090dd67/FilteringSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/e8/995cdfda/Camera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/68/c1ec3e67/Bounds.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DoNotUpload/NatureManufacture Assets/Foliage Shaders/NM_Bark.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DoNotUpload/NatureManufacture Assets/Foliage Shaders/NM_Foliage.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/OutLineRenderFeature.cs" root0="FORCE_HIGHLIGHTING" />
@@ -285,12 +193,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "preferences.editor.code.editing"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor.code.editing",
+    "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\TGS\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\TGS\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\TGS\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\TGS\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
       "C:\\Users\\TGS\\AppData\\Local\\Symbols\\src"
     ]
   }
@@ -564,11 +478,20 @@
       <workItem from="1725284752127" duration="21718000" />
       <workItem from="1725475857437" duration="15137000" />
       <workItem from="1725799188846" duration="14975000" />
+      <workItem from="1728224500119" duration="7781000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -579,7 +502,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/92/8869170f/FilteringSettings.cs</url>
           <line>33</line>
-          <properties documentPath="C:\Users\TGS\AppData\Roaming\JetBrains\Rider2021.1\resharper-host\DecompilerCache\decompiler\F73B3887-B094-4C4D-9EC0-C7D3C4D52865\92\8869170f\FilteringSettings.cs" initialLine="33" containingFunctionPresentation="constructor 'FilteringSettings'">
+          <properties documentPath="C:\Users\TGS\AppData\Roaming\JetBrains\Rider2021.1\resharper-host\DecompilerCache\decompiler\F73B3887-B094-4C4D-9EC0-C7D3C4D52865\92\8869170f\FilteringSettings.cs" containingFunctionPresentation="constructor 'FilteringSettings'">
             <startOffsets>
               <option value="1436" />
             </startOffsets>
