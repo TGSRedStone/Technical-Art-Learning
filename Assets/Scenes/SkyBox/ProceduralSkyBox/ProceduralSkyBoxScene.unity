@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.09632859, g: 0.19792308, b: 0.30918312, a: 1}
+  m_IndirectSpecularColor: {r: 0.047199246, g: 0.10306247, b: 0.32107386, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -467,13 +467,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1065915324}
-  m_LocalRotation: {x: 0.98880994, y: -0, z: -0, w: -0.14918096}
+  m_LocalRotation: {x: -0.071825184, y: -0, z: -0, w: -0.9974173}
   m_LocalPosition: {x: 0, y: 15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 197.159, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -351.762, y: 0, z: 0}
 --- !u!114 &1065915327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -490,7 +490,7 @@ MonoBehaviour:
   SkyBoxMaterial: {fileID: 2100000, guid: 96666d28bdd1c074d966cc63886b4493, type: 2}
   CloudMaterial: {fileID: 2100000, guid: 67e0e4eb6e9e22c45b3002aa837e98ba, type: 2}
   SampleCount: 16
-  IncomingLight: {r: 5.4060826, g: 1.6437877, b: 0.1166359, a: 0}
+  IncomingLight: {r: 8.114448, g: 2.3769326, b: 0.3665971, a: 0}
   MieScatterCoef: 0.5
   MieExtinctionCoef: 1
   MieG: 0.76

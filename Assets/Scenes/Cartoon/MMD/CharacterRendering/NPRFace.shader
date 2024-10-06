@@ -170,12 +170,12 @@
                 float3 LightProjectionUp = dot(worldLight, upVector) / pow(length(upVector), 2) * upVector;
                 float3 LpHeadHorizon = worldLight - LightProjectionUp;
                 
-                float pi = 3.14159265358979323846;
+                float pi = 3.141592654;
                 float value = acos(dot(normalize(LpHeadHorizon), normalize(rightVector))) / pi;
                 float exposeRight = step(value, 0.5);
                 
-                float valueR = pow(1 - value * 2, 3);
-                float valueL = pow(value * 2 - 1, 3);
+                float valueR = pow(1 - value * 2, 4);
+                float valueL = pow(value * 2 - 1, 4);
                 float mixValue = lerp(valueL, valueR, exposeRight);
                 
                 float sdfLeft = SAMPLE_TEXTURE2D(_SDF, sampler_SDF, float2(1 - i.uv.x, i.uv.y)).r;
@@ -185,7 +185,7 @@
                 sdf = lerp(0, sdf, step(0, dot(normalize(LpHeadHorizon), normalize(forwardVector))));
 
                 float4 shadowTex = SAMPLE_TEXTURE2D(_FaceShadow, sampler_FaceShadow, i.uv);
-                sdf *= shadowTex.r;
+                sdf *= shadowTex.g;
                 sdf = lerp(sdf, 1, shadowTex.a);
 
                 float3 shadowColor = baseCol * rampColor * _ShadowColor;

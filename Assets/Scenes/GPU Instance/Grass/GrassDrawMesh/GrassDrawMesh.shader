@@ -1,4 +1,4 @@
-﻿Shader "Shaders/BaseURPShader"
+﻿Shader "Shaders/GPU Instance/Grass/GrassDrawMesh"
 {
     Properties
     {
@@ -32,6 +32,7 @@
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Input.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
+            #include "Assets/Shaders/PBRInclude.hlsl"
 
             #pragma multi_compile_instancing
             #pragma instancing_options procedural:setup
@@ -43,6 +44,7 @@
             float4 _Color1;
             float4 _Color2;
             float4 _StrongWindNoiseTex_ST;
+            float4 _BreezeNoiseTex_ST;
             float3 _WindDir;
             float2 _GrassQuadSize;
             float _Cutoff;
@@ -121,7 +123,7 @@
                 float4 positionWS = mul(_LocalToWorld, float4(positionOS, 1));
                 grassUpDir = normalize(mul(_LocalToWorld, float4(grassUpDir, 0)));
 
-                float2 breezeNoiseUV = (positionWS.xz - _Time.y) / 40;
+                float2 breezeNoiseUV = (positionWS.xz - _Time.y) / 40 * _BreezeNoiseTex_ST.xy + _BreezeNoiseTex_ST.zw;
                 float2 strongNoiseUV = float2(positionWS.x, positionWS.z - _Time.y) / 60 * _StrongWindNoiseTex_ST.xy + _StrongWindNoiseTex_ST.zw;
                 float breezenoise = SAMPLE_TEXTURE2D_X_LOD(_BreezeNoiseTex, sampler_BreezeNoiseTex, breezeNoiseUV, 0);
                 float strongnoise = SAMPLE_TEXTURE2D_X_LOD(_StrongWindNoiseTex, sampler_StrongWindNoiseTex, strongNoiseUV, 0);
@@ -146,11 +148,13 @@
                 Light mainLight = GetMainLight(shadowCoord);
                 float3 lightDir = mainLight.direction;
                 float3 lightColor = mainLight.color;
+                float3 worldViewDir = normalize(GetWorldSpaceViewDir(i.positionWS));
                 float shadowAttenuation = mainLight.shadowAttenuation;
                 float colorGradient = smoothstep(0, _ColorGradient, i.uv.y); //因为没有使用图集这里暂时这样写
                 float3 color = lerp(_Color2, _Color1, colorGradient);
                 float3 grassColor = max(0.2, abs(dot(lightDir, i.normalWS))) * lightColor * diffuse.rgb * color *
                     shadowAttenuation;
+                // grassColor = PBR(i.normalWS, worldViewDir, grassColor, 0, 0.0);
                 return float4(grassColor, 1);
             }
             ENDHLSL

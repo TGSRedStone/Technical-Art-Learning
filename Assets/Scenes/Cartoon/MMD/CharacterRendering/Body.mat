@@ -65,7 +65,7 @@ Material:
     - _RampTexRow2: 3
     - _RampTexRow3: 5
     - _RampTexRow4: 2
-    - _RimMix: 0.3
+    - _RimMix: 0.5
     - _RimOffset: 6
     - _RimStrength: 0.6
     - _RimThreshold: 0.03

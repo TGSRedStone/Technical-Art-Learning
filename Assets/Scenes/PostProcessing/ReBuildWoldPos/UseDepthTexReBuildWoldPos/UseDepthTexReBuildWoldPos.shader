@@ -36,7 +36,7 @@
                 o.uv = v.uv;
                 return o;
             }
-
+            
             float4 frag (v2f i) : SV_Target
             {
                 #if UNITY_REVERSED_Z

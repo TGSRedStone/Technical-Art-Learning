@@ -1,7 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6196b1f-027f-4517-b775-e2fc53f92604" name="默认变更列表" comment="" />
+    <list default="true" id="e6196b1f-027f-4517-b775-e2fc53f92604" name="默认变更列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TAProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TAProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/M_SandRendering.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/M_SandRendering.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/M_Torus.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/M_Torus.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/Body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/Body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/Drapery.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/Drapery.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/HairAndModule.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/HairAndModule.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/NPRFace 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/NPRFace 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/NPRFace.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/NPRFace.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/NPRFace.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/NPRFace.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/Skin.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/Skin.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/Tell your world/TellYourWorldMMDScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/Tell your world/TellYourWorldMMDScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/RenderObjectOutLine.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/RenderObjectOutLine.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/RenderObjectOutLine.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/RenderObjectOutLine.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/SmoothNormals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/SmoothNormals.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/ChinesePaintingOutLine/ChinesePaintingOutLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/ChinesePaintingOutLine/ChinesePaintingOutLine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/ChinesePaintingOutLine/ChinesePaintingOutLineScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/ChinesePaintingOutLine/ChinesePaintingOutLineScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cloud/Using3DNosie.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cloud/Using3DNosie/VolumetricCloudScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cloud/Using3DNosie/VolumetricCloudScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/MI_VolumetricColudDrawMesh.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/MI_VolumetricColudDrawMesh.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ComputeShader/FrustumCulling/FrustumCulling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ComputeShader/FrustumCulling/FrustumCulling.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/HizScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/HizScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Else/Laser/Laser.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Else/Laser/Laser.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Else/Laser/LaserScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Else/Laser/LaserScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFurScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFurScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/MI_BaseFur.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/MI_BaseFur.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassDrawMesh.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassDrawMesh.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassDrawMeshScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassDrawMeshScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassRenderFeature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassRenderFeature.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/MI_GrassDrawMesh.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/MI_GrassDrawMesh.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure/ParallaxGroundFissureScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure/ParallaxGroundFissureScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/Environment_Free.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/Environment_Free.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAA.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAA.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAACamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAACamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAForwardRendererData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAForwardRendererData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAPostProcessing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAPostProcessing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAOForwardRendererData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAOForwardRendererData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAOScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAOScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/ReBuildWoldPos/UseDepthTexReBuildWoldPos/UseDepthTexReBuildWoldPos.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PostProcessing/ReBuildWoldPos/UseDepthTexReBuildWoldPos/UseDepthTexReBuildWoldPos.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RealisticWaters/GerstnerWaves/GerstnerWaves/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RealisticWaters/GerstnerWaves/GerstnerWaves/Global Volume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Reflections/PlanarReflections/PlanarReflections.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Reflections/PlanarReflections/PlanarReflections.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/MI_BubbleShield.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/MI_BubbleShield.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CustomShadowMap.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CustomShadowMap.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/DepthTexture.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/DepthTexture.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/MI_CustomShadowMap.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/MI_CustomShadowMap.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/ShadowMapScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/ShadowMapScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/LocalToWorld.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/LocalToWorld.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/MI_Cloud.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/MI_Cloud.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/MI_ProceduralSkyBox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/MI_ProceduralSkyBox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/ProceduralSkyBoxScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/ProceduralSkyBoxScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VertexEffect/BillBoard/MI_BillBoard.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VertexEffect/BillBoard/MI_BillBoard.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP-HighQuality.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP-HighQuality.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/BaseURPShader.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/BaseURPShader.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/FurDataTex/M_Sphere.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/FurDataTex/M_Sphere.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,134 +98,120 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseRenderObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/BaseShaderGUI.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/dc/9c8ad4b0/Matrix4x4.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Else/AtmosphericScattering/AtmosphericScatteringPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/BakedLitShader.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BloomPostProcessingVolume.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/SimpleLitShader.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/RenderObjectsPass.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/LitShader.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/BubbleShield.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/3f/e32a3335/NativeArray`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/ScriptableRenderPass.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/SpaceTransforms.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/ShadingModels/LitDetailGUI.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/DepthOnlyPass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../../Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/CGIncludes/UnityCG.cginc" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sci-Fi/3D-Printing/PrintDotween.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/MainLightShadowCasterPass.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Macros.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/684C6D9D-FDE3-40B0-AA10-51AF5CDC513D/86/1e346c3e/GUIContent.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/ImageBasedLighting.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/cd/26468e3c/DrawingSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/72/d08f3383/Camera.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Tool/CreateCubeMap/Editor/CreateCubeMap.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/Runtime/Common/CommandBufferPool.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/280FB357-6F92-435F-94E4-9DF9A35167BB/cd/1a0b1e8a/ShaderGUI.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0783DE0-DFDA-4D3A-9D14-E718139E2D0D/18/5e9c0b07/ScriptableRenderPassInput.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFurRenderFeature.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Else/InteractiveMask/SetInteractiveMaskWorldPos.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/SNNFilter/SNNFilterPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/E3172273-1037-4C8D-8FFE-E1CE96F1C5B7/14/8ad09c60/02000067pdb.il" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BloomPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/c8/5d0c8c78/ScriptableRenderContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/012CA602-3C75-4E63-84F2-0D14E09F256E/bd/9da494cc/Int32.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/365a61908d3e42dfa5870d0c183176c257400/0d/082e2545/MotionBlurQuality.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/365a61908d3e42dfa5870d0c183176c257400/18/3bb30222/RenderingData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/365a61908d3e42dfa5870d0c183176c257400/66/b430800a/MotionBlurMode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/365a61908d3e42dfa5870d0c183176c257400/76/56fc369f/RenderQueueType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/388cbae2d6f74d9e93f2a786bd7b2c4917a648/7d/6669f398/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/0f/fd50fe61/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/15/aee2397e/ScriptableRenderContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/2f/af00a989/ShaderTagId.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/34/d683bc58/PerObjectData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/51/a1eb30ab/Mesh.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/67/5effbac9/CommandBuffer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/75/a5a44fac/GeometryUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/95/0a2bc63f/RenderStateBlock.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/a9/af59c329/SortingLayerRange.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/cc/4d3dd24b/DrawingSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/ce/cb3fff63/Graphics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/d1/981c37f5/Plane.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/e3/9090dd67/FilteringSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f73b3887b0944c4d9ec0c7d3c4d5286513c000/e8/995cdfda/Camera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DoNotUpload/NatureManufacture Assets/Foliage Shaders/NM_Bark.shader" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DoNotUpload/NatureManufacture Assets/Foliage Shaders/NM_Foliage.shader" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/OutLineRenderFeature.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/UseDepthAndNormalOutLine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cartoon/ShakeBottle/Wobble.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/VolumetricColud.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cloud/VolumeCloud/Clouds/CloudBounds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTex.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTexGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Else/AtmosphericScattering/AtmosphericScatteringPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Small xxHash/HashVisualization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Else/InteractiveMask/SetInteractiveMaskWorldPos.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Else/Laser/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFurRenderFeature.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRshaderGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/FXAA/FXAAQualityPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAAv2/TAAData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TemporalAA/TemporalAAFeature.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAOPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BloomPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Bloom/BloomPostProcessingVolume.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessingVolume.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/SNNFilter/SNNFilterPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sci-Fi/3D-Printing/PrintDotween.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sci-Fi/Shield/BubbleShield/BubbleShield.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CustomDepthFeature.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/CustomShadowFeature.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Shadows/ShadowMap/ShadowCollectionFeature.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/LocalToWorld.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Terrain/GrassSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Terrain/InstancedPoints.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Tool/CreateCubeMap/Editor/CreateCubeMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x3.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/Runtime/Common/CommandBufferPool.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/Runtime/Volume/VolumeParameter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/API/D3D11.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Color.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/18/6f572d8a/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Packing.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAACamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Common.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/CommonMaterial.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/EntityLighting.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cloud/UsingGraphicsDrawMesh/VolumetricColud.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/LocalToWorld.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/68/54946b86/CameraType.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Common.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/0f/a7dcc7e6/ComputeBuffer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/59/034c276b/RenderTextureFormat.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/92/8869170f/FilteringSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRshaderGUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/API/D3D11.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/9e/293319f2/ComputeShader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/ImageBasedLighting.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Macros.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Packing.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/SpaceTransforms.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ScriptableRendererDataEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/BaseShaderGUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/BakedLitShader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/LitShader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/Shaders/SimpleLitShader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGUI/ShadingModels/LitDetailGUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ShaderGraph/Includes/ShadowCasterPass.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Deprecated.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Overrides/MotionBlur.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/AdditionalLightsShadowCasterPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/DepthOnlyPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/MainLightShadowCasterPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/RenderObjectsPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/Passes/ScriptableRenderPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/RenderTargetHandle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/RendererFeatures/RenderObjects.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/RendererFeatures/ScreenSpaceAmbientOcclusion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/ScriptableRenderer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/RendererFeatures/RenderObjects.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/ShadowUtils.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cartoon/ShakeBottle/Wobble.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Small xxHash/HashVisualization.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/E3172273-1037-4C8D-8FFE-E1CE96F1C5B7/28/331334c7/02000003pdb.il" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EDEF46C9-B2DB-4B87-8C98-495BFDC516FA/93/6dd412e5/DirectoryInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/UseDepthAndNormalOutLine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/ScriptableRendererData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/AO/SSAO/SSAOPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/ScriptableRendererFeature.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/ShadowUtils.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/UniversalAdditionalCameraData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/LitInput.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/float4x3.gen.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/RenderTargetHandle.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/1d/16f595ae/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/0e/5f8550f2/RenderTextureDescriptor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/Blur/GaussianBlur/GaussianBlurPostProcessingVolume.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/8f/655a5413/ShimManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/ae/3aaf6b59/RenderQueueRange.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/ShadowCasterPass.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/UniversalRenderPipelineCore.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0783DE0-DFDA-4D3A-9D14-E718139E2D0D/35/f235adee/RenderPassEvent.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/04/75434598/RenderTargetIdentifier.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/54/6a7da24e/SystemInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0783DE0-DFDA-4D3A-9D14-E718139E2D0D/3d/11905e8c/RenderQueueType.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/d0/4c952910/Material.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/DepthOnlyPass.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/be/3a4f86c7/GraphicsFormatUtility.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/f3/f91d347e/RenderTexture.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/ComputeShader/OcclusionCulling/DepthTexGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Lighting.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EDEF46C9-B2DB-4B87-8C98-495BFDC516FA/80/4b98e0a7/Math.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/OutLineRenderFeature.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/1d/52aefefb/ComputeBufferType.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/SurfaceInput.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/TAA/TAAPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0783DE0-DFDA-4D3A-9D14-E718139E2D0D/77/751a4b26/IPostProcessComponent.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Input.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F73B3887-B094-4C4D-9EC0-C7D3C4D52865/b2/256fb1a4/CommandBuffer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/SurfaceData.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Editor/ScriptableRendererDataEditor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Core.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/ShaderVariablesFunctions.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/DeclareDepthTexture.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0614A9B9-7FAA-4D48-8EFE-1FE8ECE226ED/e1/945273dc/ImageConversion.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/UnityInput.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Shadows.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/DeclareNormalsTexture.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/ShaderTypes.cs.hlsl" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/365A6190-8D3E-42DF-A587-0D0C183176C2/ab/a52c8653/ScriptableRenderPassInput.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/PostProcessing/AA/FXAA/FXAAQualityPostProcessing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/XR/XRPass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/XR/XRSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Core.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/DeclareDepthTexture.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/DeclareNormalsTexture.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Input.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Lighting.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/ShaderTypes.cs.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/ShaderVariablesFunctions.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/Shadows.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/SurfaceData.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/SurfaceInput.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/ShaderLibrary/UnityInput.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/DepthOnlyPass.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/Lit.shader" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/LitInput.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/PostProcessing/Common.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/ShadowCasterPass.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/Utils/CopyDepth.shader" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Shaders/Utils/ScreenSpaceShadows.shader" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UnityURP-MobileDrawMeshInstancedIndirectExample-master/Assets/URPMobileGrassInstancedIndirectDemo/InstancedIndirectGrass/Core/InstancedIndirectGrassRenderer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.8.1/ShaderLibrary/Packing.hlsl" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxMapping.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/ShaderToy/glowingMarblingBlack/glowingMarblingBlack.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/InteractiveMask/SetInteractiveMaskWorldPos.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/InteractiveMask/InteractiveMask.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/FlowMap/FlowMap.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Fur/BaseFur/BaseFurRenderFeature.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PBR/PBRInclude.hlsl" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PBR/BasePBRShader.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/BaseRenderObject.cs" />
-      <option value="$PROJECT_DIR$/../../../../工程项目/shader学习之旅/Assets/SSR/NewUnlitShader.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SSR/SSRreflection-main/ScreenSpaceReflection1.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SSR/Script/ScreenSpaceReflection1.cs" />
-      <option value="$PROJECT_DIR$/../../../../工程项目/shader学习之旅/Assets/SSR/SSR.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SSR/Shader/SSRori.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SSR/Script/ReflectionFeature.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SSR/SSR.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/PostProcessing/SSR/SSRPostProcessing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scenes/InteriorMapping/InteriorMapping2DAtlas.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/InteriorMapping/InteriorMapping.shader" />
@@ -173,31 +238,80 @@
       <option value="$PROJECT_DIR$/Assets/Scenes/Else/Hashing/Hashing Space/HashingSpaceSmallXXHash.cs" />
       <option value="$PROJECT_DIR$/Assets/Shaders/PBRInclude.hlsl" />
       <option value="$PROJECT_DIR$/Assets/Scenes/ParallaxMapping/ParallaxGroundFissure/ParallaxGroundFissure.shader" />
-      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Laser/Laser.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Sand/CartoonSand/CartoonSandSand 1.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Sand/Sand/Sand.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/Sand/CartoonSand/CartoonSandSand.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/VertexAnimation/ModelSphericalBending/ModelSphericalBending.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/VertexAnimation/ModelBending/ModelBending.shader" />
       <option value="$PROJECT_DIR$/Assets/Scenes/VFX/SwordSlash/SwordSlash.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/NPRBody.shader" />
+      <option value="$PROJECT_DIR$/Assets/DoNotUpload/Sun_Temple/Content/Shaders/VertexBlend.shader" />
+      <option value="$PROJECT_DIR$/Assets/DoNotUpload/Sun_Temple/Content/Shaders/WindowGlass.shader" />
+      <option value="$PROJECT_DIR$/Assets/DoNotUpload/Sun_Temple/Content/Shaders/Foliage.shader" />
+      <option value="$PROJECT_DIR$/Assets/DoNotUpload/Sun_Temple/Content/Shaders/Decal_Puddle.shader" />
+      <option value="$PROJECT_DIR$/Assets/DoNotUpload/Sun_Temple/Content/Shaders/Decal.shader" />
+      <option value="$PROJECT_DIR$/Assets/DoNotUpload/Sun_Temple/Content/Shaders/Clouds.shader" />
+      <option value="$PROJECT_DIR$/Assets/DoNotUpload/SceneDesign/water.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/SmoothNormals.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/RenderObjectOutLine/RenderObjectOutLine.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/MMD/CharacterRendering/NPRFace.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Cartoon/OutLine/UseDepthAndNormalOutLine/ChinesePaintingOutLine/ChinesePaintingOutLine.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Laser/Laser.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Else/Laser/NewBehaviourScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/GPU Instance/Grass/GrassDrawMesh/GrassDrawMesh.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/ProceduralSkyBox.shader" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/SkyBox/ProceduralSkyBox/LocalToWorld.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Rotate.cs" />
     </changedPaths>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2EXH0fvxyzvb6zm6ZuWXa3vha8c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
-    <property name="Discover.Launch.Via.Unity" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
-  </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.editor.code.editing"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\TGS\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\TGS\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\TGS\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="附加到 Unity 编辑器.附加到 Unity 编辑器并运行">
+    <configuration name="启动 Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\TGS\Desktop\work_folder\unity\study\TAProject -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\TGS\Desktop\work_folder\unity\study\TAProject" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="独立播放器" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/build\TAProject.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\TGS\Desktop\work_folder\unity\study\TAProject\build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/build\TAProject.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -206,7 +320,15 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="单元测试(批处理模式)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\TGS\Desktop\work_folder\unity\study\TAProject -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\TGS\Desktop\work_folder\unity\study\TAProject" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="附加到 Unity 编辑器" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -216,7 +338,7 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="附加到 Unity 编辑器并运行" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -410,9 +532,42 @@
       <workItem from="1690962973683" duration="6378000" />
       <workItem from="1691041549086" duration="1309000" />
       <workItem from="1691134104073" duration="1732000" />
+      <workItem from="1696585896467" duration="4000" />
+      <workItem from="1696615553434" duration="3159000" />
+      <workItem from="1696669138204" duration="805000" />
+      <workItem from="1696749917068" duration="2517000" />
+      <workItem from="1696846849572" duration="3552000" />
+      <workItem from="1697011749576" duration="15192000" />
+      <workItem from="1697043717911" duration="4585000" />
+      <workItem from="1697136867680" duration="3418000" />
+      <workItem from="1697323432500" duration="2521000" />
+      <workItem from="1699186748141" duration="772000" />
+      <workItem from="1702301124543" duration="18625000" />
+      <workItem from="1702374605228" duration="28423000" />
+      <workItem from="1702457521254" duration="14852000" />
+      <workItem from="1712109299546" duration="310000" />
+      <workItem from="1714945190239" duration="1000" />
+      <workItem from="1718979751159" duration="1283000" />
+      <workItem from="1719075500581" duration="46000" />
+      <workItem from="1719990661770" duration="8000" />
+      <workItem from="1719996743993" duration="1000" />
+      <workItem from="1720247450042" duration="2000" />
+      <workItem from="1724246175286" duration="2007000" />
+      <workItem from="1724256442976" duration="2814000" />
+      <workItem from="1724503177886" duration="19994000" />
+      <workItem from="1724574319374" duration="7488000" />
+      <workItem from="1724599142518" duration="8976000" />
+      <workItem from="1724671699450" duration="24569000" />
+      <workItem from="1725099261909" duration="1014000" />
+      <workItem from="1725114073612" duration="5313000" />
+      <workItem from="1725185390786" duration="13327000" />
+      <workItem from="1725284752127" duration="21718000" />
+      <workItem from="1725475857437" duration="15137000" />
+      <workItem from="1725799188846" duration="14975000" />
     </task>
     <servers />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
@@ -436,5 +591,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -228,6 +228,8 @@ GameObject:
   - component: {fileID: 2101035706}
   - component: {fileID: 2101035705}
   - component: {fileID: 2101035708}
+  - component: {fileID: 2101035709}
+  - component: {fileID: 2101035710}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -333,6 +335,31 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &2101035709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101035704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1471589484886784db0e6562f1d6c6fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  depthTextureShader: {fileID: 4800000, guid: 61f54f2e1df06474cba96ed18d0bb60b, type: 3}
+--- !u!114 &2101035710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101035704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6d4263419b584db2b9a6500c3c8f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &543450651592742390
 Transform:
   m_ObjectHideFlags: 0
@@ -384,7 +411,7 @@ MonoBehaviour:
   GrassMaterial: {fileID: 2100000, guid: 73200e554d20aaf4dad898861135ecc8, type: 2}
   GrassCountPerRaw: 300
   Compute: {fileID: 7200000, guid: b3c3b763a532e6c479230dbc03d397cc, type: 3}
-  DepthTexGenerator: {fileID: 38688783926630528, guid: 4a8e21d5c33334b11b34a596161b9360, type: 2}
+  DepthTexGenerator: {fileID: -2289696231741704221, guid: 048d7bb2a97adbb499787f4daf040e82, type: 2}
 --- !u!64 &919132147939512142
 MeshCollider:
   m_ObjectHideFlags: 0

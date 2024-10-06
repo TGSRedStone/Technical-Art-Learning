@@ -78,12 +78,16 @@ Material:
     - _RampTexRow2: 3
     - _RampTexRow3: 5
     - _RampTexRow4: 2
+    - _RimMix: 0.5
+    - _RimOffset: 6
+    - _RimStrength: 0.6
+    - _RimThreshold: 0.03
     - _StencilComp: 0
     - _StencilRef: 0
     - _ToonTexFac: 1
     m_Colors:
     - _DiffColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ForwardVector: {r: -6.533731e-13, g: -0.00000034255567, b: -1, a: 0}
-    - _RightVector: {r: -1, g: 0, b: 0, a: 0}
+    - _ForwardVector: {r: 0, g: -0.00000011920935, b: -1, a: 0}
+    - _RightVector: {r: -1, g: -0.00000011920929, b: 0, a: 0}
     - _ShadowColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

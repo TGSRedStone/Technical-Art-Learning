@@ -11,6 +11,7 @@ public class LocalToWorld : MonoBehaviour
     public Material SkyBoxMaterial;
     public Material CloudMaterial;
     private Matrix4x4 LtoW_Matrix = Matrix4x4.identity;
+    private float AuroraStrength;
     private static readonly int LtoW = Shader.PropertyToID("_LtoW");
     
     [Range(1, 64)]
@@ -51,11 +52,13 @@ public class LocalToWorld : MonoBehaviour
         
         SkyBoxMaterial.SetColor("_IncomingLight", IncomingLight);
         SkyBoxMaterial.SetFloat("_MieG", MieG);
+        SkyBoxMaterial.SetFloat("_AuroraStrength", AuroraStrength);
 
         if (DirectionalLight.eulerAngles.x >= 330 && DirectionalLight.eulerAngles.x <= 360)
         {
             var eulerAngles = DirectionalLight.eulerAngles;
             IncomingLight = Color.Lerp(Color1, Color2, eulerAngles.x % 330 / 30f);
+            AuroraStrength = Mathf.Lerp(0.5f, 0.1f, eulerAngles.x % 330 / 30f);
             CloudMaterial.SetColor("_Color", Color.Lerp(new Color(0.18f, 0.282f, 0.396f), new Color(0.117f, 0.349f, 0.529f),  eulerAngles.x % 330 / 30f));
             CloudMaterial.SetFloat("_EdgePower", Mathf.Lerp(60, 40, eulerAngles.x % 330 / 30f));
         }
@@ -63,6 +66,7 @@ public class LocalToWorld : MonoBehaviour
         {
             var eulerAngles = DirectionalLight.eulerAngles;
             IncomingLight = Color.Lerp(Color2, Color3, eulerAngles.x / 30f);
+            AuroraStrength = Mathf.Lerp(0.1f, 0, eulerAngles.x % 330 / 30f);
             CloudMaterial.SetColor("_Color", Color.Lerp(new Color(0.117f, 0.349f, 0.529f), new Color(0f, 0.486f, 0.788f), eulerAngles.x / 30f));
             CloudMaterial.SetFloat("_EdgePower", Mathf.Lerp(40, 25, eulerAngles.x / 30f));
         }

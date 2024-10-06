@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _DataTex:
-        m_Texture: {fileID: 2800000, guid: 0db44e546902ba849a27cea44736e96d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 28fc9341ade9c904ea16d47b18bf74c0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FurDataMask:
@@ -40,8 +40,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _FurDensity: 0.3
-    - _FurLength: 0.058
+    - _FurDensity: 0.5
+    - _FurLength: 0.05
     - _FurShading: 0.4
     - _FurThinness: 4
     - _RimPower: 2

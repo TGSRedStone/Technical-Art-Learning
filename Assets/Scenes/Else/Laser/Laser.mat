@@ -42,7 +42,7 @@ Material:
     m_Floats:
     - _Brightness: 0.7
     - _LightOffset: 0.5
-    - _LocalNormal: 0.15
+    - _LocalNormal: 0.2
     - _Metallic: 0.316
     - _Saturation: 1
     - _Smooth: 0.624

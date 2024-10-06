@@ -149,6 +149,10 @@ Material:
     - _RampTexRow3: 5
     - _RampTexRow4: 2
     - _ReceiveShadows: 1
+    - _RimMix: 0.3
+    - _RimOffset: 6
+    - _RimStrength: 0.6
+    - _RimThreshold: 0.03
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1

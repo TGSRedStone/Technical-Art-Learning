@@ -21,11 +21,11 @@ Material:
     m_TexEnvs:
     - _NoiseTex:
         m_Texture: {fileID: 2800000, guid: f159f1dc9e95c184faf785ec9746d9c9, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 100, y: 100}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _ReflectDistortInt: 0
-    - _XSpeed: 0
-    - _YSpeed: 0
+    - _XSpeed: 0.1
+    - _YSpeed: 0.1
     m_Colors: []
   m_BuildTextureStacks: []

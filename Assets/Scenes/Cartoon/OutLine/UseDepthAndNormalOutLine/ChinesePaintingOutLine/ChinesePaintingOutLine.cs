@@ -53,6 +53,8 @@ public class ChinesePaintingOutLine : ScriptableRendererFeature
 
         private RenderTargetIdentifier source { get; set; }
         private RenderTargetIdentifier dest { get; set; }
+        
+        private RenderTargetHandle tempColorTex;
 
         private string profilerTag;
 
@@ -94,6 +96,9 @@ public class ChinesePaintingOutLine : ScriptableRendererFeature
 
         private void Render(CommandBuffer cmd, RenderingData renderingData)
         {
+            RenderTextureDescriptor opaqueDesc = renderingData.cameraData.cameraTargetDescriptor;
+            opaqueDesc.depthBufferBits = 0;
+            cmd.GetTemporaryRT(tempColorTex.id, opaqueDesc);
             cmd.SetGlobalTexture(mainTexId, source);
 
             material.SetFloat("_Scale", settings.scale);
@@ -107,7 +112,8 @@ public class ChinesePaintingOutLine : ScriptableRendererFeature
             material.SetFloat("_NoiseTiling", settings.noiseTiling);
             material.SetFloat("_OutLineWidth", settings.outLineWidth);
 
-            cmd.Blit(source, dest, material);
+            cmd.Blit(source, tempColorTex.Identifier(), material);
+            cmd.Blit(tempColorTex.Identifier(), dest);
         }
     }
 }

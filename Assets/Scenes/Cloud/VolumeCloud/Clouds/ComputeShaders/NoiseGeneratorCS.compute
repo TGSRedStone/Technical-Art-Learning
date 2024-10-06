@@ -1,0 +1,100 @@
+#pragma kernel CSWorly
+// #pragma kernel CSNormalize
+
+uint resolution;
+RWTexture3D<float4> Result;
+StructuredBuffer<float3> pointsA;
+StructuredBuffer<float3> pointsB;
+StructuredBuffer<float3> pointsC;
+int numCellsA;
+int numCellsB;
+int numCellsC;
+float4 channelMask;
+float persistence;
+bool invertNoise;
+int tile;
+
+static const int3 offsets[] =
+{
+    int3(0,0,0),
+    int3(0,0,1),
+    int3(-1,1,1),
+    int3(-1,0,1),
+    int3(-1,-1,1),
+    int3(0,1,1),
+    int3(0,-1,1),
+    int3(1,1,1),
+    int3(1,0,1),
+    int3(1,-1,1),
+    int3(0,0,-1),
+    int3(-1,1,-1),
+    int3(-1,0,-1),
+    int3(-1,-1,-1),
+    int3(0,1,-1),
+    int3(0,-1,-1),
+    int3(1,1,-1),
+    int3(1,0,-1),
+    int3(1,-1,-1),
+    int3(-1,1,0),
+    int3(-1,0,0),
+    int3(-1,-1,0),
+    int3(0,1,0),
+    int3(0,-1,0),
+    int3(1,1,0),
+    int3(1,0,0),
+    int3(1,-1,0)
+};
+
+float maxComponent(float3 vec)
+{
+    return max(vec.x, max(vec.y, vec.z));
+}
+
+float minComponent(float3 vec)
+{
+    return min(vec.x, min(vec.y, vec.z));
+}
+
+float Worley(StructuredBuffer<float3> points, int numcells, float3 samplePos)
+{
+    float cellResolution = resolution / numcells;
+    int3 cellCoordinate = floor(samplePos / cellResolution);
+    float3 localizedSamplePos = float3(samplePos / cellResolution - cellCoordinate);
+    float minDistance = 1;
+
+    for (int i = 0; i < 27; ++i)
+    {
+        int3 adjacentCellCoordinate = cellCoordinate + offsets[i];
+        if (minComponent(adjacentCellCoordinate) == -1 || maxComponent(adjacentCellCoordinate) == numcells)
+        {
+            int3 warpCoordinate = (adjacentCellCoordinate + numcells) % (uint3)numcells;
+            int warpCellIndex = warpCoordinate.x + numcells * (warpCoordinate.y + warpCoordinate.z * numcells);
+            float3 warpPoint = adjacentCellCoordinate + points[warpCellIndex];
+            minDistance = min(minDistance, distance(cellCoordinate + localizedSamplePos, warpPoint));
+        }
+        else
+        {
+            int adjacentCellIndex = adjacentCellCoordinate.x + numcells * (adjacentCellCoordinate.y + adjacentCellCoordinate.z * numcells);
+            float3 warpPoint = adjacentCellCoordinate + points[adjacentCellIndex];
+            minDistance = min(minDistance, distance(cellCoordinate + localizedSamplePos, warpPoint));
+        }
+    }
+    return minDistance;
+}
+
+[numthreads(8, 8, 8)]
+void CSWorly (uint3 id : SV_DispatchThreadID)
+{
+    float3 samplePos = float3(id);
+    float layerA = Worley(pointsA, numCellsA, samplePos);
+    float layerB = Worley(pointsB, numCellsB, samplePos);
+    float layerC = Worley(pointsC, numCellsC, samplePos);
+
+    float noiseSum = layerA + (layerB * persistence) + (layerC * persistence * persistence);
+    float maxValue = 1 + persistence + persistence * persistence;
+    noiseSum /= maxValue;
+
+    noiseSum = lerp(noiseSum, 1 - noiseSum, invertNoise);
+
+    Result[id] = Result[id] * (1 - channelMask) + noiseSum * channelMask;
+}

@@ -30,7 +30,7 @@ Material:
     - _Cutoff: 0.04
     - _DistanceBlend: 1
     - _DistanceFade: 1
-    - _EdgePower: 51.43929
+    - _EdgePower: 28.804945
     - _EdgeStrength: 1
     - _Offset1: 0.35
     - _Offset2: 0.22
@@ -41,6 +41,6 @@ Material:
     - _SubsurfaceDistortion: 0
     - _TaperPower: 3
     m_Colors:
-    - _Color: {r: 0.15303376, g: 0.3106784, b: 0.45292872, a: 1}
+    - _Color: {r: 0.029678565, g: 0.45124817, b: 0.7223013, a: 1}
     - _SSSColor: {r: 0.7137255, g: 0.81568635, b: 0.9686275, a: 1}
   m_BuildTextureStacks: []

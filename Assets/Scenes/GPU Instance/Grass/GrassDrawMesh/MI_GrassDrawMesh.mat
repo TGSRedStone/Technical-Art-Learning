@@ -87,7 +87,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _StrongWindNoiseTex:
         m_Texture: {fileID: 2800000, guid: 6db3e299ed6827542ae7e4638caca562, type: 3}
-        m_Scale: {x: 1, y: -3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
@@ -107,9 +107,9 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _ColorGradient: 0.4
+    - _ColorGradient: 0.7
     - _Cull: 2
-    - _Cutoff: 0.15
+    - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
@@ -126,17 +126,17 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
-    - _StrongWindStrength: 0.7
+    - _StrongWindStrength: 1
     - _Surface: 1
-    - _WindNoiseStrength: 1
+    - _WindNoiseStrength: 0.42
     - _WindStrength: 1
     - _WorkflowMode: 1
     - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.17910287, g: 0.8113208, b: 0.34349307, a: 1}
-    - _Color1: {r: 0.36063445, g: 1, b: 0.29622638, a: 1}
-    - _Color2: {r: 0.052453123, g: 0.746, b: 0, a: 1}
+    - _Color1: {r: 0.654902, g: 0.74509805, b: 0.4392157, a: 1}
+    - _Color2: {r: 0.26666668, g: 0.41960785, b: 0.21176471, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Wind: {r: 1, g: 0, b: 0, a: 10}

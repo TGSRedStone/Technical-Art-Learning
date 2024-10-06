@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2918187c0272cfe41bad30b14816ea92, type: 3}
   m_Name: NewSSAOPostProcessing
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   Settings:
     Event: 550
     Shader: {fileID: 4800000, guid: 6f881f3486c423d46b8953153d0fe7ff, type: 3}

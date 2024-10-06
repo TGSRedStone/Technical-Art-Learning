@@ -1,0 +1,19 @@
+#pragma kernel CSMain
+
+float4x4 _VPMatrix;
+float _MaxDrawDistance;
+uint _StartOffset;
+StructuredBuffer<float4x4> _AllInstancesTransformBuffer;
+AppendStructuredBuffer<uint> _OnlyInstanceVisibleIDBuffer;
+
+[numthreads(64, 1, 1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    float4 absPosCS = abs(mul(_VPMatrix, float4(_AllInstancesTransformBuffer[id.x + _StartOffset]._14_24_34, 1.0)));
+
+    if (absPosCS.z <= absPosCS.w && absPosCS.y <= absPosCS.w * 1.5 && absPosCS.x <= absPosCS.w * 1.1 && absPosCS.w <=
+        _MaxDrawDistance)
+    {
+        _OnlyInstanceVisibleIDBuffer.Append(id.x + _StartOffset);
+    }
+}

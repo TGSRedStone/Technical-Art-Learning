@@ -116,7 +116,7 @@ Material:
     - _AlphaClip: 0
     - _AtmosphereThickness: 1
     - _AuroraSpeed: 0.25
-    - _AuroraStrength: 0.3
+    - _AuroraStrength: 0.025366295
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0

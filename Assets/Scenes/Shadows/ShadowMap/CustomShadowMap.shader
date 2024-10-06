@@ -21,7 +21,7 @@
             float4x4 _WorldToShadow;
             CBUFFER_END
 
-            TEXTURE2D(_ShadowMapTexture); SAMPLER(sampler_ShadowMapTexture);
+            TEXTURE2D(_CustomShadowMap); SAMPLER(sampler_CustomShadowMap);
 
             struct appdata
             {
@@ -65,7 +65,7 @@
 
             float HardShadow (float depth, float2 shadowCoord)
             {
-                float4 orignDepth = SAMPLE_TEXTURE2D(_ShadowMapTexture, sampler_ShadowMapTexture, shadowCoord);
+                float4 orignDepth = SAMPLE_TEXTURE2D(_CustomShadowMap, sampler_CustomShadowMap, shadowCoord);
                 return (orignDepth + _Bias) < depth ? _ShadowStrength : 1;
             }
 
@@ -77,7 +77,7 @@
                 {
                     for(int j = -halfSize; j < halfSize; ++j)
                     {
-                        float4 orignDepth = SAMPLE_TEXTURE2D(_ShadowMapTexture, sampler_ShadowMapTexture, shadowCoord + float2(i, j) * _ShadowMapTexture_TexelSize.xy);
+                        float4 orignDepth = SAMPLE_TEXTURE2D(_CustomShadowMap, sampler_CustomShadowMap, shadowCoord + float2(i, j) * _ShadowMapTexture_TexelSize.xy);
                         shadow += (orignDepth + _Bias) < depth ? _ShadowStrength : 1;
                     }
                 }
